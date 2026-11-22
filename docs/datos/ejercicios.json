@@ -57,7 +57,8 @@
         ],
         "barra": "manoa"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "press-inclinado-mancuernas",
@@ -123,7 +124,8 @@
         ],
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "aperturas-mancuernas",
@@ -181,7 +183,8 @@
         ],
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "press-militar-mancuernas",
@@ -235,7 +238,8 @@
       "props": {
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "elevaciones-laterales",
@@ -274,7 +278,8 @@
       "props": {
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "encogimientos-mancuernas",
@@ -314,7 +319,8 @@
       "props": {
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "remo-mancuerna",
@@ -376,7 +382,8 @@
         ],
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "peso-muerto",
@@ -434,7 +441,8 @@
       "props": {
         "barra": "manoa"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "curl-biceps-mancuernas",
@@ -487,7 +495,8 @@
       "props": {
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "curl-martillo",
@@ -539,7 +548,8 @@
       "props": {
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "press-frances",
@@ -595,7 +605,8 @@
         ],
         "barra": "manoa"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "extension-triceps-mancuerna",
@@ -653,7 +664,8 @@
         ],
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "sentadilla-barra",
@@ -710,7 +722,8 @@
       "props": {
         "barra": "hombro"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "zancadas-mancuernas",
@@ -766,7 +779,8 @@
       "props": {
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "peso-muerto-rumano",
@@ -820,7 +834,8 @@
       "props": {
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "hip-thrust-barra",
@@ -878,7 +893,8 @@
         ],
         "barra": "cadera"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "elevacion-gemelos-mancuernas",
@@ -936,7 +952,8 @@
         ],
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "curl-muneca",
@@ -1052,7 +1069,8 @@
         ],
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "press-inclinado-barra",
@@ -1118,7 +1136,8 @@
         ],
         "barra": "manoa"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "pullover-mancuerna",
@@ -1178,7 +1197,8 @@
         ],
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "press-militar-barra",
@@ -1234,7 +1254,8 @@
       "props": {
         "barra": "manoa"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "pajaros-mancuernas",
@@ -1275,7 +1296,8 @@
       "props": {
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "elevaciones-frontales",
@@ -1329,7 +1351,8 @@
       "props": {
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "remo-al-menton",
@@ -1370,7 +1393,8 @@
       "props": {
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "remo-barra",
@@ -1426,7 +1450,8 @@
       "props": {
         "barra": "manoa"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "curl-barra",
@@ -1480,7 +1505,8 @@
       "props": {
         "barra": "manoa"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "curl-concentrado",
@@ -1537,7 +1563,8 @@
         ],
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "curl-inverso",
@@ -1591,7 +1618,8 @@
       "props": {
         "barra": "manoa"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "press-cerrado",
@@ -1651,7 +1679,8 @@
         ],
         "barra": "manoa"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "patada-triceps",
@@ -1712,7 +1741,8 @@
         ],
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "sentadilla-goblet",
@@ -1768,7 +1798,8 @@
       "props": {
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "sentadilla-frontal",
@@ -1824,7 +1855,8 @@
       "props": {
         "barra": "manoa"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "subida-banco-mancuernas",
@@ -1884,7 +1916,8 @@
         ],
         "mancuerna": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "peso-muerto-sumo",
@@ -1997,7 +2030,8 @@
       "props": {
         "barra": "hombro"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "paseo-granjero",
@@ -2177,7 +2211,8 @@
         ],
         "asa": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "contractor-pecho",
@@ -2223,7 +2258,8 @@
           32
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "cruce-poleas",
@@ -2286,7 +2322,8 @@
         ],
         "asa": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "press-hombro-maquina",
@@ -2350,7 +2387,8 @@
         ],
         "asa": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "face-pull",
@@ -2462,7 +2500,8 @@
           32
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "remo-polea-baja",
@@ -2531,7 +2570,8 @@
           96
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "hiperextensiones",
@@ -2596,7 +2636,8 @@
           18
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "curl-biceps-polea",
@@ -2657,7 +2698,8 @@
         ],
         "asa": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "extension-triceps-polea",
@@ -2716,7 +2758,8 @@
         ],
         "asa": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "prensa-piernas",
@@ -2783,7 +2826,8 @@
           32
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "extension-cuadriceps",
@@ -2845,7 +2889,8 @@
         ],
         "rodillo": "tobilloa"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "curl-femoral",
@@ -2903,7 +2948,8 @@
         ],
         "rodillo": "tobilloa"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "maquina-aductores",
@@ -2947,7 +2993,8 @@
           32
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "maquina-abductores",
@@ -2992,7 +3039,8 @@
           32
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "gemelos-maquina",
@@ -3050,7 +3098,8 @@
         ],
         "rodillo": "hombro"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "crunch-polea",
@@ -3116,7 +3165,8 @@
           70
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "lenador-polea",
@@ -3244,7 +3294,8 @@
         ],
         "asa": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "fondos-asistidos",
@@ -3307,7 +3358,8 @@
         ],
         "asa": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "elevacion-lateral-polea",
@@ -3347,7 +3399,8 @@
       "props": {
         "asa": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "pajaros-maquina",
@@ -3395,7 +3448,8 @@
           32
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "dominadas-asistidas",
@@ -3436,7 +3490,8 @@
       "props": {
         "barra": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "jalon-agarre-estrecho",
@@ -3499,7 +3554,8 @@
         ],
         "asa": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "remo-maquina-pecho",
@@ -3566,7 +3622,8 @@
         ],
         "asa": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "pullover-polea",
@@ -3629,7 +3686,8 @@
         ],
         "asa": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "curl-scott-maquina",
@@ -3688,7 +3746,8 @@
         ],
         "asa": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "extension-triceps-cuerda",
@@ -3750,7 +3809,8 @@
         ],
         "asa": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "sentadilla-hack",
@@ -3805,7 +3865,8 @@
       "props": {
         "barra": "hombro"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "sentadilla-multipower",
@@ -3865,7 +3926,8 @@
           100
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "curl-femoral-sentado",
@@ -3930,7 +3992,8 @@
         ],
         "rodillo": "tobilloa"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "patada-gluteo-polea",
@@ -3987,7 +4050,8 @@
           62
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "hip-thrust-maquina",
@@ -4046,7 +4110,8 @@
         ],
         "barra": "cadera"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "gemelos-sentado",
@@ -4105,7 +4170,8 @@
         ],
         "rodillo": "rodillaa"
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "crunch-maquina",
@@ -4164,7 +4230,8 @@
         ],
         "asa": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "elevacion-piernas-paralelas",
@@ -4227,7 +4294,8 @@
           64
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "flexiones",
@@ -4287,7 +4355,8 @@
           95
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "flexiones-diamante",
@@ -4346,7 +4415,8 @@
           95
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "flexiones-pica",
@@ -4471,7 +4541,8 @@
           22
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "remo-toalla",
@@ -4530,7 +4601,8 @@
           57
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "superman",
@@ -4589,7 +4661,8 @@
           120
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "curl-mochila",
@@ -4642,7 +4715,8 @@
       "props": {
         "mochila": true
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "sentadilla",
@@ -4694,7 +4768,8 @@
         "brazo_b": -2,
         "antebrazo_b": -2
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "zancadas",
@@ -4746,7 +4821,8 @@
         "brazo_b": -93,
         "antebrazo_b": -91
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "sentadilla-bulgara",
@@ -4807,7 +4883,8 @@
           21
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "puente-gluteos",
@@ -4865,7 +4942,8 @@
           85
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "patada-lateral",
@@ -5013,7 +5091,8 @@
           5
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "plancha",
@@ -5127,7 +5206,8 @@
           95
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "plancha-lateral",
@@ -5176,7 +5256,8 @@
           115
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "escaladores",
@@ -5336,7 +5417,8 @@
           23
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "flexiones-declinadas",
@@ -5398,7 +5480,8 @@
           23
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "flexiones-abiertas",
@@ -5457,7 +5540,8 @@
           95
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "ytw-suelo",
@@ -5621,7 +5705,8 @@
         "brazo_b": -72,
         "antebrazo_b": 98
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "sentadilla-salto",
@@ -5675,7 +5760,8 @@
         "pie": -60,
         "pie_b": -60
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "sentadilla-pared",
@@ -5785,7 +5871,8 @@
         "brazo_b": -93,
         "antebrazo_b": -91
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "puente-una-pierna",
@@ -5844,7 +5931,8 @@
           85
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "patada-gluteo-cuadrupedia",
@@ -6071,7 +6159,8 @@
           5
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "bicho-muerto",
@@ -6185,7 +6274,8 @@
           115
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "crunch-bicicleta",
@@ -6241,7 +6331,8 @@
           110
         ]
       }
-    }
+    },
+    "ilustracion": true
   },
   {
     "id": "bird-dog",

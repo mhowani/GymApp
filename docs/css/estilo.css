@@ -247,6 +247,7 @@ dialog.ficha::backdrop { background: rgba(5, 15, 30, .55); backdrop-filter: blur
 .ficha-dibujos { display: grid; gap: 14px; grid-template-columns: 1fr 1.25fr; }
 @media (max-width: 640px) { .ficha-dibujos { grid-template-columns: 1fr; } }
 .figura { width: 100%; aspect-ratio: 120 / 110; display: block; }
+.figura-gif { height: auto; background: #fff; border-radius: 12px; object-fit: contain; }
 .marco { background: var(--suave); border-radius: 18px; padding: 10px; }
 .pasos { margin: 0; padding: 0; list-style: none; counter-reset: paso; display: grid; gap: 10px; }
 .pasos li { counter-increment: paso; display: flex; gap: 12px; align-items: flex-start; }
@@ -369,3 +370,14 @@ dialog.ficha::backdrop { background: rgba(5, 15, 30, .55); backdrop-filter: blur
 /* Casilla de aceptación de la política de privacidad */
 .casilla-privacidad { display: flex; gap: 8px; align-items: flex-start; font-size: .93rem; }
 .casilla-privacidad input { margin-top: 4px; width: 18px; height: 18px; accent-color: #1F70BD; }
+
+.pie .creditos { display: block; width: 100%; order: 3; font-size: .78rem; opacity: .75; }
+
+/* Botón «Instalar app» (solo aparece si el navegador permite instalar la web como app) */
+.boton-instalar {
+  border: 0; background: var(--azul); color: #fff; height: 38px; padding: 0 14px; border-radius: 19px;
+  font: inherit; font-size: .9rem; font-weight: 600; cursor: pointer; flex: none; white-space: nowrap;
+}
+.boton-instalar:hover { filter: brightness(1.08); }
+@media (max-width: 400px) { .boton-instalar { padding: 0 10px; font-size: .82rem; } }
+@media (display-mode: standalone) { .boton-instalar { display: none; } }

@@ -271,6 +271,16 @@
 
   /** Crea un <canvas> con la figura del ejercicio. Si no tiene animación devuelve null. */
   function crear(ejercicio, opciones = {}) {
+    if (ejercicio.ilustracion) {
+      // Dibujo de Everkinetic (CC BY-SA 4.0) animado en GIF
+      const img = document.createElement('img');
+      img.className = 'figura figura-gif';
+      img.src = 'img/ejercicios/' + ejercicio.id + '.gif';
+      img.alt = 'Animación de ' + ejercicio.nombre;
+      img.width = 420; img.height = 385;
+      img.loading = 'lazy';
+      return img;
+    }
     const anim = ejercicio.animacion;
     if (!anim) return null;
     const lienzo = document.createElement('canvas');

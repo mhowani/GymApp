@@ -277,6 +277,28 @@
     const anio = $('#anio'); if (anio) anio.textContent = new Date().getFullYear();
   });
 
+  // ---------- App instalable (Android, Windows…) y uso sin conexión ----------
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+  }
+  let avisoInstalar = null;
+  window.addEventListener('beforeinstallprompt', ev => {
+    ev.preventDefault();
+    avisoInstalar = ev;
+    const tema = $('.boton-tema');
+    if (!tema || $('.boton-instalar')) return;
+    const b = html('<button class="boton-instalar" type="button" title="Instalar GymApp en este dispositivo">⬇︎ Instalar app</button>');
+    b.addEventListener('click', async () => {
+      if (!avisoInstalar) return;
+      avisoInstalar.prompt();
+      await avisoInstalar.userChoice.catch(() => {});
+      avisoInstalar = null;
+      b.remove();
+    });
+    tema.before(b);
+  });
+  window.addEventListener('appinstalled', () => { avisoInstalar = null; const b = $('.boton-instalar'); if (b) b.remove(); });
+
   window.GA = {
     MUSCULOS, NOMBRE_MUSCULO, ZONAS, LUGARES, esc, normalizar, $, $$, html, numero, almacen, cargar, ejercicios,
     favoritos, mapa, leyenda, musculoEn, indicadorNivel, etiquetaLugar, nombresMusculos, tarjetaEjercicio,
