@@ -1,0 +1,1380 @@
+{
+ "version": 1,
+ "aviso": "Planes y ritmos orientativos. Si empiezas desde cero, tienes más de 40 años con poca actividad, o alguna enfermedad o lesión, consulta antes con tu médico. Para o baja el ritmo si notas dolor, mareo o falta de aire anormal.",
+ "riegel": 1.06,
+ "deslizador": {
+  "min": 3,
+  "max": 42.2,
+  "paso": 0.5,
+  "imanKm": 0.35
+ },
+ "semanas": {
+  "min": 4,
+  "max": 30
+ },
+ "distancias": [
+  {
+   "id": "5k",
+   "nombre": "5 km",
+   "km": 5,
+   "icono": "figure.run"
+  },
+  {
+   "id": "10k",
+   "nombre": "10 km",
+   "km": 10,
+   "icono": "figure.run"
+  },
+  {
+   "id": "media",
+   "nombre": "Media maratón",
+   "km": 21.1,
+   "icono": "medal"
+  },
+  {
+   "id": "maraton",
+   "nombre": "Maratón",
+   "km": 42.2,
+   "icono": "trophy"
+  }
+ ],
+ "niveles": [
+  {
+   "id": "cero",
+   "nombre": "Empezar desde cero",
+   "icono": "figure.walk",
+   "descripcion": "No corres ahora o corres menos de 20 minutos seguidos. Empieza alternando correr y caminar.",
+   "diasMin": 2,
+   "diasMax": 4,
+   "diasPorDefecto": 3,
+   "ritmoSuavePorDefecto": 450,
+   "kmPico": [
+    [
+     3,
+     11
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     10,
+     22
+    ],
+    [
+     21.1,
+     32
+    ],
+    [
+     42.2,
+     48
+    ]
+   ],
+   "tiradaMaxima": [
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     10,
+     10
+    ],
+    [
+     21.1,
+     18
+    ],
+    [
+     42.2,
+     30
+    ]
+   ],
+   "semanasMinimas": [
+    [
+     3,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     10,
+     10
+    ],
+    [
+     21.1,
+     16
+    ],
+    [
+     42.2,
+     24
+    ]
+   ],
+   "semanasRecomendadas": [
+    [
+     3,
+     8
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     10,
+     12
+    ],
+    [
+     21.1,
+     18
+    ],
+    [
+     42.2,
+     26
+    ]
+   ],
+   "fraccionInicio": 0.45,
+   "kmMinimoRodaje": 2,
+   "calentamientoKm": 1,
+   "enfriamientoKm": 1,
+   "segundaCalidadDesdeDias": 99,
+   "correrCaminar": true
+  },
+  {
+   "id": "intermedio",
+   "nombre": "Intermedio",
+   "icono": "figure.run",
+   "descripcion": "Ya corres 2–4 días por semana y aguantas 30–45 minutos seguidos.",
+   "diasMin": 3,
+   "diasMax": 6,
+   "diasPorDefecto": 4,
+   "ritmoSuavePorDefecto": 375,
+   "kmPico": [
+    [
+     3,
+     22
+    ],
+    [
+     5,
+     26
+    ],
+    [
+     10,
+     35
+    ],
+    [
+     21.1,
+     45
+    ],
+    [
+     42.2,
+     65
+    ]
+   ],
+   "tiradaMaxima": [
+    [
+     3,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     10,
+     13
+    ],
+    [
+     21.1,
+     20
+    ],
+    [
+     42.2,
+     32
+    ]
+   ],
+   "semanasMinimas": [
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     10,
+     8
+    ],
+    [
+     21.1,
+     10
+    ],
+    [
+     42.2,
+     16
+    ]
+   ],
+   "semanasRecomendadas": [
+    [
+     3,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     10,
+     10
+    ],
+    [
+     21.1,
+     12
+    ],
+    [
+     42.2,
+     18
+    ]
+   ],
+   "fraccionInicio": 0.6,
+   "kmMinimoRodaje": 4,
+   "calentamientoKm": 2,
+   "enfriamientoKm": 1.5,
+   "segundaCalidadDesdeDias": 5,
+   "correrCaminar": false
+  },
+  {
+   "id": "avanzado",
+   "nombre": "Avanzado",
+   "icono": "bolt.fill",
+   "descripcion": "Corres 4 días o más por semana, haces series y ya has corrido carreras.",
+   "diasMin": 3,
+   "diasMax": 6,
+   "diasPorDefecto": 5,
+   "ritmoSuavePorDefecto": 315,
+   "kmPico": [
+    [
+     3,
+     32
+    ],
+    [
+     5,
+     38
+    ],
+    [
+     10,
+     50
+    ],
+    [
+     21.1,
+     62
+    ],
+    [
+     42.2,
+     85
+    ]
+   ],
+   "tiradaMaxima": [
+    [
+     3,
+     10
+    ],
+    [
+     5,
+     11
+    ],
+    [
+     10,
+     16
+    ],
+    [
+     21.1,
+     24
+    ],
+    [
+     42.2,
+     34
+    ]
+   ],
+   "semanasMinimas": [
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     4
+    ],
+    [
+     10,
+     6
+    ],
+    [
+     21.1,
+     8
+    ],
+    [
+     42.2,
+     12
+    ]
+   ],
+   "semanasRecomendadas": [
+    [
+     3,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     10,
+     8
+    ],
+    [
+     21.1,
+     12
+    ],
+    [
+     42.2,
+     16
+    ]
+   ],
+   "fraccionInicio": 0.65,
+   "kmMinimoRodaje": 5,
+   "calentamientoKm": 2.5,
+   "enfriamientoKm": 2,
+   "segundaCalidadDesdeDias": 4,
+   "correrCaminar": false
+  }
+ ],
+ "factorDias": {
+  "2": 0.65,
+  "3": 0.8,
+  "4": 0.92,
+  "5": 1.0,
+  "6": 1.1
+ },
+ "porcentajeTirada": {
+  "2": 0.6,
+  "3": 0.48,
+  "4": 0.45,
+  "5": 0.4,
+  "6": 0.36
+ },
+ "progresion": {
+  "subidaMaximaSemanal": 0.1,
+  "descargaCada": 4,
+  "factorDescarga": 0.8,
+  "tiradaMaximaMinutos": 180,
+  "redondeoKm": 0.5,
+  "factorLargaCorrerCaminar": 1.25,
+  "ritmoCorrerCaminar": 1.15,
+  "ritmoCalidad": 0.9
+ },
+ "afinado": [
+  {
+   "desdeKm": 0,
+   "semanas": 1,
+   "factores": [
+    0.5
+   ]
+  },
+  {
+   "desdeKm": 15,
+   "semanas": 2,
+   "factores": [
+    0.75,
+    0.45
+   ]
+  },
+  {
+   "desdeKm": 30,
+   "semanas": 3,
+   "factores": [
+    0.8,
+    0.6,
+    0.35
+   ]
+  }
+ ],
+ "repartoFases": {
+  "base": 0.4,
+  "desarrollo": 0.35
+ },
+ "fases": [
+  {
+   "id": "base",
+   "nombre": "Base",
+   "color": "celeste",
+   "descripcion": "Coger fondo con rodajes suaves, cuestas y algún cambio de ritmo. Sin prisa."
+  },
+  {
+   "id": "desarrollo",
+   "nombre": "Desarrollo",
+   "color": "azul",
+   "descripcion": "Suben los km y entran las series para ganar velocidad y resistencia."
+  },
+  {
+   "id": "especifica",
+   "nombre": "Específica",
+   "color": "azulOscuro",
+   "descripcion": "Entrenos al ritmo de la carrera y las tiradas largas más largas del plan."
+  },
+  {
+   "id": "afinado",
+   "nombre": "Afinado",
+   "color": "coralClaro",
+   "descripcion": "Bajan los km pero se mantiene algo de ritmo para llegar fresco."
+  },
+  {
+   "id": "carrera",
+   "nombre": "Semana de carrera",
+   "color": "coral",
+   "descripcion": "Poco volumen, mucho descanso y a disfrutar el domingo."
+  }
+ ],
+ "zonas": [
+  {
+   "id": "suave",
+   "nombre": "Rodaje suave",
+   "referenciaKm": 42.195,
+   "factorMin": 1.12,
+   "factorMax": 1.25,
+   "sensacion": "Puedes charlar con frases completas · esfuerzo 3–4 de 10",
+   "color": "celeste"
+  },
+  {
+   "id": "larga",
+   "nombre": "Tirada larga",
+   "referenciaKm": 42.195,
+   "factorMin": 1.1,
+   "factorMax": 1.2,
+   "sensacion": "Cómoda y constante, como si pudieras seguir mucho más · 4–5 de 10",
+   "color": "azul"
+  },
+  {
+   "id": "maraton",
+   "nombre": "Ritmo maratón",
+   "referenciaKm": 42.195,
+   "factorMin": 0.99,
+   "factorMax": 1.01,
+   "sensacion": "Cómodo pero concentrado · 6 de 10",
+   "color": "azulOscuro"
+  },
+  {
+   "id": "umbral",
+   "nombre": "Umbral (tempo)",
+   "referenciaKm": 15,
+   "factorMin": 0.99,
+   "factorMax": 1.03,
+   "sensacion": "Exigente pero controlado, solo frases cortas · 7 de 10",
+   "color": "coralClaro"
+  },
+  {
+   "id": "series",
+   "nombre": "Series",
+   "referenciaKm": 5,
+   "factorMin": 0.98,
+   "factorMax": 1.01,
+   "sensacion": "Fuerte, solo un par de palabras · 8 de 10",
+   "color": "coral"
+  },
+  {
+   "id": "rapidas",
+   "nombre": "Rápidas y cuestas",
+   "referenciaKm": 3,
+   "factorMin": 0.96,
+   "factorMax": 1.0,
+   "sensacion": "Muy rápido pero suelto, sin apretar los dientes · 9 de 10",
+   "color": "rojo"
+  },
+  {
+   "id": "carrera",
+   "nombre": "Ritmo de carrera",
+   "referenciaKm": 0,
+   "factorMin": 0.99,
+   "factorMax": 1.01,
+   "sensacion": "El ritmo que quieres llevar el día de la carrera",
+   "color": "morado"
+  }
+ ],
+ "tipos": [
+  {
+   "id": "suave",
+   "nombre": "Rodaje suave",
+   "icono": "figure.run",
+   "emoji": "🏃",
+   "color": "celeste",
+   "descripcion": "Correr tranquilo. Es la base del plan: la mayoría de los km deben ir así."
+  },
+  {
+   "id": "calidad",
+   "nombre": "Series y ritmo",
+   "icono": "bolt.fill",
+   "emoji": "⚡",
+   "color": "coral",
+   "descripcion": "La sesión más exigente de la semana. Calienta bien antes y termina trotando."
+  },
+  {
+   "id": "larga",
+   "nombre": "Tirada larga",
+   "icono": "road.lanes",
+   "emoji": "🛣️",
+   "color": "azul",
+   "descripcion": "La salida más larga de la semana, siempre a ritmo cómodo."
+  },
+  {
+   "id": "correrCaminar",
+   "nombre": "Correr y caminar",
+   "icono": "figure.walk",
+   "emoji": "🚶",
+   "color": "celeste",
+   "descripcion": "Alterna correr suave y caminar. Si te cuesta, repite la semana antes de avanzar."
+  },
+  {
+   "id": "carrera",
+   "nombre": "Carrera",
+   "icono": "flag.checkered",
+   "emoji": "🏁",
+   "color": "morado",
+   "descripcion": "¡El día de la carrera!"
+  },
+  {
+   "id": "fuerza",
+   "nombre": "Fuerza",
+   "icono": "dumbbell.fill",
+   "emoji": "🏋️",
+   "color": "azulOscuro",
+   "descripcion": "Ejercicios de GymApp para correr mejor y lesionarte menos."
+  },
+  {
+   "id": "descanso",
+   "nombre": "Descanso",
+   "icono": "bed.double.fill",
+   "emoji": "😴",
+   "color": "gris",
+   "descripcion": "Descansar también es entrenar. Puedes caminar o estirar suave."
+  }
+ ],
+ "sesionesCalidad": [
+  {
+   "id": "rectas",
+   "nombre": "Rodaje con rectas",
+   "hueco": "calidad1",
+   "fases": [
+    "base"
+   ],
+   "distanciaMin": 0,
+   "distanciaMax": 99,
+   "zona": "rapidas",
+   "conCalentamiento": false,
+   "niveles": {
+    "cero": {
+     "texto": "Rodaje suave y al final 4 rectas de 15 s acelerando poco a poco; vuelve andando",
+     "km": 3
+    },
+    "intermedio": {
+     "texto": "Rodaje suave y al final 6 rectas de 20 s acelerando poco a poco; vuelve andando",
+     "km": 6
+    },
+    "avanzado": {
+     "texto": "Rodaje suave y al final 8 rectas de 20 s acelerando poco a poco; vuelve trotando",
+     "km": 8
+    }
+   }
+  },
+  {
+   "id": "cuestas-cortas",
+   "nombre": "Cuestas cortas",
+   "hueco": "calidad1",
+   "fases": [
+    "base"
+   ],
+   "distanciaMin": 0,
+   "distanciaMax": 99,
+   "zona": "rapidas",
+   "conCalentamiento": true,
+   "niveles": {
+    "cero": {
+     "texto": "6 × 20 s cuesta arriba con fuerza; baja andando",
+     "km": 1.5
+    },
+    "intermedio": {
+     "texto": "8 × 30 s cuesta arriba con fuerza; baja trotando muy suave",
+     "km": 2.5
+    },
+    "avanzado": {
+     "texto": "10 × 45 s cuesta arriba con fuerza; baja trotando muy suave",
+     "km": 3.5
+    }
+   }
+  },
+  {
+   "id": "fartlek",
+   "nombre": "Fartlek",
+   "hueco": "ambos",
+   "fases": [
+    "base"
+   ],
+   "distanciaMin": 0,
+   "distanciaMax": 99,
+   "zona": "umbral",
+   "conCalentamiento": true,
+   "niveles": {
+    "cero": {
+     "texto": "6 × (1 min alegre + 2 min muy suave)",
+     "km": 3
+    },
+    "intermedio": {
+     "texto": "8 × (1 min alegre + 1 min 30 s suave)",
+     "km": 5
+    },
+    "avanzado": {
+     "texto": "10 × (1 min alegre + 1 min suave)",
+     "km": 6
+    }
+   }
+  },
+  {
+   "id": "progresivo-corto",
+   "nombre": "Rodaje progresivo",
+   "hueco": "calidad2",
+   "fases": [
+    "base"
+   ],
+   "distanciaMin": 0,
+   "distanciaMax": 99,
+   "zona": "umbral",
+   "conCalentamiento": false,
+   "niveles": {
+    "intermedio": {
+     "texto": "Empieza suave y ve subiendo poco a poco; el último km a ritmo umbral",
+     "km": 6
+    },
+    "avanzado": {
+     "texto": "Empieza suave y ve subiendo poco a poco; los 2 últimos km a ritmo umbral",
+     "km": 9
+    }
+   }
+  },
+  {
+   "id": "series-400",
+   "nombre": "Series de 400 m",
+   "hueco": "calidad1",
+   "fases": [
+    "desarrollo",
+    "especifica"
+   ],
+   "distanciaMin": 0,
+   "distanciaMax": 15,
+   "zona": "rapidas",
+   "conCalentamiento": true,
+   "niveles": {
+    "cero": {
+     "texto": "6 × 200 m rápidos; recupera 2 min caminando",
+     "km": 1.5
+    },
+    "intermedio": {
+     "texto": "10 × 400 m; recupera 90 s trotando",
+     "km": 4
+    },
+    "avanzado": {
+     "texto": "12 × 400 m; recupera 75 s trotando",
+     "km": 5
+    }
+   }
+  },
+  {
+   "id": "series-1000",
+   "nombre": "Series de 1000 m",
+   "hueco": "calidad1",
+   "fases": [
+    "desarrollo",
+    "especifica"
+   ],
+   "distanciaMin": 0,
+   "distanciaMax": 25,
+   "zona": "series",
+   "conCalentamiento": true,
+   "niveles": {
+    "cero": {
+     "texto": "4 × 500 m; recupera 2 min caminando",
+     "km": 2
+    },
+    "intermedio": {
+     "texto": "5 × 1000 m; recupera 2 min trotando",
+     "km": 5
+    },
+    "avanzado": {
+     "texto": "6 × 1000 m; recupera 90 s trotando",
+     "km": 6
+    }
+   }
+  },
+  {
+   "id": "piramide",
+   "nombre": "Pirámide",
+   "hueco": "calidad1",
+   "fases": [
+    "desarrollo"
+   ],
+   "distanciaMin": 0,
+   "distanciaMax": 15,
+   "zona": "series",
+   "conCalentamiento": true,
+   "niveles": {
+    "cero": {
+     "texto": "200 – 400 – 600 – 400 – 200 m; recupera 2 min caminando entre cada una",
+     "km": 1.8
+    },
+    "intermedio": {
+     "texto": "400 – 800 – 1200 – 800 – 400 m; recupera 2 min trotando",
+     "km": 3.6
+    },
+    "avanzado": {
+     "texto": "400 – 800 – 1200 – 1600 – 1200 – 800 – 400 m; recupera 90 s trotando",
+     "km": 6.4
+    }
+   }
+  },
+  {
+   "id": "ritmo-carrera-corto",
+   "nombre": "Series a ritmo de carrera",
+   "hueco": "calidad1",
+   "fases": [
+    "especifica"
+   ],
+   "distanciaMin": 0,
+   "distanciaMax": 15,
+   "zona": "carrera",
+   "conCalentamiento": true,
+   "niveles": {
+    "cero": {
+     "texto": "4 × 1 km a ritmo de carrera; recupera 2 min caminando",
+     "km": 4
+    },
+    "intermedio": {
+     "texto": "4 × 1,5 km a ritmo de carrera; recupera 2 min trotando",
+     "km": 6
+    },
+    "avanzado": {
+     "texto": "5 × 1,5 km a ritmo de carrera; recupera 90 s trotando",
+     "km": 7.5
+    }
+   }
+  },
+  {
+   "id": "series-largas",
+   "nombre": "Series largas a umbral",
+   "hueco": "calidad1",
+   "fases": [
+    "desarrollo"
+   ],
+   "distanciaMin": 15,
+   "distanciaMax": 99,
+   "zona": "umbral",
+   "conCalentamiento": true,
+   "niveles": {
+    "cero": {
+     "texto": "4 × 1 km a ritmo umbral; recupera 2 min trotando o caminando",
+     "km": 4
+    },
+    "intermedio": {
+     "texto": "4 × 2 km a ritmo umbral; recupera 2 min trotando",
+     "km": 8
+    },
+    "avanzado": {
+     "texto": "5 × 2 km a ritmo umbral; recupera 90 s trotando",
+     "km": 10
+    }
+   }
+  },
+  {
+   "id": "cuestas-largas",
+   "nombre": "Cuestas largas",
+   "hueco": "calidad1",
+   "fases": [
+    "desarrollo"
+   ],
+   "distanciaMin": 15,
+   "distanciaMax": 99,
+   "zona": "series",
+   "conCalentamiento": true,
+   "niveles": {
+    "cero": {
+     "texto": "6 × 1 min cuesta arriba; baja andando",
+     "km": 2
+    },
+    "intermedio": {
+     "texto": "8 × 90 s cuesta arriba; baja trotando",
+     "km": 3.5
+    },
+    "avanzado": {
+     "texto": "10 × 2 min cuesta arriba; baja trotando",
+     "km": 5.5
+    }
+   }
+  },
+  {
+   "id": "ritmo-carrera-largo",
+   "nombre": "Bloques a ritmo de carrera",
+   "hueco": "calidad1",
+   "fases": [
+    "especifica"
+   ],
+   "distanciaMin": 15,
+   "distanciaMax": 99,
+   "zona": "carrera",
+   "conCalentamiento": true,
+   "niveles": {
+    "cero": {
+     "texto": "2 × 3 km a ritmo de carrera; recupera 3 min trotando o caminando",
+     "km": 6
+    },
+    "intermedio": {
+     "texto": "3 × 4 km a ritmo de carrera; recupera 3 min trotando",
+     "km": 12
+    },
+    "avanzado": {
+     "texto": "3 × 5 km a ritmo de carrera; recupera 2 min trotando",
+     "km": 15
+    }
+   }
+  },
+  {
+   "id": "progresivo-largo",
+   "nombre": "Progresivo hasta ritmo de carrera",
+   "hueco": "calidad1",
+   "fases": [
+    "especifica"
+   ],
+   "distanciaMin": 15,
+   "distanciaMax": 99,
+   "zona": "carrera",
+   "conCalentamiento": false,
+   "niveles": {
+    "cero": {
+     "texto": "Empieza suave y termina los 2 últimos km a ritmo de carrera",
+     "km": 6
+    },
+    "intermedio": {
+     "texto": "Empieza suave y ve subiendo; los 4 últimos km a ritmo de carrera",
+     "km": 10
+    },
+    "avanzado": {
+     "texto": "Empieza suave y ve subiendo; los 5 últimos km a ritmo de carrera",
+     "km": 13
+    }
+   }
+  },
+  {
+   "id": "tempo-continuo",
+   "nombre": "Tempo continuo",
+   "hueco": "calidad2",
+   "fases": [
+    "desarrollo",
+    "especifica"
+   ],
+   "distanciaMin": 0,
+   "distanciaMax": 99,
+   "zona": "umbral",
+   "conCalentamiento": true,
+   "niveles": {
+    "intermedio": {
+     "texto": "20–25 min seguidos a ritmo umbral",
+     "km": 4.5
+    },
+    "avanzado": {
+     "texto": "30 min seguidos a ritmo umbral",
+     "km": 6.5
+    }
+   }
+  },
+  {
+   "id": "tempo-fraccionado",
+   "nombre": "Tempo fraccionado",
+   "hueco": "calidad2",
+   "fases": [
+    "desarrollo",
+    "especifica"
+   ],
+   "distanciaMin": 0,
+   "distanciaMax": 99,
+   "zona": "umbral",
+   "conCalentamiento": true,
+   "niveles": {
+    "intermedio": {
+     "texto": "3 × 8 min a ritmo umbral; recupera 2 min trotando",
+     "km": 5
+    },
+    "avanzado": {
+     "texto": "3 × 10 min a ritmo umbral; recupera 2 min trotando",
+     "km": 7
+    }
+   }
+  },
+  {
+   "id": "ritmo-maraton",
+   "nombre": "Rodaje a ritmo maratón",
+   "hueco": "calidad2",
+   "fases": [
+    "especifica"
+   ],
+   "distanciaMin": 30,
+   "distanciaMax": 99,
+   "zona": "maraton",
+   "conCalentamiento": true,
+   "niveles": {
+    "intermedio": {
+     "texto": "8 km seguidos a ritmo maratón",
+     "km": 8
+    },
+    "avanzado": {
+     "texto": "12 km seguidos a ritmo maratón",
+     "km": 12
+    }
+   }
+  },
+  {
+   "id": "afinado-ritmo",
+   "nombre": "Series cortas a ritmo de carrera",
+   "hueco": "calidad1",
+   "fases": [
+    "afinado"
+   ],
+   "distanciaMin": 0,
+   "distanciaMax": 99,
+   "zona": "carrera",
+   "conCalentamiento": true,
+   "niveles": {
+    "cero": {
+     "texto": "4 × 400 m a ritmo de carrera; recupera 2 min caminando",
+     "km": 1.6
+    },
+    "intermedio": {
+     "texto": "6 × 800 m a ritmo de carrera; recupera 2 min trotando",
+     "km": 4.8
+    },
+    "avanzado": {
+     "texto": "6 × 1 km a ritmo de carrera; recupera 90 s trotando",
+     "km": 6
+    }
+   }
+  },
+  {
+   "id": "tempo-corto",
+   "nombre": "Tempo corto",
+   "hueco": "calidad2",
+   "fases": [
+    "afinado"
+   ],
+   "distanciaMin": 0,
+   "distanciaMax": 99,
+   "zona": "umbral",
+   "conCalentamiento": true,
+   "niveles": {
+    "intermedio": {
+     "texto": "15 min a ritmo umbral",
+     "km": 3
+    },
+    "avanzado": {
+     "texto": "20 min a ritmo umbral",
+     "km": 4.5
+    }
+   }
+  },
+  {
+   "id": "activacion",
+   "nombre": "Activación",
+   "hueco": "calidad1",
+   "fases": [
+    "carrera"
+   ],
+   "distanciaMin": 0,
+   "distanciaMax": 99,
+   "zona": "carrera",
+   "conCalentamiento": false,
+   "niveles": {
+    "cero": {
+     "texto": "2 km suaves + 4 × 1 min a ritmo de carrera",
+     "km": 2.5
+    },
+    "intermedio": {
+     "texto": "3 km suaves + 5 × 1 min a ritmo de carrera",
+     "km": 4
+    },
+    "avanzado": {
+     "texto": "4 km suaves + 6 × 1 min a ritmo de carrera",
+     "km": 5
+    }
+   }
+  }
+ ],
+ "correrCaminar": [
+  {
+   "correr": 1,
+   "caminar": 2,
+   "veces": 8
+  },
+  {
+   "correr": 1.5,
+   "caminar": 2,
+   "veces": 7
+  },
+  {
+   "correr": 2,
+   "caminar": 2,
+   "veces": 6
+  },
+  {
+   "correr": 3,
+   "caminar": 2,
+   "veces": 5
+  },
+  {
+   "correr": 4,
+   "caminar": 1.5,
+   "veces": 5
+  },
+  {
+   "correr": 6,
+   "caminar": 1.5,
+   "veces": 4
+  },
+  {
+   "correr": 8,
+   "caminar": 1,
+   "veces": 3
+  },
+  {
+   "correr": 12,
+   "caminar": 1,
+   "veces": 2
+  },
+  {
+   "correr": 20,
+   "caminar": 0,
+   "veces": 1
+  },
+  {
+   "correr": 30,
+   "caminar": 0,
+   "veces": 1
+  }
+ ],
+ "plantillas": {
+  "2": [
+   [
+    "descanso"
+   ],
+   [
+    "calidad1"
+   ],
+   [
+    "fuerzaA"
+   ],
+   [
+    "descanso"
+   ],
+   [
+    "fuerzaB"
+   ],
+   [
+    "descanso"
+   ],
+   [
+    "larga"
+   ]
+  ],
+  "3": [
+   [
+    "descanso"
+   ],
+   [
+    "calidad1"
+   ],
+   [
+    "fuerzaA"
+   ],
+   [
+    "suave"
+   ],
+   [
+    "descanso"
+   ],
+   [
+    "fuerzaB"
+   ],
+   [
+    "larga"
+   ]
+  ],
+  "4": [
+   [
+    "descanso"
+   ],
+   [
+    "calidad1",
+    "fuerzaA"
+   ],
+   [
+    "suave"
+   ],
+   [
+    "fuerzaB"
+   ],
+   [
+    "calidad2"
+   ],
+   [
+    "descanso"
+   ],
+   [
+    "larga"
+   ]
+  ],
+  "5": [
+   [
+    "descanso"
+   ],
+   [
+    "calidad1",
+    "fuerzaA"
+   ],
+   [
+    "suave"
+   ],
+   [
+    "calidad2"
+   ],
+   [
+    "fuerzaB"
+   ],
+   [
+    "suave"
+   ],
+   [
+    "larga"
+   ]
+  ],
+  "6": [
+   [
+    "suave"
+   ],
+   [
+    "calidad1",
+    "fuerzaA"
+   ],
+   [
+    "suave"
+   ],
+   [
+    "calidad2"
+   ],
+   [
+    "fuerzaB?"
+   ],
+   [
+    "suave"
+   ],
+   [
+    "larga"
+   ]
+  ]
+ },
+ "calentamiento": [
+  {
+   "nombre": "Caminar rápido o trotar muy suave",
+   "detalle": "5–10 min, hasta notar el cuerpo caliente"
+  },
+  {
+   "nombre": "Movilidad",
+   "detalle": "Círculos de tobillos, rodillas y cadera; 10 de cada uno"
+  },
+  {
+   "nombre": "Ejercicios de técnica",
+   "detalle": "Skipping, talones al glúteo y zancada exagerada: 2 × 20 m de cada"
+  },
+  {
+   "nombre": "Rectas progresivas",
+   "detalle": "Antes de series o carrera: 3–4 × 80 m acelerando poco a poco"
+  }
+ ],
+ "estiramientosAntes": [
+  {
+   "nombre": "Balanceo de pierna adelante y atrás",
+   "detalle": "10 por pierna, apoyado en una pared"
+  },
+  {
+   "nombre": "Balanceo de pierna lateral",
+   "detalle": "10 por pierna"
+  },
+  {
+   "nombre": "Zancada con giro de tronco",
+   "detalle": "5 por lado"
+  },
+  {
+   "nombre": "Rodillas al pecho caminando",
+   "detalle": "10 pasos"
+  },
+  {
+   "nombre": "Elevaciones de talones",
+   "detalle": "15 repeticiones"
+  }
+ ],
+ "estiramientosDespues": [
+  {
+   "nombre": "Gemelo y sóleo en la pared",
+   "detalle": "30 s cada pierna, con la rodilla estirada y luego doblada"
+  },
+  {
+   "nombre": "Cuádriceps de pie",
+   "detalle": "30 s cada pierna, talón al glúteo"
+  },
+  {
+   "nombre": "Isquiotibiales",
+   "detalle": "30 s cada pierna, con el talón apoyado en un escalón"
+  },
+  {
+   "nombre": "Glúteo (figura 4)",
+   "detalle": "30 s cada lado, tumbado boca arriba"
+  },
+  {
+   "nombre": "Flexor de cadera",
+   "detalle": "30 s cada lado, en posición de zancada con la rodilla en el suelo"
+  },
+  {
+   "nombre": "Aductores (mariposa)",
+   "detalle": "30 s sentado, plantas de los pies juntas"
+  }
+ ],
+ "consejos": [
+  "La mayoría de los km (alrededor del 80 %) deben ir a ritmo suave. Correr siempre rápido es la forma más fácil de lesionarse.",
+  "Si te duele algo que no es cansancio normal (dolor punzante, que cambia tu forma de correr o que va a más), para y descansa.",
+  "Si pierdes una sesión no la recuperes al día siguiente: sigue el plan como si nada.",
+  "Si una semana se te hace muy dura, repítela antes de pasar a la siguiente.",
+  "Prueba en las tiradas largas las zapatillas, la ropa, el desayuno y los geles que llevarás el día de la carrera.",
+  "En carreras de más de 1 hora 15 min bebe un poco cada 20–30 min y, en la media y la maratón, toma hidratos (geles, dátiles…) a partir de los 45 min.",
+  "Sal el día de la carrera algo más lento de lo previsto los primeros km: es mejor terminar fuerte que pinchar al final."
+ ],
+ "fuerza": {
+  "descripcion": "Dos sesiones cortas (30–40 min) a la semana mejoran la economía de carrera y protegen rodillas, tobillos y cadera. Usa pesos que te dejen 2–3 repeticiones en reserva: no se trata de acabar destrozado.",
+  "reglas": [
+   "Solo un día de pierna a la semana (Fuerza A). La Fuerza B es de tren superior y core.",
+   "La pierna va el mismo día que las series (después de correr o por la tarde) o tras un rodaje suave; nunca el día antes de series o de la tirada larga.",
+   "Deja al menos 48 horas entre la Fuerza A y la tirada larga.",
+   "Si además sigues «Mi plan» del gimnasio, quita de ese plan los días de pierna: con la Fuerza A de aquí es suficiente.",
+   "En las semanas de afinado haz la mitad de series. En la semana de la carrera, nada de fuerza."
+  ],
+  "sesiones": [
+   {
+    "id": "fuerzaA",
+    "nombre": "Fuerza A · Pierna y core",
+    "icono": "figure.strengthtraining.functional",
+    "descripcion": "Piernas fuertes y estables para aguantar los km.",
+    "ejercicios": [
+     {
+      "pesas": "sentadilla-goblet",
+      "maquinas": "prensa-piernas",
+      "casa": "sentadilla",
+      "series": "3 × 8–10"
+     },
+     {
+      "pesas": "subida-banco-mancuernas",
+      "maquinas": "zancada-inversa",
+      "casa": "sentadilla-bulgara",
+      "series": "3 × 8 por pierna",
+      "nota": "A una pierna: corrige descompensaciones"
+     },
+     {
+      "pesas": "peso-muerto-rumano",
+      "maquinas": "curl-femoral",
+      "casa": "puente-una-pierna",
+      "series": "3 × 8–10"
+     },
+     {
+      "pesas": "elevacion-gemelos-mancuernas",
+      "maquinas": "gemelos-sentado",
+      "casa": "gemelos-una-pierna",
+      "series": "3 × 12–15",
+      "nota": "Baja despacio: protege el tendón de Aquiles"
+     },
+     {
+      "pesas": "almeja",
+      "maquinas": "maquina-abductores",
+      "casa": "almeja",
+      "series": "2 × 15 por lado",
+      "nota": "Glúteo medio: rodillas estables"
+     },
+     {
+      "pesas": "plancha",
+      "maquinas": "plancha",
+      "casa": "plancha",
+      "series": "3 × 30–45 s"
+     }
+    ]
+   },
+   {
+    "id": "fuerzaB",
+    "nombre": "Fuerza B · Tren superior y core",
+    "icono": "figure.core.training",
+    "descripcion": "Brazos y espalda para una buena postura al final de la carrera. Sin pierna.",
+    "ejercicios": [
+     {
+      "pesas": "remo-mancuerna",
+      "maquinas": "remo-polea-baja",
+      "casa": "remo-toalla",
+      "series": "3 × 10"
+     },
+     {
+      "pesas": "press-banca-mancuernas",
+      "maquinas": "press-pecho-maquina",
+      "casa": "flexiones",
+      "series": "3 × 8–12"
+     },
+     {
+      "pesas": "pajaros-mancuernas",
+      "maquinas": "face-pull",
+      "casa": "ytw-suelo",
+      "series": "3 × 12",
+      "nota": "Hombros atrás: mejor postura al correr"
+     },
+     {
+      "pesas": "plancha-lateral",
+      "maquinas": "lenador-polea",
+      "casa": "plancha-lateral",
+      "series": "3 × 30 s por lado"
+     },
+     {
+      "pesas": "bird-dog",
+      "maquinas": "bird-dog",
+      "casa": "bird-dog",
+      "series": "2 × 10 por lado"
+     },
+     {
+      "pesas": "bicho-muerto",
+      "maquinas": "bicho-muerto",
+      "casa": "bicho-muerto",
+      "series": "2 × 10 por lado"
+     }
+    ]
+   }
+  ]
+ },
+ "reglas": [
+  "Fases: semanas de afinado según la tabla 'afinado' (como máximo semanas ÷ 4, entero hacia abajo, y mínimo 1; la última es la semana de carrera). Del resto (M): base = máx(1, redondear(M × 0,4)), desarrollo = redondear(M × 0,35), específica = lo que queda.",
+  "Redondear = hacia el entero más cercano y los ,5 hacia arriba (Math.round en JavaScript).",
+  "Km de la semana más alta = kmPico(distancia) × factorDias. Empieza en ese valor × fraccionInicio y sube en línea recta hasta la última semana antes del afinado, sin pasar de +10 % sobre la semana anterior.",
+  "Cada 4.ª semana (si no es la última antes del afinado) es de descarga: × 0,8. Las semanas de afinado son km más altos alcanzados × factores.",
+  "Tirada larga = mín(tiradaMaxima(distancia) × km semana ÷ km de la semana más alta, km semana × porcentajeTirada, 180 min al ritmo de tirada larga), como mínimo kmMinimoRodaje. En la semana de carrera la tirada larga se cambia por la carrera.",
+  "Sesiones de calidad: se buscan en sesionesCalidad las que encajan con hueco, fase, distancia y nivel, y se toma la número (semana dentro de la fase) % cantidad. calidad2 solo si días ≥ segundaCalidadDesdeDias; si no, o si no hay ninguna, pasa a rodaje suave. En la semana de carrera calidad2 es rodaje suave.",
+  "Rodajes suaves = (km semana − tirada larga − sesiones de calidad) ÷ número de rodajes, como mínimo kmMinimoRodaje. En la semana de carrera el sábado se limita a 4 km.",
+  "Correr y caminar (nivel cero): las primeras R semanas, R = mín(pasos, M). El paso de la semana s (empezando en 0) es redondear(s × (pasos − 1) ÷ (R − 1)). Todas las salidas son de correr y caminar; la del domingo con veces × 1,25 (hacia arriba).",
+  "Km redondeados a 0,5. Fuerza A y B desaparecen en la semana de carrera."
+ ]
+}

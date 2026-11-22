@@ -1,0 +1,3271 @@
+{
+ "version": 1,
+ "aviso": "Estos menús y cifras son orientativos y se calculan con fórmulas generales. No sustituyen el consejo de un dietista-nutricionista ni de un médico. Si tienes alguna enfermedad, alergia, estás embarazada o en lactancia, eres menor de 18 años o tienes o has tenido problemas con la comida, consulta antes con un profesional.",
+ "calculo": {
+  "formula": "Mifflin-St Jeor",
+  "factorPorDiaEntreno": 0.04,
+  "variacionDiaEntreno": 0.1,
+  "minimoKcalMujer": 1300,
+  "minimoKcalHombre": 1600,
+  "escalaMinima": 0.5,
+  "escalaMaxima": 2.5
+ },
+ "objetivos": [
+  {
+   "id": "ganar_musculo",
+   "nombre": "Ganar músculo",
+   "icono": "figure.strengthtraining.traditional",
+   "descripcion": "Ligero superávit de calorías y proteína alta para construir músculo con poca grasa.",
+   "ajusteCalorias": 0.1,
+   "proteinaPorKg": 1.8,
+   "grasaPorcentaje": 0.27,
+   "preferencia": "proteina",
+   "consejos": [
+    "Reparte la proteína en las 5 comidas.",
+    "Come algo con hidratos y proteína 1-2 horas antes y después de entrenar.",
+    "Si en 3-4 semanas no sube nada el peso, añade unas 150 kcal al día."
+   ]
+  },
+  {
+   "id": "perder_grasa",
+   "nombre": "Adelgazar",
+   "icono": "flame.fill",
+   "descripcion": "Déficit moderado de calorías manteniendo la proteína alta para no perder músculo.",
+   "ajusteCalorias": -0.2,
+   "proteinaPorKg": 2.0,
+   "grasaPorcentaje": 0.28,
+   "preferencia": "proteina",
+   "consejos": [
+    "Un ritmo sano es perder entre el 0,5 y el 1 % del peso a la semana.",
+    "Llena medio plato de verdura en comida y cena.",
+    "Bebe agua y evita bebidas azucaradas y alcohol."
+   ]
+  },
+  {
+   "id": "mantener",
+   "nombre": "Mantenerme",
+   "icono": "equal.circle.fill",
+   "descripcion": "Las calorías que gastas, con una dieta mediterránea variada y equilibrada.",
+   "ajusteCalorias": 0.0,
+   "proteinaPorKg": 1.6,
+   "grasaPorcentaje": 0.3,
+   "preferencia": "equilibrado",
+   "consejos": [
+    "Legumbres 3-4 veces por semana y pescado otras 3-4.",
+    "Fruta y verdura todos los días.",
+    "Usa aceite de oliva virgen extra como grasa principal."
+   ]
+  },
+  {
+   "id": "definicion",
+   "nombre": "Definición",
+   "icono": "scissors",
+   "descripcion": "Déficit suave con proteína muy alta para marcar músculo sin perder fuerza.",
+   "ajusteCalorias": -0.12,
+   "proteinaPorKg": 2.2,
+   "grasaPorcentaje": 0.25,
+   "preferencia": "proteina",
+   "consejos": [
+    "Mantén el entrenamiento de fuerza: es lo que conserva el músculo.",
+    "Los días de descanso, menos pan y arroz y más verdura.",
+    "Pésate 2-3 veces por semana a la misma hora y mira la media."
+   ]
+  },
+  {
+   "id": "fuerza",
+   "nombre": "Ganar fuerza",
+   "icono": "dumbbell.fill",
+   "descripcion": "Calorías un poco por encima de lo que gastas y suficientes hidratos para rendir en series pesadas.",
+   "ajusteCalorias": 0.05,
+   "proteinaPorKg": 1.8,
+   "grasaPorcentaje": 0.28,
+   "preferencia": "equilibrado",
+   "consejos": [
+    "No entrenes en ayunas: toma hidratos 1-3 horas antes.",
+    "Duerme 7-9 horas: la fuerza también se gana descansando.",
+    "Después de entrenar, proteína e hidratos en la siguiente comida."
+   ]
+  },
+  {
+   "id": "resistencia",
+   "nombre": "Resistencia",
+   "icono": "figure.run",
+   "descripcion": "Para deportes de fondo (correr, ciclismo, natación): más hidratos para tener energía en sesiones largas.",
+   "ajusteCalorias": 0.05,
+   "proteinaPorKg": 1.5,
+   "grasaPorcentaje": 0.25,
+   "preferencia": "hidratos",
+   "consejos": [
+    "Los días de sesión larga aumenta pasta, arroz, patata o pan.",
+    "En salidas de más de 75-90 minutos, toma hidratos durante el ejercicio.",
+    "Hidrátate bien antes, durante y después."
+   ]
+  }
+ ],
+ "actividad": [
+  {
+   "id": "sedentaria",
+   "nombre": "Sedentaria",
+   "descripcion": "Trabajo sentado, poco movimiento",
+   "factor": 1.2
+  },
+  {
+   "id": "ligera",
+   "nombre": "Ligera",
+   "descripcion": "Caminas a ratos o trabajas de pie",
+   "factor": 1.3
+  },
+  {
+   "id": "activa",
+   "nombre": "Activa",
+   "descripcion": "Trabajo físico o muchos pasos al día",
+   "factor": 1.45
+  },
+  {
+   "id": "muy_activa",
+   "nombre": "Muy activa",
+   "descripcion": "Trabajo físico duro todo el día",
+   "factor": 1.6
+  }
+ ],
+ "comidas": [
+  {
+   "id": "desayuno",
+   "nombre": "Desayuno",
+   "icono": "sun.horizon.fill",
+   "porcentaje": 0.22
+  },
+  {
+   "id": "media_manana",
+   "nombre": "Media mañana",
+   "icono": "cup.and.saucer.fill",
+   "porcentaje": 0.1
+  },
+  {
+   "id": "comida",
+   "nombre": "Comida",
+   "icono": "fork.knife",
+   "porcentaje": 0.33
+  },
+  {
+   "id": "merienda",
+   "nombre": "Merienda",
+   "icono": "carrot.fill",
+   "porcentaje": 0.12
+  },
+  {
+   "id": "cena",
+   "nombre": "Cena",
+   "icono": "moon.stars.fill",
+   "porcentaje": 0.23
+  }
+ ],
+ "ingredientes": [
+  {
+   "id": "platano",
+   "nombre": "Plátano",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 89,
+   "proteinas": 1.1,
+   "hidratos": 23,
+   "grasas": 0.3,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 120,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "manzana",
+   "nombre": "Manzana",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 52,
+   "proteinas": 0.3,
+   "hidratos": 14,
+   "grasas": 0.2,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 180,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "naranja",
+   "nombre": "Naranja",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 47,
+   "proteinas": 0.9,
+   "hidratos": 12,
+   "grasas": 0.1,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 200,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "pera",
+   "nombre": "Pera",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 57,
+   "proteinas": 0.4,
+   "hidratos": 15,
+   "grasas": 0.1,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 180,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "kiwi",
+   "nombre": "Kiwi",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 61,
+   "proteinas": 1.1,
+   "hidratos": 15,
+   "grasas": 0.5,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 75,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "fresas",
+   "nombre": "Fresas",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 32,
+   "proteinas": 0.7,
+   "hidratos": 7.7,
+   "grasas": 0.3,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "frutos_rojos",
+   "nombre": "Arándanos o frutos rojos",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 50,
+   "proteinas": 0.8,
+   "hidratos": 12,
+   "grasas": 0.3,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "limon",
+   "nombre": "Limón",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 29,
+   "proteinas": 1.1,
+   "hidratos": 9,
+   "grasas": 0.3,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 100,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "aguacate",
+   "nombre": "Aguacate",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 160,
+   "proteinas": 2,
+   "hidratos": 8.5,
+   "grasas": 14.7,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 150,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "tomate",
+   "nombre": "Tomate",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 18,
+   "proteinas": 0.9,
+   "hidratos": 3.9,
+   "grasas": 0.2,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 150,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "lechuga",
+   "nombre": "Lechuga",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 15,
+   "proteinas": 1.4,
+   "hidratos": 2.9,
+   "grasas": 0.2,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "rucula",
+   "nombre": "Rúcula o canónigos",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 25,
+   "proteinas": 2.6,
+   "hidratos": 3.7,
+   "grasas": 0.7,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "espinacas",
+   "nombre": "Espinacas",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 23,
+   "proteinas": 2.9,
+   "hidratos": 3.6,
+   "grasas": 0.4,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "cebolla",
+   "nombre": "Cebolla",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 40,
+   "proteinas": 1.1,
+   "hidratos": 9.3,
+   "grasas": 0.1,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 150,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "ajo",
+   "nombre": "Ajo",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 149,
+   "proteinas": 6.4,
+   "hidratos": 33,
+   "grasas": 0.5,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 5,
+   "nombreUnidad": "diente"
+  },
+  {
+   "id": "pimiento_rojo",
+   "nombre": "Pimiento rojo",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 31,
+   "proteinas": 1,
+   "hidratos": 6,
+   "grasas": 0.3,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 150,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "pimiento_verde",
+   "nombre": "Pimiento verde",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 20,
+   "proteinas": 0.9,
+   "hidratos": 4.6,
+   "grasas": 0.2,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 120,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "calabacin",
+   "nombre": "Calabacín",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 17,
+   "proteinas": 1.2,
+   "hidratos": 3.1,
+   "grasas": 0.3,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 250,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "berenjena",
+   "nombre": "Berenjena",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 25,
+   "proteinas": 1,
+   "hidratos": 6,
+   "grasas": 0.2,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 300,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "zanahoria",
+   "nombre": "Zanahoria",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 41,
+   "proteinas": 0.9,
+   "hidratos": 10,
+   "grasas": 0.2,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 80,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "brocoli",
+   "nombre": "Brócoli",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 34,
+   "proteinas": 2.8,
+   "hidratos": 7,
+   "grasas": 0.4,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "judias_verdes",
+   "nombre": "Judías verdes",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 31,
+   "proteinas": 1.8,
+   "hidratos": 7,
+   "grasas": 0.2,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "champinones",
+   "nombre": "Champiñones",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 22,
+   "proteinas": 3.1,
+   "hidratos": 3.3,
+   "grasas": 0.3,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "pepino",
+   "nombre": "Pepino",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 15,
+   "proteinas": 0.7,
+   "hidratos": 3.6,
+   "grasas": 0.1,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 250,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "calabaza",
+   "nombre": "Calabaza",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 26,
+   "proteinas": 1,
+   "hidratos": 6.5,
+   "grasas": 0.1,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "patata",
+   "nombre": "Patata",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 77,
+   "proteinas": 2,
+   "hidratos": 17,
+   "grasas": 0.1,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "boniato",
+   "nombre": "Boniato",
+   "seccion": "Frutas y verduras",
+   "unidad": "g",
+   "kcal": 86,
+   "proteinas": 1.6,
+   "hidratos": 20,
+   "grasas": 0.1,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "pollo",
+   "nombre": "Pechuga de pollo",
+   "seccion": "Carne",
+   "unidad": "g",
+   "kcal": 120,
+   "proteinas": 22.5,
+   "hidratos": 0,
+   "grasas": 2.6,
+   "vegetariano": false,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "pavo",
+   "nombre": "Pechuga de pavo (filetes)",
+   "seccion": "Carne",
+   "unidad": "g",
+   "kcal": 114,
+   "proteinas": 24,
+   "hidratos": 0,
+   "grasas": 1.5,
+   "vegetariano": false,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "ternera",
+   "nombre": "Ternera magra (filetes)",
+   "seccion": "Carne",
+   "unidad": "g",
+   "kcal": 130,
+   "proteinas": 21,
+   "hidratos": 0,
+   "grasas": 5,
+   "vegetariano": false,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "lomo_cerdo",
+   "nombre": "Lomo de cerdo",
+   "seccion": "Carne",
+   "unidad": "g",
+   "kcal": 143,
+   "proteinas": 21,
+   "hidratos": 0,
+   "grasas": 6,
+   "vegetariano": false,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "jamon",
+   "nombre": "Jamón serrano",
+   "seccion": "Carne",
+   "unidad": "g",
+   "kcal": 241,
+   "proteinas": 31,
+   "hidratos": 0,
+   "grasas": 13,
+   "vegetariano": false,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "pavo_fiambre",
+   "nombre": "Pechuga de pavo en lonchas",
+   "seccion": "Carne",
+   "unidad": "g",
+   "kcal": 100,
+   "proteinas": 19,
+   "hidratos": 1.5,
+   "grasas": 2,
+   "vegetariano": false,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "salmon",
+   "nombre": "Salmón",
+   "seccion": "Pescado y marisco",
+   "unidad": "g",
+   "kcal": 208,
+   "proteinas": 20,
+   "hidratos": 0,
+   "grasas": 13,
+   "vegetariano": false,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "merluza",
+   "nombre": "Merluza",
+   "seccion": "Pescado y marisco",
+   "unidad": "g",
+   "kcal": 86,
+   "proteinas": 17.7,
+   "hidratos": 0,
+   "grasas": 1.3,
+   "vegetariano": false,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "bacalao",
+   "nombre": "Bacalao fresco o desalado",
+   "seccion": "Pescado y marisco",
+   "unidad": "g",
+   "kcal": 82,
+   "proteinas": 18,
+   "hidratos": 0,
+   "grasas": 0.7,
+   "vegetariano": false,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "dorada",
+   "nombre": "Dorada o lubina",
+   "seccion": "Pescado y marisco",
+   "unidad": "g",
+   "kcal": 100,
+   "proteinas": 19.7,
+   "hidratos": 0,
+   "grasas": 2.3,
+   "vegetariano": false,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "gambas",
+   "nombre": "Gambas peladas",
+   "seccion": "Pescado y marisco",
+   "unidad": "g",
+   "kcal": 85,
+   "proteinas": 18,
+   "hidratos": 0.2,
+   "grasas": 1,
+   "vegetariano": false,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "atun",
+   "nombre": "Atún al natural (lata)",
+   "seccion": "Pescado y marisco",
+   "unidad": "g",
+   "kcal": 116,
+   "proteinas": 26,
+   "hidratos": 0,
+   "grasas": 1,
+   "vegetariano": false,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "sardinas",
+   "nombre": "Sardinas en aceite (lata)",
+   "seccion": "Pescado y marisco",
+   "unidad": "g",
+   "kcal": 208,
+   "proteinas": 24.6,
+   "hidratos": 0,
+   "grasas": 11.5,
+   "vegetariano": false,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "huevo",
+   "nombre": "Huevos",
+   "seccion": "Huevos y lácteos",
+   "unidad": "g",
+   "kcal": 143,
+   "proteinas": 12.6,
+   "hidratos": 0.7,
+   "grasas": 9.5,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 60,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "leche",
+   "nombre": "Leche semidesnatada",
+   "seccion": "Huevos y lácteos",
+   "unidad": "ml",
+   "kcal": 46,
+   "proteinas": 3.2,
+   "hidratos": 4.7,
+   "grasas": 1.6,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": true,
+   "sinLactosa": "leche_sl"
+  },
+  {
+   "id": "leche_sl",
+   "nombre": "Leche semidesnatada sin lactosa",
+   "seccion": "Huevos y lácteos",
+   "unidad": "ml",
+   "kcal": 46,
+   "proteinas": 3.2,
+   "hidratos": 4.7,
+   "grasas": 1.6,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "yogur",
+   "nombre": "Yogur natural",
+   "seccion": "Huevos y lácteos",
+   "unidad": "g",
+   "kcal": 61,
+   "proteinas": 3.5,
+   "hidratos": 4.7,
+   "grasas": 3.3,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": true,
+   "pesoUnidad": 125,
+   "nombreUnidad": "ud",
+   "sinLactosa": "yogur_sl"
+  },
+  {
+   "id": "yogur_sl",
+   "nombre": "Yogur natural sin lactosa",
+   "seccion": "Huevos y lácteos",
+   "unidad": "g",
+   "kcal": 61,
+   "proteinas": 3.5,
+   "hidratos": 4.7,
+   "grasas": 3.3,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 125,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "skyr",
+   "nombre": "Skyr o yogur proteico natural",
+   "seccion": "Huevos y lácteos",
+   "unidad": "g",
+   "kcal": 63,
+   "proteinas": 11,
+   "hidratos": 4,
+   "grasas": 0.2,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": true,
+   "pesoUnidad": 150,
+   "nombreUnidad": "ud",
+   "sinLactosa": "skyr_sl"
+  },
+  {
+   "id": "skyr_sl",
+   "nombre": "Yogur proteico sin lactosa",
+   "seccion": "Huevos y lácteos",
+   "unidad": "g",
+   "kcal": 63,
+   "proteinas": 11,
+   "hidratos": 4,
+   "grasas": 0.2,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 150,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "queso_batido",
+   "nombre": "Queso fresco batido 0 %",
+   "seccion": "Huevos y lácteos",
+   "unidad": "g",
+   "kcal": 46,
+   "proteinas": 8,
+   "hidratos": 3.5,
+   "grasas": 0.2,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": true,
+   "sinLactosa": "queso_batido_sl"
+  },
+  {
+   "id": "queso_batido_sl",
+   "nombre": "Queso fresco batido sin lactosa",
+   "seccion": "Huevos y lácteos",
+   "unidad": "g",
+   "kcal": 46,
+   "proteinas": 8,
+   "hidratos": 3.5,
+   "grasas": 0.2,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "queso_fresco",
+   "nombre": "Queso fresco tipo Burgos light",
+   "seccion": "Huevos y lácteos",
+   "unidad": "g",
+   "kcal": 98,
+   "proteinas": 12.5,
+   "hidratos": 3,
+   "grasas": 4,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": true,
+   "sinLactosa": "queso_fresco_sl"
+  },
+  {
+   "id": "queso_fresco_sl",
+   "nombre": "Queso fresco sin lactosa",
+   "seccion": "Huevos y lácteos",
+   "unidad": "g",
+   "kcal": 98,
+   "proteinas": 12.5,
+   "hidratos": 3,
+   "grasas": 4,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "queso_curado",
+   "nombre": "Queso curado",
+   "seccion": "Huevos y lácteos",
+   "unidad": "g",
+   "kcal": 390,
+   "proteinas": 26,
+   "hidratos": 0,
+   "grasas": 32,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": true,
+   "sinLactosa": "queso_curado_sl"
+  },
+  {
+   "id": "queso_curado_sl",
+   "nombre": "Queso curado sin lactosa",
+   "seccion": "Huevos y lácteos",
+   "unidad": "g",
+   "kcal": 390,
+   "proteinas": 26,
+   "hidratos": 0,
+   "grasas": 32,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "pan",
+   "nombre": "Pan integral",
+   "seccion": "Pan, cereales y pasta",
+   "unidad": "g",
+   "kcal": 250,
+   "proteinas": 10,
+   "hidratos": 43,
+   "grasas": 3.5,
+   "vegetariano": true,
+   "gluten": true,
+   "lactosa": false,
+   "sinGluten": "pan_sg"
+  },
+  {
+   "id": "pan_sg",
+   "nombre": "Pan sin gluten",
+   "seccion": "Pan, cereales y pasta",
+   "unidad": "g",
+   "kcal": 260,
+   "proteinas": 4,
+   "hidratos": 46,
+   "grasas": 6,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "avena",
+   "nombre": "Copos de avena",
+   "seccion": "Pan, cereales y pasta",
+   "unidad": "g",
+   "kcal": 372,
+   "proteinas": 13.5,
+   "hidratos": 59,
+   "grasas": 7,
+   "vegetariano": true,
+   "gluten": true,
+   "lactosa": false,
+   "sinGluten": "avena_sg"
+  },
+  {
+   "id": "avena_sg",
+   "nombre": "Copos de avena sin gluten (certificada)",
+   "seccion": "Pan, cereales y pasta",
+   "unidad": "g",
+   "kcal": 372,
+   "proteinas": 13.5,
+   "hidratos": 59,
+   "grasas": 7,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "arroz",
+   "nombre": "Arroz",
+   "seccion": "Pan, cereales y pasta",
+   "unidad": "g",
+   "kcal": 360,
+   "proteinas": 6.7,
+   "hidratos": 79,
+   "grasas": 0.6,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "arroz_integral",
+   "nombre": "Arroz integral",
+   "seccion": "Pan, cereales y pasta",
+   "unidad": "g",
+   "kcal": 350,
+   "proteinas": 7.5,
+   "hidratos": 73,
+   "grasas": 2.7,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "pasta",
+   "nombre": "Pasta integral",
+   "seccion": "Pan, cereales y pasta",
+   "unidad": "g",
+   "kcal": 350,
+   "proteinas": 13,
+   "hidratos": 66,
+   "grasas": 2.5,
+   "vegetariano": true,
+   "gluten": true,
+   "lactosa": false,
+   "sinGluten": "pasta_sg"
+  },
+  {
+   "id": "pasta_sg",
+   "nombre": "Pasta sin gluten",
+   "seccion": "Pan, cereales y pasta",
+   "unidad": "g",
+   "kcal": 355,
+   "proteinas": 7,
+   "hidratos": 77,
+   "grasas": 1.5,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "cuscus",
+   "nombre": "Cuscús",
+   "seccion": "Pan, cereales y pasta",
+   "unidad": "g",
+   "kcal": 376,
+   "proteinas": 12.8,
+   "hidratos": 77,
+   "grasas": 0.6,
+   "vegetariano": true,
+   "gluten": true,
+   "lactosa": false
+  },
+  {
+   "id": "quinoa",
+   "nombre": "Quinoa",
+   "seccion": "Pan, cereales y pasta",
+   "unidad": "g",
+   "kcal": 368,
+   "proteinas": 14,
+   "hidratos": 64,
+   "grasas": 6,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "wrap",
+   "nombre": "Tortillas de trigo integral (wraps)",
+   "seccion": "Pan, cereales y pasta",
+   "unidad": "g",
+   "kcal": 290,
+   "proteinas": 9,
+   "hidratos": 48,
+   "grasas": 7,
+   "vegetariano": true,
+   "gluten": true,
+   "lactosa": false,
+   "pesoUnidad": 60,
+   "nombreUnidad": "ud",
+   "sinGluten": "tortilla_maiz"
+  },
+  {
+   "id": "tortilla_maiz",
+   "nombre": "Tortillas de maíz",
+   "seccion": "Pan, cereales y pasta",
+   "unidad": "g",
+   "kcal": 218,
+   "proteinas": 5.7,
+   "hidratos": 45,
+   "grasas": 2.9,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 30,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "tortitas_arroz",
+   "nombre": "Tortitas de arroz",
+   "seccion": "Pan, cereales y pasta",
+   "unidad": "g",
+   "kcal": 387,
+   "proteinas": 8,
+   "hidratos": 81,
+   "grasas": 3,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false,
+   "pesoUnidad": 10,
+   "nombreUnidad": "ud"
+  },
+  {
+   "id": "lentejas",
+   "nombre": "Lentejas (secas)",
+   "seccion": "Legumbres y tofu",
+   "unidad": "g",
+   "kcal": 340,
+   "proteinas": 24,
+   "hidratos": 55,
+   "grasas": 1.5,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "garbanzos",
+   "nombre": "Garbanzos cocidos (bote)",
+   "seccion": "Legumbres y tofu",
+   "unidad": "g",
+   "kcal": 140,
+   "proteinas": 7.5,
+   "hidratos": 19,
+   "grasas": 2.6,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "alubias",
+   "nombre": "Alubias blancas cocidas (bote)",
+   "seccion": "Legumbres y tofu",
+   "unidad": "g",
+   "kcal": 110,
+   "proteinas": 7,
+   "hidratos": 17,
+   "grasas": 0.5,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "tofu",
+   "nombre": "Tofu firme",
+   "seccion": "Legumbres y tofu",
+   "unidad": "g",
+   "kcal": 144,
+   "proteinas": 15.8,
+   "hidratos": 2.8,
+   "grasas": 8.7,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "hummus",
+   "nombre": "Hummus",
+   "seccion": "Legumbres y tofu",
+   "unidad": "g",
+   "kcal": 230,
+   "proteinas": 7,
+   "hidratos": 14,
+   "grasas": 16,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "guisantes",
+   "nombre": "Guisantes (congelados)",
+   "seccion": "Legumbres y tofu",
+   "unidad": "g",
+   "kcal": 81,
+   "proteinas": 5.4,
+   "hidratos": 14,
+   "grasas": 0.4,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "nueces",
+   "nombre": "Nueces",
+   "seccion": "Frutos secos y semillas",
+   "unidad": "g",
+   "kcal": 650,
+   "proteinas": 15,
+   "hidratos": 7,
+   "grasas": 65,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "almendras",
+   "nombre": "Almendras",
+   "seccion": "Frutos secos y semillas",
+   "unidad": "g",
+   "kcal": 600,
+   "proteinas": 21,
+   "hidratos": 7,
+   "grasas": 52,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "crema_cacahuete",
+   "nombre": "Crema de cacahuete 100 %",
+   "seccion": "Frutos secos y semillas",
+   "unidad": "g",
+   "kcal": 590,
+   "proteinas": 25,
+   "hidratos": 13,
+   "grasas": 49,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "chia",
+   "nombre": "Semillas de chía",
+   "seccion": "Frutos secos y semillas",
+   "unidad": "g",
+   "kcal": 490,
+   "proteinas": 17,
+   "hidratos": 8,
+   "grasas": 31,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "aceite",
+   "nombre": "Aceite de oliva virgen extra",
+   "seccion": "Despensa",
+   "unidad": "ml",
+   "kcal": 900,
+   "proteinas": 0,
+   "hidratos": 0,
+   "grasas": 100,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "tomate_triturado",
+   "nombre": "Tomate triturado",
+   "seccion": "Despensa",
+   "unidad": "g",
+   "kcal": 32,
+   "proteinas": 1.6,
+   "hidratos": 5,
+   "grasas": 0.3,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "aceitunas",
+   "nombre": "Aceitunas",
+   "seccion": "Despensa",
+   "unidad": "g",
+   "kcal": 145,
+   "proteinas": 1,
+   "hidratos": 3.8,
+   "grasas": 15,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "maiz",
+   "nombre": "Maíz dulce (lata)",
+   "seccion": "Despensa",
+   "unidad": "g",
+   "kcal": 86,
+   "proteinas": 3.3,
+   "hidratos": 19,
+   "grasas": 1.4,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "miel",
+   "nombre": "Miel",
+   "seccion": "Despensa",
+   "unidad": "g",
+   "kcal": 304,
+   "proteinas": 0.3,
+   "hidratos": 82,
+   "grasas": 0,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "cacao",
+   "nombre": "Cacao puro en polvo",
+   "seccion": "Despensa",
+   "unidad": "g",
+   "kcal": 360,
+   "proteinas": 20,
+   "hidratos": 12,
+   "grasas": 21,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "caldo",
+   "nombre": "Caldo de verduras",
+   "seccion": "Despensa",
+   "unidad": "ml",
+   "kcal": 5,
+   "proteinas": 0.3,
+   "hidratos": 0.6,
+   "grasas": 0.2,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  },
+  {
+   "id": "bebida_soja",
+   "nombre": "Bebida de soja sin azúcar",
+   "seccion": "Bebidas vegetales",
+   "unidad": "ml",
+   "kcal": 39,
+   "proteinas": 3.3,
+   "hidratos": 2.5,
+   "grasas": 1.8,
+   "vegetariano": true,
+   "gluten": false,
+   "lactosa": false
+  }
+ ],
+ "platos": [
+  {
+   "id": "d_tostada_jamon",
+   "nombre": "Tostadas con tomate, aceite y jamón + naranja",
+   "comidas": [
+    "desayuno"
+   ],
+   "minutos": 5,
+   "preparacion": "Tuesta el pan, ralla el tomate encima, añade un chorrito de aceite y el jamón. La naranja, entera o en zumo sin colar.",
+   "ingredientes": [
+    {
+     "id": "pan",
+     "cantidad": 80
+    },
+    {
+     "id": "tomate",
+     "cantidad": 100
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "jamon",
+     "cantidad": 40
+    },
+    {
+     "id": "naranja",
+     "cantidad": 200
+    }
+   ]
+  },
+  {
+   "id": "d_tostada_queso",
+   "nombre": "Tostadas con tomate y queso fresco + kiwi",
+   "comidas": [
+    "desayuno"
+   ],
+   "minutos": 5,
+   "preparacion": "Tuesta el pan, añade tomate rallado, aceite y el queso fresco en lonchas. De postre, el kiwi.",
+   "ingredientes": [
+    {
+     "id": "pan",
+     "cantidad": 80
+    },
+    {
+     "id": "tomate",
+     "cantidad": 100
+    },
+    {
+     "id": "aceite",
+     "cantidad": 8
+    },
+    {
+     "id": "queso_fresco",
+     "cantidad": 80
+    },
+    {
+     "id": "kiwi",
+     "cantidad": 75
+    }
+   ]
+  },
+  {
+   "id": "d_porridge",
+   "nombre": "Porridge de avena con plátano y nueces",
+   "comidas": [
+    "desayuno"
+   ],
+   "minutos": 8,
+   "preparacion": "Calienta la leche con la avena 3-4 minutos removiendo. Sirve con el plátano en rodajas y las nueces troceadas.",
+   "ingredientes": [
+    {
+     "id": "avena",
+     "cantidad": 60
+    },
+    {
+     "id": "leche",
+     "cantidad": 250
+    },
+    {
+     "id": "platano",
+     "cantidad": 120
+    },
+    {
+     "id": "nueces",
+     "cantidad": 15
+    }
+   ]
+  },
+  {
+   "id": "d_bowl_skyr",
+   "nombre": "Bol de yogur proteico con avena, frutos rojos y almendras",
+   "comidas": [
+    "desayuno"
+   ],
+   "minutos": 3,
+   "preparacion": "Mezcla en un bol el yogur con la avena y pon encima la fruta, las almendras y un hilo de miel.",
+   "ingredientes": [
+    {
+     "id": "skyr",
+     "cantidad": 150
+    },
+    {
+     "id": "avena",
+     "cantidad": 40
+    },
+    {
+     "id": "frutos_rojos",
+     "cantidad": 100
+    },
+    {
+     "id": "almendras",
+     "cantidad": 15
+    },
+    {
+     "id": "miel",
+     "cantidad": 8
+    }
+   ]
+  },
+  {
+   "id": "d_tortilla_francesa",
+   "nombre": "Tortilla francesa con pan y tomate + café con leche",
+   "comidas": [
+    "desayuno"
+   ],
+   "minutos": 7,
+   "preparacion": "Bate los huevos y cuájalos en la sartén con unas gotas de aceite. Acompaña con pan con tomate y café con leche.",
+   "ingredientes": [
+    {
+     "id": "huevo",
+     "cantidad": 120
+    },
+    {
+     "id": "pan",
+     "cantidad": 60
+    },
+    {
+     "id": "tomate",
+     "cantidad": 100
+    },
+    {
+     "id": "aceite",
+     "cantidad": 5
+    },
+    {
+     "id": "leche",
+     "cantidad": 150
+    }
+   ]
+  },
+  {
+   "id": "d_tostada_aguacate_huevo",
+   "nombre": "Tostada de aguacate y huevo + naranja",
+   "comidas": [
+    "desayuno"
+   ],
+   "minutos": 8,
+   "preparacion": "Chafa el aguacate sobre el pan tostado, añade tomate en rodajas y un huevo a la plancha o cocido.",
+   "ingredientes": [
+    {
+     "id": "pan",
+     "cantidad": 70
+    },
+    {
+     "id": "aguacate",
+     "cantidad": 60
+    },
+    {
+     "id": "huevo",
+     "cantidad": 60
+    },
+    {
+     "id": "tomate",
+     "cantidad": 50
+    },
+    {
+     "id": "naranja",
+     "cantidad": 200
+    }
+   ]
+  },
+  {
+   "id": "d_tostada_aguacate_soja",
+   "nombre": "Tostadas de aguacate y tomate + café con bebida de soja",
+   "comidas": [
+    "desayuno"
+   ],
+   "minutos": 5,
+   "preparacion": "Tuesta el pan, pon el aguacate chafado, el tomate y unas semillas de chía. Café o cacao con bebida de soja.",
+   "ingredientes": [
+    {
+     "id": "pan",
+     "cantidad": 80
+    },
+    {
+     "id": "aguacate",
+     "cantidad": 70
+    },
+    {
+     "id": "tomate",
+     "cantidad": 100
+    },
+    {
+     "id": "chia",
+     "cantidad": 5
+    },
+    {
+     "id": "bebida_soja",
+     "cantidad": 250
+    }
+   ]
+  },
+  {
+   "id": "d_tortitas_cacahuete",
+   "nombre": "Tortitas de arroz con crema de cacahuete y plátano",
+   "comidas": [
+    "desayuno"
+   ],
+   "minutos": 3,
+   "preparacion": "Unta las tortitas con la crema de cacahuete y pon el plátano en rodajas. Acompaña con bebida de soja.",
+   "ingredientes": [
+    {
+     "id": "tortitas_arroz",
+     "cantidad": 30
+    },
+    {
+     "id": "crema_cacahuete",
+     "cantidad": 20
+    },
+    {
+     "id": "platano",
+     "cantidad": 120
+    },
+    {
+     "id": "bebida_soja",
+     "cantidad": 250
+    }
+   ]
+  },
+  {
+   "id": "d_pudin_chia",
+   "nombre": "Pudin de chía con frutos rojos",
+   "comidas": [
+    "desayuno"
+   ],
+   "minutos": 5,
+   "preparacion": "La noche anterior mezcla la chía, la avena y la bebida de soja y deja en la nevera. Por la mañana añade fruta y almendras.",
+   "ingredientes": [
+    {
+     "id": "chia",
+     "cantidad": 25
+    },
+    {
+     "id": "bebida_soja",
+     "cantidad": 200
+    },
+    {
+     "id": "avena",
+     "cantidad": 30
+    },
+    {
+     "id": "frutos_rojos",
+     "cantidad": 100
+    },
+    {
+     "id": "almendras",
+     "cantidad": 10
+    }
+   ]
+  },
+  {
+   "id": "d_tostada_pavo",
+   "nombre": "Tostadas con tomate y pavo + vaso de leche",
+   "comidas": [
+    "desayuno"
+   ],
+   "minutos": 5,
+   "preparacion": "Pan tostado con tomate rallado, aceite y lonchas de pavo. Un vaso de leche o café con leche.",
+   "ingredientes": [
+    {
+     "id": "pan",
+     "cantidad": 80
+    },
+    {
+     "id": "tomate",
+     "cantidad": 80
+    },
+    {
+     "id": "aceite",
+     "cantidad": 5
+    },
+    {
+     "id": "pavo_fiambre",
+     "cantidad": 50
+    },
+    {
+     "id": "leche",
+     "cantidad": 200
+    }
+   ]
+  },
+  {
+   "id": "d_revuelto_tofu",
+   "nombre": "Revuelto de tofu con espinacas y pan + naranja",
+   "comidas": [
+    "desayuno"
+   ],
+   "minutos": 10,
+   "preparacion": "Desmiga el tofu y saltéalo con las espinacas y una pizca de cúrcuma y sal. Acompaña con pan tostado.",
+   "ingredientes": [
+    {
+     "id": "tofu",
+     "cantidad": 120
+    },
+    {
+     "id": "espinacas",
+     "cantidad": 50
+    },
+    {
+     "id": "aceite",
+     "cantidad": 5
+    },
+    {
+     "id": "pan",
+     "cantidad": 60
+    },
+    {
+     "id": "naranja",
+     "cantidad": 200
+    }
+   ]
+  },
+  {
+   "id": "d_batido",
+   "nombre": "Batido de plátano, avena y cacao",
+   "comidas": [
+    "desayuno"
+   ],
+   "minutos": 3,
+   "preparacion": "Tritura todo en la batidora hasta que quede fino. Ideal si tienes poco tiempo.",
+   "ingredientes": [
+    {
+     "id": "leche",
+     "cantidad": 300
+    },
+    {
+     "id": "platano",
+     "cantidad": 120
+    },
+    {
+     "id": "avena",
+     "cantidad": 40
+    },
+    {
+     "id": "cacao",
+     "cantidad": 5
+    }
+   ]
+  },
+  {
+   "id": "t_manzana_nueces",
+   "nombre": "Manzana y un puñado de nueces",
+   "comidas": [
+    "media_manana",
+    "merienda"
+   ],
+   "minutos": 1,
+   "preparacion": "Lista para llevar.",
+   "ingredientes": [
+    {
+     "id": "manzana",
+     "cantidad": 180
+    },
+    {
+     "id": "nueces",
+     "cantidad": 20
+    }
+   ]
+  },
+  {
+   "id": "t_yogur_kiwi",
+   "nombre": "Yogur natural con kiwi y almendras",
+   "comidas": [
+    "media_manana",
+    "merienda"
+   ],
+   "minutos": 2,
+   "preparacion": "Trocea el kiwi sobre el yogur y añade las almendras.",
+   "ingredientes": [
+    {
+     "id": "yogur",
+     "cantidad": 125
+    },
+    {
+     "id": "kiwi",
+     "cantidad": 75
+    },
+    {
+     "id": "almendras",
+     "cantidad": 10
+    }
+   ]
+  },
+  {
+   "id": "t_bocadillo_pavo",
+   "nombre": "Bocadillo pequeño de pavo y tomate",
+   "comidas": [
+    "media_manana",
+    "merienda"
+   ],
+   "minutos": 3,
+   "preparacion": "Pan con tomate en rodajas y lonchas de pavo.",
+   "ingredientes": [
+    {
+     "id": "pan",
+     "cantidad": 50
+    },
+    {
+     "id": "pavo_fiambre",
+     "cantidad": 40
+    },
+    {
+     "id": "tomate",
+     "cantidad": 40
+    }
+   ]
+  },
+  {
+   "id": "t_tortitas_hummus",
+   "nombre": "Tortitas de arroz con hummus y zanahoria",
+   "comidas": [
+    "media_manana",
+    "merienda"
+   ],
+   "minutos": 3,
+   "preparacion": "Unta el hummus en las tortitas; la zanahoria en bastones.",
+   "ingredientes": [
+    {
+     "id": "tortitas_arroz",
+     "cantidad": 20
+    },
+    {
+     "id": "hummus",
+     "cantidad": 40
+    },
+    {
+     "id": "zanahoria",
+     "cantidad": 80
+    }
+   ]
+  },
+  {
+   "id": "t_skyr_frutos",
+   "nombre": "Yogur proteico con frutos rojos",
+   "comidas": [
+    "media_manana",
+    "merienda"
+   ],
+   "minutos": 1,
+   "preparacion": "Mezcla y listo.",
+   "ingredientes": [
+    {
+     "id": "skyr",
+     "cantidad": 150
+    },
+    {
+     "id": "frutos_rojos",
+     "cantidad": 80
+    }
+   ]
+  },
+  {
+   "id": "t_platano_almendras",
+   "nombre": "Plátano y almendras",
+   "comidas": [
+    "media_manana",
+    "merienda"
+   ],
+   "minutos": 1,
+   "preparacion": "Listo para llevar; buena opción antes de entrenar.",
+   "ingredientes": [
+    {
+     "id": "platano",
+     "cantidad": 120
+    },
+    {
+     "id": "almendras",
+     "cantidad": 15
+    }
+   ]
+  },
+  {
+   "id": "t_tostada_queso",
+   "nombre": "Tostada con tomate y queso fresco",
+   "comidas": [
+    "media_manana",
+    "merienda"
+   ],
+   "minutos": 3,
+   "preparacion": "Pan tostado con tomate, aceite y queso fresco.",
+   "ingredientes": [
+    {
+     "id": "pan",
+     "cantidad": 40
+    },
+    {
+     "id": "tomate",
+     "cantidad": 50
+    },
+    {
+     "id": "aceite",
+     "cantidad": 5
+    },
+    {
+     "id": "queso_fresco",
+     "cantidad": 40
+    }
+   ]
+  },
+  {
+   "id": "t_huevos_naranja",
+   "nombre": "Dos huevos cocidos y una naranja",
+   "comidas": [
+    "media_manana",
+    "merienda"
+   ],
+   "minutos": 10,
+   "preparacion": "Cuece los huevos 10 minutos (puedes dejarlos hechos para varios días).",
+   "ingredientes": [
+    {
+     "id": "huevo",
+     "cantidad": 120
+    },
+    {
+     "id": "naranja",
+     "cantidad": 200
+    }
+   ]
+  },
+  {
+   "id": "t_bocadillo_atun",
+   "nombre": "Bocadillo pequeño de atún y tomate",
+   "comidas": [
+    "media_manana",
+    "merienda"
+   ],
+   "minutos": 3,
+   "preparacion": "Pan con atún escurrido y tomate.",
+   "ingredientes": [
+    {
+     "id": "pan",
+     "cantidad": 50
+    },
+    {
+     "id": "atun",
+     "cantidad": 40
+    },
+    {
+     "id": "tomate",
+     "cantidad": 30
+    }
+   ]
+  },
+  {
+   "id": "t_queso_batido_fresas",
+   "nombre": "Queso batido con fresas y avena",
+   "comidas": [
+    "media_manana",
+    "merienda"
+   ],
+   "minutos": 3,
+   "preparacion": "Mezcla el queso batido con la avena y las fresas troceadas.",
+   "ingredientes": [
+    {
+     "id": "queso_batido",
+     "cantidad": 150
+    },
+    {
+     "id": "fresas",
+     "cantidad": 100
+    },
+    {
+     "id": "avena",
+     "cantidad": 20
+    }
+   ]
+  },
+  {
+   "id": "t_batido_cacahuete",
+   "nombre": "Batido de leche, plátano y crema de cacahuete",
+   "comidas": [
+    "media_manana",
+    "merienda"
+   ],
+   "minutos": 3,
+   "preparacion": "Tritura todo. Muy útil después de entrenar.",
+   "ingredientes": [
+    {
+     "id": "leche",
+     "cantidad": 250
+    },
+    {
+     "id": "platano",
+     "cantidad": 100
+    },
+    {
+     "id": "crema_cacahuete",
+     "cantidad": 15
+    }
+   ]
+  },
+  {
+   "id": "t_pera_queso",
+   "nombre": "Pera y queso curado",
+   "comidas": [
+    "media_manana",
+    "merienda"
+   ],
+   "minutos": 2,
+   "preparacion": "La pera en gajos con unas lascas de queso.",
+   "ingredientes": [
+    {
+     "id": "pera",
+     "cantidad": 180
+    },
+    {
+     "id": "queso_curado",
+     "cantidad": 25
+    }
+   ]
+  },
+  {
+   "id": "t_hummus_crudites",
+   "nombre": "Hummus con palitos de pepino y zanahoria",
+   "comidas": [
+    "media_manana",
+    "merienda"
+   ],
+   "minutos": 5,
+   "preparacion": "Corta las verduras en bastones para mojar en el hummus.",
+   "ingredientes": [
+    {
+     "id": "hummus",
+     "cantidad": 60
+    },
+    {
+     "id": "pepino",
+     "cantidad": 100
+    },
+    {
+     "id": "zanahoria",
+     "cantidad": 80
+    }
+   ]
+  },
+  {
+   "id": "t_soja_cacao",
+   "nombre": "Bebida de soja con cacao y tortitas de arroz",
+   "comidas": [
+    "media_manana",
+    "merienda"
+   ],
+   "minutos": 2,
+   "preparacion": "Disuelve el cacao en la bebida de soja (fría o caliente).",
+   "ingredientes": [
+    {
+     "id": "bebida_soja",
+     "cantidad": 250
+    },
+    {
+     "id": "cacao",
+     "cantidad": 10
+    },
+    {
+     "id": "tortitas_arroz",
+     "cantidad": 20
+    }
+   ]
+  },
+  {
+   "id": "c_lentejas",
+   "nombre": "Lentejas estofadas con verduras + naranja",
+   "comidas": [
+    "comida"
+   ],
+   "minutos": 45,
+   "preparacion": "Sofríe cebolla, ajo y pimiento, añade el tomate, las lentejas, la patata y la zanahoria troceadas, cubre de agua y cuece 35-40 minutos.",
+   "ingredientes": [
+    {
+     "id": "lentejas",
+     "cantidad": 70
+    },
+    {
+     "id": "patata",
+     "cantidad": 80
+    },
+    {
+     "id": "zanahoria",
+     "cantidad": 60
+    },
+    {
+     "id": "cebolla",
+     "cantidad": 50
+    },
+    {
+     "id": "pimiento_verde",
+     "cantidad": 40
+    },
+    {
+     "id": "tomate_triturado",
+     "cantidad": 50
+    },
+    {
+     "id": "ajo",
+     "cantidad": 5
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "naranja",
+     "cantidad": 200
+    }
+   ]
+  },
+  {
+   "id": "c_garbanzos_espinacas",
+   "nombre": "Garbanzos con espinacas y huevo + manzana",
+   "comidas": [
+    "comida"
+   ],
+   "minutos": 20,
+   "preparacion": "Sofríe cebolla y ajo, añade el tomate, las espinacas y los garbanzos escurridos. Sirve con un huevo cocido en cuartos.",
+   "ingredientes": [
+    {
+     "id": "garbanzos",
+     "cantidad": 200
+    },
+    {
+     "id": "espinacas",
+     "cantidad": 100
+    },
+    {
+     "id": "huevo",
+     "cantidad": 60
+    },
+    {
+     "id": "cebolla",
+     "cantidad": 40
+    },
+    {
+     "id": "ajo",
+     "cantidad": 5
+    },
+    {
+     "id": "tomate_triturado",
+     "cantidad": 40
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "manzana",
+     "cantidad": 180
+    }
+   ]
+  },
+  {
+   "id": "c_paella_pollo",
+   "nombre": "Paella de pollo y verduras + ensalada",
+   "comidas": [
+    "comida"
+   ],
+   "minutos": 40,
+   "preparacion": "Dora el pollo troceado, añade las verduras y el tomate, luego el arroz y el doble de agua o caldo. Cuece 18 minutos.",
+   "ingredientes": [
+    {
+     "id": "arroz",
+     "cantidad": 80
+    },
+    {
+     "id": "pollo",
+     "cantidad": 120
+    },
+    {
+     "id": "judias_verdes",
+     "cantidad": 60
+    },
+    {
+     "id": "pimiento_rojo",
+     "cantidad": 50
+    },
+    {
+     "id": "tomate_triturado",
+     "cantidad": 40
+    },
+    {
+     "id": "ajo",
+     "cantidad": 5
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "lechuga",
+     "cantidad": 50
+    },
+    {
+     "id": "kiwi",
+     "cantidad": 75
+    }
+   ]
+  },
+  {
+   "id": "c_pasta_atun",
+   "nombre": "Pasta integral con atún y tomate + ensalada",
+   "comidas": [
+    "comida"
+   ],
+   "minutos": 20,
+   "preparacion": "Cuece la pasta. Mientras, sofríe la cebolla, añade el tomate y al final el atún. Mezcla con la pasta.",
+   "ingredientes": [
+    {
+     "id": "pasta",
+     "cantidad": 80
+    },
+    {
+     "id": "atun",
+     "cantidad": 80
+    },
+    {
+     "id": "tomate_triturado",
+     "cantidad": 120
+    },
+    {
+     "id": "cebolla",
+     "cantidad": 40
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "lechuga",
+     "cantidad": 50
+    },
+    {
+     "id": "tomate",
+     "cantidad": 80
+    },
+    {
+     "id": "pera",
+     "cantidad": 180
+    }
+   ]
+  },
+  {
+   "id": "c_pollo_patatas",
+   "nombre": "Pollo al horno con patatas y ensalada + fruta",
+   "comidas": [
+    "comida"
+   ],
+   "minutos": 40,
+   "preparacion": "Hornea el pollo y la patata en rodajas a 200 °C unos 35 minutos con aceite, ajo y hierbas. Ensalada al lado.",
+   "ingredientes": [
+    {
+     "id": "pollo",
+     "cantidad": 150
+    },
+    {
+     "id": "patata",
+     "cantidad": 200
+    },
+    {
+     "id": "lechuga",
+     "cantidad": 60
+    },
+    {
+     "id": "tomate",
+     "cantidad": 100
+    },
+    {
+     "id": "aceite",
+     "cantidad": 15
+    },
+    {
+     "id": "naranja",
+     "cantidad": 200
+    }
+   ]
+  },
+  {
+   "id": "c_salmon_boniato",
+   "nombre": "Salmón al horno con boniato y brócoli",
+   "comidas": [
+    "comida"
+   ],
+   "minutos": 35,
+   "preparacion": "Hornea el boniato en dados 20 minutos a 200 °C, añade el salmón y el brócoli y hornea 12 minutos más. Limón por encima.",
+   "ingredientes": [
+    {
+     "id": "salmon",
+     "cantidad": 130
+    },
+    {
+     "id": "boniato",
+     "cantidad": 180
+    },
+    {
+     "id": "brocoli",
+     "cantidad": 150
+    },
+    {
+     "id": "aceite",
+     "cantidad": 8
+    },
+    {
+     "id": "limon",
+     "cantidad": 20
+    },
+    {
+     "id": "kiwi",
+     "cantidad": 75
+    }
+   ]
+  },
+  {
+   "id": "c_ensalada_quinoa",
+   "nombre": "Ensalada de quinoa con garbanzos y verduras",
+   "comidas": [
+    "comida"
+   ],
+   "minutos": 20,
+   "preparacion": "Cuece la quinoa 12 minutos y enfríala. Mezcla con los garbanzos y las verduras troceadas; aliña con aceite y limón.",
+   "ingredientes": [
+    {
+     "id": "quinoa",
+     "cantidad": 60
+    },
+    {
+     "id": "garbanzos",
+     "cantidad": 120
+    },
+    {
+     "id": "tomate",
+     "cantidad": 100
+    },
+    {
+     "id": "pepino",
+     "cantidad": 80
+    },
+    {
+     "id": "pimiento_rojo",
+     "cantidad": 50
+    },
+    {
+     "id": "aceitunas",
+     "cantidad": 20
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "limon",
+     "cantidad": 20
+    },
+    {
+     "id": "manzana",
+     "cantidad": 180
+    }
+   ]
+  },
+  {
+   "id": "c_alubias_verduras",
+   "nombre": "Alubias blancas estofadas con verduras + pera",
+   "comidas": [
+    "comida"
+   ],
+   "minutos": 25,
+   "preparacion": "Sofríe la cebolla, la zanahoria y el calabacín, añade el tomate y las alubias con un poco de agua y cuece 10 minutos.",
+   "ingredientes": [
+    {
+     "id": "alubias",
+     "cantidad": 220
+    },
+    {
+     "id": "calabacin",
+     "cantidad": 100
+    },
+    {
+     "id": "zanahoria",
+     "cantidad": 60
+    },
+    {
+     "id": "cebolla",
+     "cantidad": 50
+    },
+    {
+     "id": "tomate_triturado",
+     "cantidad": 50
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "pera",
+     "cantidad": 180
+    }
+   ]
+  },
+  {
+   "id": "c_arroz_tofu",
+   "nombre": "Arroz salteado con verduras y tofu + naranja",
+   "comidas": [
+    "comida"
+   ],
+   "minutos": 25,
+   "preparacion": "Cuece el arroz. Dora el tofu en dados, saltea las verduras con ajo y mezcla todo en la sartén.",
+   "ingredientes": [
+    {
+     "id": "arroz",
+     "cantidad": 75
+    },
+    {
+     "id": "tofu",
+     "cantidad": 120
+    },
+    {
+     "id": "brocoli",
+     "cantidad": 100
+    },
+    {
+     "id": "pimiento_rojo",
+     "cantidad": 60
+    },
+    {
+     "id": "zanahoria",
+     "cantidad": 60
+    },
+    {
+     "id": "ajo",
+     "cantidad": 5
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "naranja",
+     "cantidad": 200
+    }
+   ]
+  },
+  {
+   "id": "c_ternera_arroz",
+   "nombre": "Ternera a la plancha con arroz y pimientos + fruta",
+   "comidas": [
+    "comida"
+   ],
+   "minutos": 25,
+   "preparacion": "Cuece el arroz, asa los pimientos en tiras en la sartén y haz la ternera a la plancha.",
+   "ingredientes": [
+    {
+     "id": "ternera",
+     "cantidad": 150
+    },
+    {
+     "id": "arroz",
+     "cantidad": 70
+    },
+    {
+     "id": "pimiento_rojo",
+     "cantidad": 100
+    },
+    {
+     "id": "pimiento_verde",
+     "cantidad": 50
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "fresas",
+     "cantidad": 150
+    }
+   ]
+  },
+  {
+   "id": "c_merluza_verde",
+   "nombre": "Merluza en salsa verde con patatas y guisantes",
+   "comidas": [
+    "comida"
+   ],
+   "minutos": 30,
+   "preparacion": "Cuece la patata en rodajas en el caldo, añade la merluza, el ajo picado con perejil y los guisantes. 8 minutos a fuego suave.",
+   "ingredientes": [
+    {
+     "id": "merluza",
+     "cantidad": 180
+    },
+    {
+     "id": "patata",
+     "cantidad": 200
+    },
+    {
+     "id": "guisantes",
+     "cantidad": 50
+    },
+    {
+     "id": "ajo",
+     "cantidad": 5
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "caldo",
+     "cantidad": 100
+    },
+    {
+     "id": "manzana",
+     "cantidad": 180
+    }
+   ]
+  },
+  {
+   "id": "c_macarrones_verduras",
+   "nombre": "Macarrones integrales con verduras y queso",
+   "comidas": [
+    "comida"
+   ],
+   "minutos": 25,
+   "preparacion": "Saltea el calabacín y la berenjena en dados, añade el tomate, mezcla con la pasta cocida y ralla el queso por encima.",
+   "ingredientes": [
+    {
+     "id": "pasta",
+     "cantidad": 80
+    },
+    {
+     "id": "calabacin",
+     "cantidad": 100
+    },
+    {
+     "id": "berenjena",
+     "cantidad": 80
+    },
+    {
+     "id": "tomate_triturado",
+     "cantidad": 100
+    },
+    {
+     "id": "queso_curado",
+     "cantidad": 20
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "naranja",
+     "cantidad": 200
+    }
+   ]
+  },
+  {
+   "id": "c_cuscus_garbanzos",
+   "nombre": "Cuscús con verduras y garbanzos + kiwi",
+   "comidas": [
+    "comida"
+   ],
+   "minutos": 20,
+   "preparacion": "Hidrata el cuscús con el mismo peso de agua caliente 5 minutos. Saltea las verduras y mezcla con los garbanzos.",
+   "ingredientes": [
+    {
+     "id": "cuscus",
+     "cantidad": 70
+    },
+    {
+     "id": "garbanzos",
+     "cantidad": 120
+    },
+    {
+     "id": "calabacin",
+     "cantidad": 80
+    },
+    {
+     "id": "zanahoria",
+     "cantidad": 60
+    },
+    {
+     "id": "cebolla",
+     "cantidad": 40
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "kiwi",
+     "cantidad": 75
+    }
+   ]
+  },
+  {
+   "id": "c_lomo_patata",
+   "nombre": "Lomo de cerdo con patata y judías verdes + fruta",
+   "comidas": [
+    "comida"
+   ],
+   "minutos": 25,
+   "preparacion": "Cuece la patata y las judías verdes juntas 15 minutos. Haz el lomo a la plancha y aliña la verdura con aceite.",
+   "ingredientes": [
+    {
+     "id": "lomo_cerdo",
+     "cantidad": 140
+    },
+    {
+     "id": "patata",
+     "cantidad": 180
+    },
+    {
+     "id": "judias_verdes",
+     "cantidad": 150
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "pera",
+     "cantidad": 180
+    }
+   ]
+  },
+  {
+   "id": "c_pavo_arroz_integral",
+   "nombre": "Pavo salteado con verduras y arroz integral",
+   "comidas": [
+    "comida"
+   ],
+   "minutos": 35,
+   "preparacion": "Cuece el arroz integral (unos 30 minutos). Saltea el pavo en tiras con las verduras y sirve junto al arroz.",
+   "ingredientes": [
+    {
+     "id": "pavo",
+     "cantidad": 140
+    },
+    {
+     "id": "arroz_integral",
+     "cantidad": 70
+    },
+    {
+     "id": "calabacin",
+     "cantidad": 80
+    },
+    {
+     "id": "pimiento_rojo",
+     "cantidad": 60
+    },
+    {
+     "id": "cebolla",
+     "cantidad": 40
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "manzana",
+     "cantidad": 180
+    }
+   ]
+  },
+  {
+   "id": "c_sardinas_patata",
+   "nombre": "Ensalada de patata con sardinas + naranja",
+   "comidas": [
+    "comida"
+   ],
+   "minutos": 25,
+   "preparacion": "Cuece la patata, déjala templar y mézclala con tomate, cebolla y las sardinas escurridas.",
+   "ingredientes": [
+    {
+     "id": "sardinas",
+     "cantidad": 100
+    },
+    {
+     "id": "patata",
+     "cantidad": 200
+    },
+    {
+     "id": "tomate",
+     "cantidad": 100
+    },
+    {
+     "id": "cebolla",
+     "cantidad": 30
+    },
+    {
+     "id": "aceite",
+     "cantidad": 8
+    },
+    {
+     "id": "naranja",
+     "cantidad": 200
+    }
+   ]
+  },
+  {
+   "id": "c_pasta_lentejas",
+   "nombre": "Pasta con boloñesa de lentejas + fruta",
+   "comidas": [
+    "comida"
+   ],
+   "minutos": 30,
+   "preparacion": "Cuece las lentejas 20 minutos (o usa de bote). Sofríe cebolla y zanahoria picadas, añade tomate y lentejas y mezcla con la pasta.",
+   "ingredientes": [
+    {
+     "id": "pasta",
+     "cantidad": 70
+    },
+    {
+     "id": "lentejas",
+     "cantidad": 40
+    },
+    {
+     "id": "tomate_triturado",
+     "cantidad": 150
+    },
+    {
+     "id": "zanahoria",
+     "cantidad": 50
+    },
+    {
+     "id": "cebolla",
+     "cantidad": 40
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "fresas",
+     "cantidad": 150
+    }
+   ]
+  },
+  {
+   "id": "n_tortilla_calabacin",
+   "nombre": "Tortilla de calabacín con ensalada",
+   "comidas": [
+    "cena"
+   ],
+   "minutos": 20,
+   "preparacion": "Pocha el calabacín y la cebolla, mézclalos con los huevos batidos y cuaja la tortilla. Ensalada al lado.",
+   "ingredientes": [
+    {
+     "id": "huevo",
+     "cantidad": 120
+    },
+    {
+     "id": "calabacin",
+     "cantidad": 150
+    },
+    {
+     "id": "cebolla",
+     "cantidad": 40
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "lechuga",
+     "cantidad": 60
+    },
+    {
+     "id": "tomate",
+     "cantidad": 100
+    },
+    {
+     "id": "pan",
+     "cantidad": 30
+    }
+   ]
+  },
+  {
+   "id": "n_merluza_verduras",
+   "nombre": "Merluza a la plancha con verduras asadas",
+   "comidas": [
+    "cena"
+   ],
+   "minutos": 25,
+   "preparacion": "Asa las verduras en el horno o la sartén y haz la merluza a la plancha con ajo y perejil.",
+   "ingredientes": [
+    {
+     "id": "merluza",
+     "cantidad": 170
+    },
+    {
+     "id": "calabacin",
+     "cantidad": 100
+    },
+    {
+     "id": "berenjena",
+     "cantidad": 100
+    },
+    {
+     "id": "pimiento_rojo",
+     "cantidad": 60
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "pan",
+     "cantidad": 30
+    }
+   ]
+  },
+  {
+   "id": "n_crema_calabaza",
+   "nombre": "Crema de calabaza con huevo cocido",
+   "comidas": [
+    "cena"
+   ],
+   "minutos": 30,
+   "preparacion": "Cuece calabaza, patata y cebolla 20 minutos, tritura con el aceite. Sirve con huevo cocido picado por encima.",
+   "ingredientes": [
+    {
+     "id": "calabaza",
+     "cantidad": 250
+    },
+    {
+     "id": "patata",
+     "cantidad": 60
+    },
+    {
+     "id": "cebolla",
+     "cantidad": 50
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "huevo",
+     "cantidad": 60
+    },
+    {
+     "id": "pan",
+     "cantidad": 30
+    }
+   ]
+  },
+  {
+   "id": "n_ensalada_campera",
+   "nombre": "Ensalada campera (patata, atún y huevo)",
+   "comidas": [
+    "cena"
+   ],
+   "minutos": 25,
+   "preparacion": "Cuece patata y huevo, deja templar y mezcla con el resto troceado. Aliña con aceite y vinagre.",
+   "ingredientes": [
+    {
+     "id": "patata",
+     "cantidad": 150
+    },
+    {
+     "id": "atun",
+     "cantidad": 60
+    },
+    {
+     "id": "huevo",
+     "cantidad": 60
+    },
+    {
+     "id": "tomate",
+     "cantidad": 100
+    },
+    {
+     "id": "pimiento_verde",
+     "cantidad": 40
+    },
+    {
+     "id": "cebolla",
+     "cantidad": 20
+    },
+    {
+     "id": "aceitunas",
+     "cantidad": 15
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    }
+   ]
+  },
+  {
+   "id": "n_pavo_ensalada",
+   "nombre": "Pavo a la plancha con ensalada y maíz",
+   "comidas": [
+    "cena"
+   ],
+   "minutos": 15,
+   "preparacion": "Filetes de pavo a la plancha y ensalada de lechuga, tomate y maíz.",
+   "ingredientes": [
+    {
+     "id": "pavo",
+     "cantidad": 140
+    },
+    {
+     "id": "lechuga",
+     "cantidad": 80
+    },
+    {
+     "id": "tomate",
+     "cantidad": 100
+    },
+    {
+     "id": "maiz",
+     "cantidad": 40
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "pan",
+     "cantidad": 40
+    }
+   ]
+  },
+  {
+   "id": "n_dorada_horno",
+   "nombre": "Dorada al horno con patata y cebolla",
+   "comidas": [
+    "cena"
+   ],
+   "minutos": 40,
+   "preparacion": "Hornea patata y cebolla en rodajas 20 minutos a 200 °C, pon el pescado encima y hornea 15 minutos más.",
+   "ingredientes": [
+    {
+     "id": "dorada",
+     "cantidad": 180
+    },
+    {
+     "id": "patata",
+     "cantidad": 150
+    },
+    {
+     "id": "cebolla",
+     "cantidad": 60
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "limon",
+     "cantidad": 20
+    }
+   ]
+  },
+  {
+   "id": "n_revuelto_gambas",
+   "nombre": "Revuelto de champiñones y gambas",
+   "comidas": [
+    "cena"
+   ],
+   "minutos": 15,
+   "preparacion": "Saltea el ajo, los champiñones y las gambas; añade los huevos batidos y remueve hasta que cuajen.",
+   "ingredientes": [
+    {
+     "id": "huevo",
+     "cantidad": 120
+    },
+    {
+     "id": "champinones",
+     "cantidad": 120
+    },
+    {
+     "id": "gambas",
+     "cantidad": 80
+    },
+    {
+     "id": "ajo",
+     "cantidad": 5
+    },
+    {
+     "id": "aceite",
+     "cantidad": 8
+    },
+    {
+     "id": "pan",
+     "cantidad": 30
+    }
+   ]
+  },
+  {
+   "id": "n_wrap_pollo",
+   "nombre": "Wrap de pollo con verduras y queso fresco",
+   "comidas": [
+    "cena"
+   ],
+   "minutos": 15,
+   "preparacion": "Haz el pollo en tiras a la plancha y rellena la tortilla con todo. Enrolla y listo.",
+   "ingredientes": [
+    {
+     "id": "wrap",
+     "cantidad": 60
+    },
+    {
+     "id": "pollo",
+     "cantidad": 100
+    },
+    {
+     "id": "lechuga",
+     "cantidad": 40
+    },
+    {
+     "id": "tomate",
+     "cantidad": 60
+    },
+    {
+     "id": "aguacate",
+     "cantidad": 40
+    },
+    {
+     "id": "queso_fresco",
+     "cantidad": 30
+    }
+   ]
+  },
+  {
+   "id": "n_tofu_quinoa",
+   "nombre": "Tofu a la plancha con verduras salteadas y quinoa",
+   "comidas": [
+    "cena"
+   ],
+   "minutos": 25,
+   "preparacion": "Cuece la quinoa, dora el tofu en lonchas y saltea el brócoli y los champiñones con ajo.",
+   "ingredientes": [
+    {
+     "id": "tofu",
+     "cantidad": 150
+    },
+    {
+     "id": "quinoa",
+     "cantidad": 40
+    },
+    {
+     "id": "brocoli",
+     "cantidad": 100
+    },
+    {
+     "id": "champinones",
+     "cantidad": 80
+    },
+    {
+     "id": "ajo",
+     "cantidad": 5
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    }
+   ]
+  },
+  {
+   "id": "n_gazpacho_tostada",
+   "nombre": "Gazpacho con tostada de queso fresco",
+   "comidas": [
+    "cena"
+   ],
+   "minutos": 10,
+   "preparacion": "Tritura tomate, pepino, pimiento, ajo, aceite, sal y un chorrito de vinagre; enfría. Tostada con queso fresco al lado.",
+   "ingredientes": [
+    {
+     "id": "tomate",
+     "cantidad": 250
+    },
+    {
+     "id": "pepino",
+     "cantidad": 60
+    },
+    {
+     "id": "pimiento_verde",
+     "cantidad": 40
+    },
+    {
+     "id": "ajo",
+     "cantidad": 3
+    },
+    {
+     "id": "aceite",
+     "cantidad": 15
+    },
+    {
+     "id": "pan",
+     "cantidad": 50
+    },
+    {
+     "id": "queso_fresco",
+     "cantidad": 60
+    }
+   ]
+  },
+  {
+   "id": "n_berenjena_rellena",
+   "nombre": "Berenjena rellena de lentejas y queso",
+   "comidas": [
+    "cena"
+   ],
+   "minutos": 45,
+   "preparacion": "Asa la berenjena partida 25 minutos, vacíala y mezcla la pulpa con sofrito, tomate y lentejas cocidas. Rellena, pon el queso y gratina.",
+   "ingredientes": [
+    {
+     "id": "berenjena",
+     "cantidad": 300
+    },
+    {
+     "id": "lentejas",
+     "cantidad": 40
+    },
+    {
+     "id": "tomate_triturado",
+     "cantidad": 80
+    },
+    {
+     "id": "cebolla",
+     "cantidad": 40
+    },
+    {
+     "id": "queso_curado",
+     "cantidad": 20
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    }
+   ]
+  },
+  {
+   "id": "n_brocoli_huevo",
+   "nombre": "Brócoli con patata y huevo pochado",
+   "comidas": [
+    "cena"
+   ],
+   "minutos": 20,
+   "preparacion": "Cuece brócoli y patata 12 minutos, saltéalos con ajo y aceite y sirve con un huevo pochado encima.",
+   "ingredientes": [
+    {
+     "id": "brocoli",
+     "cantidad": 200
+    },
+    {
+     "id": "patata",
+     "cantidad": 150
+    },
+    {
+     "id": "huevo",
+     "cantidad": 60
+    },
+    {
+     "id": "ajo",
+     "cantidad": 5
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    }
+   ]
+  },
+  {
+   "id": "n_ensalada_lentejas",
+   "nombre": "Ensalada de lentejas con verduras",
+   "comidas": [
+    "cena"
+   ],
+   "minutos": 25,
+   "preparacion": "Cuece las lentejas 20 minutos (o usa de bote) y mézclalas frías con las verduras picadas. Aliña con aceite y vinagre.",
+   "ingredientes": [
+    {
+     "id": "lentejas",
+     "cantidad": 50
+    },
+    {
+     "id": "tomate",
+     "cantidad": 100
+    },
+    {
+     "id": "pimiento_rojo",
+     "cantidad": 50
+    },
+    {
+     "id": "cebolla",
+     "cantidad": 30
+    },
+    {
+     "id": "pepino",
+     "cantidad": 80
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    }
+   ]
+  },
+  {
+   "id": "n_bacalao_tomate",
+   "nombre": "Bacalao con tomate y pimientos",
+   "comidas": [
+    "cena"
+   ],
+   "minutos": 25,
+   "preparacion": "Haz un sofrito con cebolla y pimiento, añade el tomate y cuece el bacalao encima 8 minutos.",
+   "ingredientes": [
+    {
+     "id": "bacalao",
+     "cantidad": 170
+    },
+    {
+     "id": "tomate_triturado",
+     "cantidad": 150
+    },
+    {
+     "id": "pimiento_rojo",
+     "cantidad": 80
+    },
+    {
+     "id": "cebolla",
+     "cantidad": 50
+    },
+    {
+     "id": "aceite",
+     "cantidad": 10
+    },
+    {
+     "id": "pan",
+     "cantidad": 30
+    }
+   ]
+  },
+  {
+   "id": "n_ensalada_garbanzos",
+   "nombre": "Ensalada de garbanzos con aguacate y tomate",
+   "comidas": [
+    "cena"
+   ],
+   "minutos": 10,
+   "preparacion": "Mezcla los garbanzos escurridos con las verduras y el aguacate en dados. Aliña con aceite, limón y comino.",
+   "ingredientes": [
+    {
+     "id": "garbanzos",
+     "cantidad": 150
+    },
+    {
+     "id": "aguacate",
+     "cantidad": 50
+    },
+    {
+     "id": "tomate",
+     "cantidad": 100
+    },
+    {
+     "id": "cebolla",
+     "cantidad": 20
+    },
+    {
+     "id": "pepino",
+     "cantidad": 60
+    },
+    {
+     "id": "aceite",
+     "cantidad": 8
+    },
+    {
+     "id": "limon",
+     "cantidad": 10
+    }
+   ]
+  },
+  {
+   "id": "n_sandwich_pavo",
+   "nombre": "Sándwich integral de pavo, queso y tomate",
+   "comidas": [
+    "cena"
+   ],
+   "minutos": 5,
+   "preparacion": "Monta el sándwich y, si quieres, pásalo por la sartén o la sandwichera.",
+   "ingredientes": [
+    {
+     "id": "pan",
+     "cantidad": 80
+    },
+    {
+     "id": "pavo_fiambre",
+     "cantidad": 60
+    },
+    {
+     "id": "queso_fresco",
+     "cantidad": 40
+    },
+    {
+     "id": "tomate",
+     "cantidad": 60
+    },
+    {
+     "id": "lechuga",
+     "cantidad": 20
+    }
+   ]
+  },
+  {
+   "id": "n_salmon_ensalada",
+   "nombre": "Salmón a la plancha con ensalada de rúcula",
+   "comidas": [
+    "cena"
+   ],
+   "minutos": 15,
+   "preparacion": "Haz el salmón a la plancha por los dos lados y sírvelo con la ensalada.",
+   "ingredientes": [
+    {
+     "id": "salmon",
+     "cantidad": 120
+    },
+    {
+     "id": "rucula",
+     "cantidad": 60
+    },
+    {
+     "id": "tomate",
+     "cantidad": 100
+    },
+    {
+     "id": "aceite",
+     "cantidad": 5
+    },
+    {
+     "id": "pan",
+     "cantidad": 30
+    }
+   ]
+  }
+ ]
+}

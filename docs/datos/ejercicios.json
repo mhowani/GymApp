@@ -1,0 +1,6371 @@
+[
+  {
+    "id": "press-banca-barra",
+    "nombre": "Press de banca con barra",
+    "lugar": "pesas",
+    "principales": [
+      "pecho"
+    ],
+    "secundarios": [
+      "triceps",
+      "hombros"
+    ],
+    "nivel": "Intermedio",
+    "series": "4 × 8-10",
+    "pasos": [
+      "Túmbate en el banco con los ojos bajo la barra y los pies firmes en el suelo.",
+      "Agarra la barra algo más abierto que los hombros y sácala del soporte.",
+      "Baja controlando hasta rozar la parte media del pecho.",
+      "Empuja hacia arriba hasta estirar los brazos sin bloquear los codos."
+    ],
+    "consejo": "Junta las escápulas y no rebotes la barra en el pecho.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 52,
+        "y": 24,
+        "torso": 180,
+        "muslo": -10,
+        "pierna": -95,
+        "muslo_b": -14,
+        "pierna_b": -98,
+        "brazo": 90,
+        "antebrazo": 90,
+        "brazo_b": 88,
+        "antebrazo_b": 90
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 52,
+        "y": 24,
+        "torso": 180,
+        "muslo": -10,
+        "pierna": -95,
+        "muslo_b": -14,
+        "pierna_b": -98,
+        "brazo": -15,
+        "antebrazo": 92,
+        "brazo_b": -18,
+        "antebrazo_b": 92
+      },
+      "props": {
+        "banco": [
+          6,
+          56,
+          21
+        ],
+        "barra": "manoa"
+      }
+    }
+  },
+  {
+    "id": "press-inclinado-mancuernas",
+    "nombre": "Press inclinado con mancuernas",
+    "lugar": "pesas",
+    "principales": [
+      "pecho"
+    ],
+    "secundarios": [
+      "hombros",
+      "triceps"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 10-12",
+    "pasos": [
+      "Pon el banco a 30-45° y siéntate con una mancuerna en cada mano.",
+      "Sube las mancuernas sobre el pecho con las palmas hacia delante.",
+      "Baja abriendo los codos a unos 45° del cuerpo.",
+      "Empuja hasta arriba juntando ligeramente las mancuernas."
+    ],
+    "consejo": "Cuanto más inclinado el banco, más trabaja el hombro.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 46,
+        "y": 24,
+        "torso": 125,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": 40,
+        "antebrazo": 40,
+        "brazo_b": 38,
+        "antebrazo_b": 40
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 46,
+        "y": 24,
+        "torso": 125,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": -125,
+        "antebrazo": 45,
+        "brazo_b": -128,
+        "antebrazo_b": 45
+      },
+      "props": {
+        "banco": [
+          30,
+          54,
+          21
+        ],
+        "respaldo": [
+          44,
+          21,
+          125,
+          36
+        ],
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "aperturas-mancuernas",
+    "nombre": "Aperturas con mancuernas",
+    "lugar": "pesas",
+    "principales": [
+      "pecho"
+    ],
+    "secundarios": [
+      "hombros"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 12",
+    "pasos": [
+      "Túmbate en banco plano con las mancuernas arriba y los codos un poco doblados.",
+      "Abre los brazos en arco hasta notar estiramiento en el pecho.",
+      "Vuelve a cerrar por el mismo camino, como abrazando un árbol."
+    ],
+    "consejo": "Usa poco peso: es un ejercicio de estiramiento, no de fuerza.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 52,
+        "y": 24,
+        "torso": 180,
+        "muslo": -10,
+        "pierna": -95,
+        "muslo_b": -14,
+        "pierna_b": -98,
+        "brazo": 88,
+        "antebrazo": 80,
+        "brazo_b": 88,
+        "antebrazo_b": 80
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 52,
+        "y": 24,
+        "torso": 180,
+        "muslo": -10,
+        "pierna": -95,
+        "muslo_b": -14,
+        "pierna_b": -98,
+        "brazo": -10,
+        "antebrazo": 10,
+        "brazo_b": -14,
+        "antebrazo_b": 8
+      },
+      "props": {
+        "banco": [
+          6,
+          56,
+          21
+        ],
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "press-militar-mancuernas",
+    "nombre": "Press militar con mancuernas",
+    "lugar": "pesas",
+    "principales": [
+      "hombros"
+    ],
+    "secundarios": [
+      "triceps",
+      "trapecio"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10",
+    "pasos": [
+      "Sentado o de pie, sube las mancuernas a la altura de los hombros.",
+      "Empuja hacia arriba hasta casi estirar los brazos.",
+      "Baja despacio hasta la altura de las orejas."
+    ],
+    "consejo": "Aprieta el abdomen para no arquear la zona lumbar.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -75,
+        "antebrazo": 95,
+        "brazo_b": -78,
+        "antebrazo_b": 95
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": 88,
+        "antebrazo": 90,
+        "brazo_b": 86,
+        "antebrazo_b": 90
+      },
+      "props": {
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "elevaciones-laterales",
+    "nombre": "Elevaciones laterales",
+    "lugar": "pesas",
+    "principales": [
+      "hombros"
+    ],
+    "secundarios": [
+      "trapecio"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 12-15",
+    "pasos": [
+      "De pie, mancuernas a los lados con los codos un poco doblados.",
+      "Sube los brazos hacia los lados hasta la altura de los hombros.",
+      "Baja despacio sin dejar caer el peso."
+    ],
+    "consejo": "Lidera el movimiento con los codos, no con las manos.",
+    "animacion": {
+      "vista": "frente",
+      "a": {
+        "x": 60,
+        "y": 0,
+        "abd": 10,
+        "codo": 8,
+        "abre": 6
+      },
+      "b": {
+        "x": 60,
+        "y": 0,
+        "abd": 85,
+        "codo": 8,
+        "abre": 6
+      },
+      "props": {
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "encogimientos-mancuernas",
+    "nombre": "Encogimientos de hombros",
+    "lugar": "pesas",
+    "principales": [
+      "trapecio"
+    ],
+    "secundarios": [
+      "antebrazos"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 15",
+    "pasos": [
+      "De pie con una mancuerna pesada en cada mano.",
+      "Sube los hombros hacia las orejas en línea recta.",
+      "Aguanta un segundo arriba y baja despacio."
+    ],
+    "consejo": "No hagas círculos con los hombros.",
+    "animacion": {
+      "vista": "frente",
+      "a": {
+        "x": 60,
+        "y": 0,
+        "abd": 8,
+        "codo": 0,
+        "abre": 6
+      },
+      "b": {
+        "x": 60,
+        "y": 0,
+        "abd": 8,
+        "codo": 0,
+        "abre": 6,
+        "hombros": 4
+      },
+      "props": {
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "remo-mancuerna",
+    "nombre": "Remo con mancuerna a una mano",
+    "lugar": "pesas",
+    "principales": [
+      "espalda"
+    ],
+    "secundarios": [
+      "biceps",
+      "hombros"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10 por lado",
+    "pasos": [
+      "Apoya rodilla y mano del mismo lado en un banco, espalda recta.",
+      "Con la otra mano coge la mancuerna con el brazo estirado.",
+      "Tira del codo hacia la cadera llevando la mancuerna al costado.",
+      "Baja controlando hasta estirar el brazo."
+    ],
+    "consejo": "Imagina que guardas la mancuerna en el bolsillo del pantalón.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 42,
+        "torso": 8,
+        "muslo": -100,
+        "pierna": -90,
+        "muslo_b": -90,
+        "pierna_b": 180,
+        "pie_b": 180,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -90,
+        "antebrazo_b": -90
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 42,
+        "torso": 8,
+        "muslo": -100,
+        "pierna": -90,
+        "muslo_b": -90,
+        "pierna_b": 180,
+        "pie_b": 180,
+        "brazo": 165,
+        "antebrazo": -85,
+        "brazo_b": -90,
+        "antebrazo_b": -90
+      },
+      "props": {
+        "banco": [
+          14,
+          76,
+          21
+        ],
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "peso-muerto",
+    "nombre": "Peso muerto con barra",
+    "lugar": "pesas",
+    "principales": [
+      "lumbares",
+      "gluteos",
+      "isquiotibiales"
+    ],
+    "secundarios": [
+      "espalda",
+      "trapecio",
+      "antebrazos"
+    ],
+    "nivel": "Avanzado",
+    "series": "4 × 5-6",
+    "pasos": [
+      "Pies a la anchura de la cadera, barra sobre la mitad del pie.",
+      "Agarra la barra, pecho arriba y espalda neutra.",
+      "Empuja el suelo con las piernas y extiende la cadera a la vez.",
+      "Baja la barra pegada a las piernas con la espalda recta."
+    ],
+    "consejo": "Nunca redondees la espalda. Empieza con poco peso y buena técnica.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 35,
+        "muslo": -55,
+        "pierna": -100,
+        "muslo_b": -58,
+        "pierna_b": -101,
+        "brazo": -88,
+        "antebrazo": -88,
+        "brazo_b": -90,
+        "antebrazo_b": -90
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -88,
+        "antebrazo": -88,
+        "brazo_b": -94,
+        "antebrazo_b": -92
+      },
+      "props": {
+        "barra": "manoa"
+      }
+    }
+  },
+  {
+    "id": "curl-biceps-mancuernas",
+    "nombre": "Curl de bíceps con mancuernas",
+    "lugar": "pesas",
+    "principales": [
+      "biceps"
+    ],
+    "secundarios": [
+      "antebrazos"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10-12",
+    "pasos": [
+      "De pie, mancuernas a los lados con las palmas hacia delante.",
+      "Dobla los codos subiendo las mancuernas hacia los hombros.",
+      "Baja despacio hasta estirar los brazos."
+    ],
+    "consejo": "Los codos quietos pegados al cuerpo, sin balancear.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -88,
+        "antebrazo": -85,
+        "brazo_b": -94,
+        "antebrazo_b": -92
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -82,
+        "antebrazo": 70,
+        "brazo_b": -85,
+        "antebrazo_b": 65
+      },
+      "props": {
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "curl-martillo",
+    "nombre": "Curl martillo",
+    "lugar": "pesas",
+    "principales": [
+      "biceps",
+      "antebrazos"
+    ],
+    "secundarios": [],
+    "nivel": "Principiante",
+    "series": "3 × 12",
+    "pasos": [
+      "Mancuernas a los lados con las palmas mirándose.",
+      "Sube las mancuernas sin girar las muñecas.",
+      "Baja controlando."
+    ],
+    "consejo": "Muy bueno para dar grosor al brazo y al antebrazo.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -88,
+        "antebrazo": -85,
+        "brazo_b": -94,
+        "antebrazo_b": -92
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -82,
+        "antebrazo": 70,
+        "brazo_b": -85,
+        "antebrazo_b": 65
+      },
+      "props": {
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "press-frances",
+    "nombre": "Press francés con barra Z",
+    "lugar": "pesas",
+    "principales": [
+      "triceps"
+    ],
+    "secundarios": [],
+    "nivel": "Intermedio",
+    "series": "3 × 10",
+    "pasos": [
+      "Túmbate en el banco con la barra sobre la frente y los brazos estirados.",
+      "Dobla solo los codos bajando la barra hacia la frente.",
+      "Estira los brazos volviendo arriba."
+    ],
+    "consejo": "Los codos apuntan al techo durante todo el recorrido.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 52,
+        "y": 24,
+        "torso": 180,
+        "muslo": -10,
+        "pierna": -95,
+        "muslo_b": -14,
+        "pierna_b": -98,
+        "brazo": 98,
+        "antebrazo": 96,
+        "brazo_b": 96,
+        "antebrazo_b": 96
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 52,
+        "y": 24,
+        "torso": 180,
+        "muslo": -10,
+        "pierna": -95,
+        "muslo_b": -14,
+        "pierna_b": -98,
+        "brazo": 100,
+        "antebrazo": 195,
+        "brazo_b": 98,
+        "antebrazo_b": 195
+      },
+      "props": {
+        "banco": [
+          6,
+          56,
+          21
+        ],
+        "barra": "manoa"
+      }
+    }
+  },
+  {
+    "id": "extension-triceps-mancuerna",
+    "nombre": "Extensión de tríceps por encima de la cabeza",
+    "lugar": "pesas",
+    "principales": [
+      "triceps"
+    ],
+    "secundarios": [
+      "hombros"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 12",
+    "pasos": [
+      "Sentado, sujeta una mancuerna con las dos manos sobre la cabeza.",
+      "Baja la mancuerna por detrás de la cabeza doblando los codos.",
+      "Estira los brazos de nuevo."
+    ],
+    "consejo": "Mantén los codos cerca de la cabeza.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 92,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": 95,
+        "antebrazo": 95,
+        "brazo_b": 93,
+        "antebrazo_b": 95
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 92,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": 100,
+        "antebrazo": -100,
+        "brazo_b": 98,
+        "antebrazo_b": -100
+      },
+      "props": {
+        "banco": [
+          24,
+          50,
+          21
+        ],
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "sentadilla-barra",
+    "nombre": "Sentadilla con barra",
+    "lugar": "pesas",
+    "principales": [
+      "cuadriceps",
+      "gluteos"
+    ],
+    "secundarios": [
+      "isquiotibiales",
+      "lumbares",
+      "aductores"
+    ],
+    "nivel": "Intermedio",
+    "series": "4 × 8",
+    "pasos": [
+      "Coloca la barra sobre los trapecios y separa los pies a la anchura de los hombros.",
+      "Baja la cadera hacia atrás y abajo como si te sentaras.",
+      "Llega al menos a muslos paralelos al suelo.",
+      "Sube empujando con todo el pie."
+    ],
+    "consejo": "Las rodillas siguen la dirección de las puntas de los pies.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -150,
+        "antebrazo": 60,
+        "brazo_b": -146,
+        "antebrazo_b": 62
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 55,
+        "muslo": -10,
+        "pierna": -115,
+        "muslo_b": -13,
+        "pierna_b": -116,
+        "brazo": -185,
+        "antebrazo": 25,
+        "brazo_b": -181,
+        "antebrazo_b": 27
+      },
+      "props": {
+        "barra": "hombro"
+      }
+    }
+  },
+  {
+    "id": "zancadas-mancuernas",
+    "nombre": "Zancadas con mancuernas",
+    "lugar": "pesas",
+    "principales": [
+      "cuadriceps",
+      "gluteos"
+    ],
+    "secundarios": [
+      "isquiotibiales",
+      "aductores"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10 por pierna",
+    "pasos": [
+      "De pie con una mancuerna en cada mano.",
+      "Da un paso largo hacia delante y baja hasta que ambas rodillas formen 90°.",
+      "Empuja con la pierna delantera para volver."
+    ],
+    "consejo": "El tronco recto y la rodilla delantera sin pasar mucho la punta del pie.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 42.5,
+        "torso": 90,
+        "muslo": -80,
+        "pierna": -92,
+        "muslo_b": -100,
+        "pierna_b": -92,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -93,
+        "antebrazo_b": -91
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 23,
+        "torso": 90,
+        "muslo": -5,
+        "pierna": -90,
+        "muslo_b": -112,
+        "pierna_b": -175,
+        "pie_b": -60,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -93,
+        "antebrazo_b": -91
+      },
+      "props": {
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "peso-muerto-rumano",
+    "nombre": "Peso muerto rumano con mancuernas",
+    "lugar": "pesas",
+    "principales": [
+      "isquiotibiales",
+      "gluteos"
+    ],
+    "secundarios": [
+      "lumbares"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 10",
+    "pasos": [
+      "De pie con las mancuernas delante de los muslos y rodillas un poco dobladas.",
+      "Lleva la cadera atrás bajando las mancuernas pegadas a las piernas.",
+      "Baja hasta notar estiramiento detrás del muslo y sube apretando glúteos."
+    ],
+    "consejo": "Las rodillas casi no se mueven; el movimiento es de cadera.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -88,
+        "antebrazo": -88,
+        "brazo_b": -94,
+        "antebrazo_b": -92
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 18,
+        "muslo": -78,
+        "pierna": -96,
+        "muslo_b": -80,
+        "pierna_b": -97,
+        "brazo": -88,
+        "antebrazo": -88,
+        "brazo_b": -90,
+        "antebrazo_b": -90
+      },
+      "props": {
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "hip-thrust-barra",
+    "nombre": "Hip thrust con barra",
+    "lugar": "pesas",
+    "principales": [
+      "gluteos"
+    ],
+    "secundarios": [
+      "isquiotibiales"
+    ],
+    "nivel": "Intermedio",
+    "series": "4 × 10",
+    "pasos": [
+      "Apoya la parte alta de la espalda en un banco y la barra sobre la cadera.",
+      "Con los pies firmes, sube la cadera hasta alinear rodillas, cadera y hombros.",
+      "Aprieta glúteos arriba y baja controlando."
+    ],
+    "consejo": "Usa una almohadilla en la barra para no hacerte daño.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 45,
+        "y": 11,
+        "torso": 158,
+        "muslo": 30,
+        "pierna": -85,
+        "muslo_b": 27,
+        "pierna_b": -87,
+        "brazo": -20,
+        "antebrazo": -20,
+        "brazo_b": -22,
+        "antebrazo_b": -22
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 45,
+        "y": 22,
+        "torso": 176,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -91,
+        "brazo": -5,
+        "antebrazo": -5,
+        "brazo_b": -7,
+        "antebrazo_b": -7
+      },
+      "props": {
+        "banco": [
+          0,
+          20,
+          21
+        ],
+        "barra": "cadera"
+      }
+    }
+  },
+  {
+    "id": "elevacion-gemelos-mancuernas",
+    "nombre": "Elevación de gemelos con mancuernas",
+    "lugar": "pesas",
+    "principales": [
+      "gemelos"
+    ],
+    "secundarios": [],
+    "nivel": "Principiante",
+    "series": "4 × 15",
+    "pasos": [
+      "De pie, con la punta de los pies sobre un escalón y mancuernas en las manos.",
+      "Sube de puntillas lo más alto posible.",
+      "Baja despacio hasta estirar el gemelo."
+    ],
+    "consejo": "Haz una pausa arriba y abajo, sin rebotar.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 6,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -94,
+        "antebrazo_b": -92,
+        "pie": -10
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 10.5,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -94,
+        "antebrazo_b": -92,
+        "pie": -55
+      },
+      "props": {
+        "escalon": [
+          62,
+          90,
+          5
+        ],
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "curl-muneca",
+    "nombre": "Curl de muñeca con mancuerna",
+    "lugar": "pesas",
+    "principales": [
+      "antebrazos"
+    ],
+    "secundarios": [],
+    "nivel": "Principiante",
+    "series": "3 × 15",
+    "pasos": [
+      "Sentado, apoya el antebrazo en el muslo con la muñeca fuera de la rodilla.",
+      "Sube la mancuerna doblando solo la muñeca.",
+      "Baja despacio."
+    ],
+    "consejo": "Poco peso y muchas repeticiones.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 42,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": -100,
+        "antebrazo": -8,
+        "brazo_b": -103,
+        "antebrazo_b": -10
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 42,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": -100,
+        "antebrazo": 18,
+        "brazo_b": -103,
+        "antebrazo_b": 15
+      },
+      "props": {
+        "banco": [
+          24,
+          50,
+          21
+        ],
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "press-banca-mancuernas",
+    "nombre": "Press de banca con mancuernas",
+    "lugar": "pesas",
+    "principales": [
+      "pecho"
+    ],
+    "secundarios": [
+      "triceps",
+      "hombros"
+    ],
+    "nivel": "Principiante",
+    "series": "4 × 8-12",
+    "pasos": [
+      "Túmbate en el banco con una mancuerna en cada mano a la altura del pecho.",
+      "Apoya bien los pies en el suelo y junta las escápulas.",
+      "Empuja las mancuernas hacia arriba hasta casi juntarlas.",
+      "Baja despacio hasta que los codos queden un poco por debajo del banco."
+    ],
+    "consejo": "Las mancuernas permiten más recorrido que la barra: bájalas con control.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 52,
+        "y": 24,
+        "torso": 180,
+        "muslo": -10,
+        "pierna": -95,
+        "muslo_b": -14,
+        "pierna_b": -98,
+        "brazo": 90,
+        "antebrazo": 90,
+        "brazo_b": 88,
+        "antebrazo_b": 90
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 52,
+        "y": 24,
+        "torso": 180,
+        "muslo": -10,
+        "pierna": -95,
+        "muslo_b": -14,
+        "pierna_b": -98,
+        "brazo": -15,
+        "antebrazo": 92,
+        "brazo_b": -18,
+        "antebrazo_b": 92
+      },
+      "props": {
+        "banco": [
+          6,
+          56,
+          21
+        ],
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "press-inclinado-barra",
+    "nombre": "Press inclinado con barra",
+    "lugar": "pesas",
+    "principales": [
+      "pecho"
+    ],
+    "secundarios": [
+      "hombros",
+      "triceps"
+    ],
+    "nivel": "Intermedio",
+    "series": "4 × 6-10",
+    "pasos": [
+      "Ajusta el banco a unos 30-45 grados y túmbate con los ojos bajo la barra.",
+      "Agarra la barra algo más abierto que los hombros y sácala del soporte.",
+      "Bájala hasta la parte alta del pecho.",
+      "Empuja hacia arriba sin despegar la espalda del banco."
+    ],
+    "consejo": "Con más de 45 grados el trabajo pasa a los hombros; mejor una inclinación moderada.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 46,
+        "y": 24,
+        "torso": 125,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": 40,
+        "antebrazo": 40,
+        "brazo_b": 38,
+        "antebrazo_b": 40
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 46,
+        "y": 24,
+        "torso": 125,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": -125,
+        "antebrazo": 45,
+        "brazo_b": -128,
+        "antebrazo_b": 45
+      },
+      "props": {
+        "banco": [
+          30,
+          54,
+          21
+        ],
+        "respaldo": [
+          44,
+          21,
+          125,
+          36
+        ],
+        "barra": "manoa"
+      }
+    }
+  },
+  {
+    "id": "pullover-mancuerna",
+    "nombre": "Pullover con mancuerna",
+    "lugar": "pesas",
+    "principales": [
+      "pecho",
+      "espalda"
+    ],
+    "secundarios": [
+      "triceps"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 10-12",
+    "pasos": [
+      "Apoya la parte alta de la espalda atravesada en el banco, con las caderas algo bajas.",
+      "Sujeta una mancuerna con las dos manos sobre el pecho, con los codos un poco doblados.",
+      "Lleva la mancuerna hacia atrás por encima de la cabeza hasta notar estiramiento.",
+      "Vuelve a la posición inicial apretando pecho y dorsales."
+    ],
+    "consejo": "Mantén el mismo ángulo de codos durante todo el movimiento.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 52,
+        "y": 24,
+        "torso": 180,
+        "muslo": -10,
+        "pierna": -95,
+        "muslo_b": -14,
+        "pierna_b": -98,
+        "brazo": 172,
+        "antebrazo": 176,
+        "brazo_b": 170,
+        "antebrazo_b": 174
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 52,
+        "y": 24,
+        "torso": 180,
+        "muslo": -10,
+        "pierna": -95,
+        "muslo_b": -14,
+        "pierna_b": -98,
+        "brazo": 95,
+        "antebrazo": 95,
+        "brazo_b": 93,
+        "antebrazo_b": 93
+      },
+      "props": {
+        "banco": [
+          6,
+          56,
+          21
+        ],
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "press-militar-barra",
+    "nombre": "Press militar con barra de pie",
+    "lugar": "pesas",
+    "principales": [
+      "hombros"
+    ],
+    "secundarios": [
+      "triceps",
+      "trapecio",
+      "abdominales"
+    ],
+    "nivel": "Intermedio",
+    "series": "4 × 6-8",
+    "pasos": [
+      "De pie, coge la barra a la altura de las clavículas con las manos algo más abiertas que los hombros.",
+      "Aprieta glúteos y abdomen para no arquear la espalda.",
+      "Empuja la barra hacia arriba pasando cerca de la cara.",
+      "Bloquea arriba con la barra encima de la cabeza y baja controlando."
+    ],
+    "consejo": "Mete un poco la barbilla al subir la barra y vuelve a sacarla cuando pase.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -75,
+        "antebrazo": 95,
+        "brazo_b": -78,
+        "antebrazo_b": 95
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": 88,
+        "antebrazo": 90,
+        "brazo_b": 86,
+        "antebrazo_b": 90
+      },
+      "props": {
+        "barra": "manoa"
+      }
+    }
+  },
+  {
+    "id": "pajaros-mancuernas",
+    "nombre": "Pájaros con mancuernas",
+    "lugar": "pesas",
+    "principales": [
+      "hombros"
+    ],
+    "secundarios": [
+      "trapecio",
+      "espalda"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 12-15",
+    "pasos": [
+      "Inclina el tronco hacia delante con la espalda recta y las rodillas algo dobladas.",
+      "Deja colgar una mancuerna ligera en cada mano.",
+      "Abre los brazos hacia los lados hasta la altura de los hombros.",
+      "Baja despacio sin dejar caer el peso."
+    ],
+    "consejo": "Usa poco peso: el hombro posterior es pequeño y se trabaja mejor con control.",
+    "animacion": {
+      "vista": "frente",
+      "a": {
+        "x": 60,
+        "y": 0,
+        "abd": 10,
+        "codo": 12,
+        "abre": 6
+      },
+      "b": {
+        "x": 60,
+        "y": 0,
+        "abd": 88,
+        "codo": 12,
+        "abre": 6
+      },
+      "props": {
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "elevaciones-frontales",
+    "nombre": "Elevaciones frontales",
+    "lugar": "pesas",
+    "principales": [
+      "hombros"
+    ],
+    "secundarios": [
+      "pecho"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10-12",
+    "pasos": [
+      "De pie, con una mancuerna en cada mano delante de los muslos.",
+      "Sube un brazo estirado hacia delante hasta la altura de los hombros.",
+      "Baja despacio y repite con el otro brazo.",
+      "Mantén el tronco quieto durante todo el ejercicio."
+    ],
+    "consejo": "No balancees el cuerpo para subir el peso; si lo necesitas, coge menos.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -85,
+        "antebrazo": -85,
+        "brazo_b": -90,
+        "antebrazo_b": -90
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": 0,
+        "antebrazo": 0,
+        "brazo_b": -90,
+        "antebrazo_b": -90
+      },
+      "props": {
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "remo-al-menton",
+    "nombre": "Remo al mentón con mancuernas",
+    "lugar": "pesas",
+    "principales": [
+      "hombros",
+      "trapecio"
+    ],
+    "secundarios": [
+      "biceps"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 10-12",
+    "pasos": [
+      "De pie, con las mancuernas delante de los muslos.",
+      "Sube las mancuernas pegadas al cuerpo llevando los codos hacia arriba y hacia fuera.",
+      "Para cuando los codos lleguen a la altura de los hombros.",
+      "Baja controlando."
+    ],
+    "consejo": "No subas por encima de los hombros para cuidar la articulación.",
+    "animacion": {
+      "vista": "frente",
+      "a": {
+        "x": 60,
+        "y": 0,
+        "abd": 8,
+        "codo": 0,
+        "abre": 6
+      },
+      "b": {
+        "x": 60,
+        "y": 0,
+        "abd": 78,
+        "codo": 150,
+        "abre": 6
+      },
+      "props": {
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "remo-barra",
+    "nombre": "Remo con barra",
+    "lugar": "pesas",
+    "principales": [
+      "espalda"
+    ],
+    "secundarios": [
+      "biceps",
+      "trapecio",
+      "lumbares"
+    ],
+    "nivel": "Intermedio",
+    "series": "4 × 8-10",
+    "pasos": [
+      "De pie, coge la barra con las manos a la anchura de los hombros.",
+      "Inclina el tronco hacia delante con la espalda recta y las rodillas algo dobladas.",
+      "Tira de la barra hacia el ombligo juntando las escápulas.",
+      "Baja la barra estirando los brazos sin perder la postura."
+    ],
+    "consejo": "La espalda siempre recta: si se redondea, baja el peso.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 35,
+        "muslo": -70,
+        "pierna": -100,
+        "muslo_b": -73,
+        "pierna_b": -101,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -92,
+        "antebrazo_b": -92
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 35,
+        "muslo": -70,
+        "pierna": -100,
+        "muslo_b": -73,
+        "pierna_b": -101,
+        "brazo": -155,
+        "antebrazo": -55,
+        "brazo_b": -157,
+        "antebrazo_b": -57
+      },
+      "props": {
+        "barra": "manoa"
+      }
+    }
+  },
+  {
+    "id": "curl-barra",
+    "nombre": "Curl de bíceps con barra",
+    "lugar": "pesas",
+    "principales": [
+      "biceps"
+    ],
+    "secundarios": [
+      "antebrazos"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 8-12",
+    "pasos": [
+      "De pie, coge la barra con las palmas hacia delante a la anchura de los hombros.",
+      "Pega los codos al cuerpo.",
+      "Sube la barra doblando los codos hasta la altura del pecho.",
+      "Baja despacio hasta estirar los brazos."
+    ],
+    "consejo": "No muevas los codos hacia delante ni te balancees.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -88,
+        "antebrazo": -85,
+        "brazo_b": -94,
+        "antebrazo_b": -92
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -82,
+        "antebrazo": 70,
+        "brazo_b": -85,
+        "antebrazo_b": 65
+      },
+      "props": {
+        "barra": "manoa"
+      }
+    }
+  },
+  {
+    "id": "curl-concentrado",
+    "nombre": "Curl concentrado",
+    "lugar": "pesas",
+    "principales": [
+      "biceps"
+    ],
+    "secundarios": [],
+    "nivel": "Principiante",
+    "series": "3 × 10-12 por brazo",
+    "pasos": [
+      "Siéntate en un banco con las piernas abiertas.",
+      "Apoya el codo en la cara interna del muslo con la mancuerna colgando.",
+      "Sube la mancuerna hacia el hombro girando un poco la muñeca hacia fuera.",
+      "Baja despacio hasta estirar el brazo."
+    ],
+    "consejo": "Aprieta el bíceps un segundo arriba de cada repetición.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 58,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": -82,
+        "antebrazo": -80,
+        "brazo_b": -100,
+        "antebrazo_b": -60
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 58,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": -82,
+        "antebrazo": 75,
+        "brazo_b": -100,
+        "antebrazo_b": -60
+      },
+      "props": {
+        "banco": [
+          24,
+          50,
+          21
+        ],
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "curl-inverso",
+    "nombre": "Curl inverso con barra",
+    "lugar": "pesas",
+    "principales": [
+      "antebrazos"
+    ],
+    "secundarios": [
+      "biceps"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 12-15",
+    "pasos": [
+      "De pie, coge la barra con las palmas hacia abajo.",
+      "Pega los codos al cuerpo.",
+      "Sube la barra doblando los codos sin girar las muñecas.",
+      "Baja controlando."
+    ],
+    "consejo": "Usa menos peso que en el curl normal: el agarre lo hace más difícil.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -88,
+        "antebrazo": -85,
+        "brazo_b": -94,
+        "antebrazo_b": -92
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -82,
+        "antebrazo": 70,
+        "brazo_b": -85,
+        "antebrazo_b": 65
+      },
+      "props": {
+        "barra": "manoa"
+      }
+    }
+  },
+  {
+    "id": "press-cerrado",
+    "nombre": "Press de banca con agarre cerrado",
+    "lugar": "pesas",
+    "principales": [
+      "triceps"
+    ],
+    "secundarios": [
+      "pecho",
+      "hombros"
+    ],
+    "nivel": "Intermedio",
+    "series": "4 × 8-10",
+    "pasos": [
+      "Túmbate en el banco y coge la barra con las manos a la anchura de los hombros.",
+      "Saca la barra del soporte con los brazos estirados.",
+      "Bájala hasta la parte baja del pecho con los codos pegados al cuerpo.",
+      "Empuja hacia arriba estirando los brazos."
+    ],
+    "consejo": "No juntes demasiado las manos: a la anchura de los hombros es suficiente.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 52,
+        "y": 24,
+        "torso": 180,
+        "muslo": -10,
+        "pierna": -95,
+        "muslo_b": -14,
+        "pierna_b": -98,
+        "brazo": 90,
+        "antebrazo": 90,
+        "brazo_b": 88,
+        "antebrazo_b": 90
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 52,
+        "y": 24,
+        "torso": 180,
+        "muslo": -10,
+        "pierna": -95,
+        "muslo_b": -14,
+        "pierna_b": -98,
+        "brazo": -15,
+        "antebrazo": 92,
+        "brazo_b": -18,
+        "antebrazo_b": 92
+      },
+      "props": {
+        "banco": [
+          6,
+          56,
+          21
+        ],
+        "barra": "manoa"
+      }
+    }
+  },
+  {
+    "id": "patada-triceps",
+    "nombre": "Patada de tríceps con mancuerna",
+    "lugar": "pesas",
+    "principales": [
+      "triceps"
+    ],
+    "secundarios": [
+      "hombros"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 12-15 por brazo",
+    "pasos": [
+      "Apoya una rodilla y una mano en el banco con la espalda recta.",
+      "Coge la mancuerna con el brazo pegado al cuerpo y el codo doblado.",
+      "Estira el brazo hacia atrás hasta que quede recto.",
+      "Vuelve despacio a doblar el codo."
+    ],
+    "consejo": "Solo se mueve el antebrazo: el codo queda fijo junto al cuerpo.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 42,
+        "torso": 8,
+        "muslo": -100,
+        "pierna": -90,
+        "muslo_b": -90,
+        "pierna_b": 180,
+        "pie_b": 180,
+        "brazo": 172,
+        "antebrazo": -90,
+        "brazo_b": -90,
+        "antebrazo_b": -90
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 42,
+        "torso": 8,
+        "muslo": -100,
+        "pierna": -90,
+        "muslo_b": -90,
+        "pierna_b": 180,
+        "pie_b": 180,
+        "brazo": 172,
+        "antebrazo": 176,
+        "brazo_b": -90,
+        "antebrazo_b": -90
+      },
+      "props": {
+        "banco": [
+          14,
+          76,
+          21
+        ],
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "sentadilla-goblet",
+    "nombre": "Sentadilla goblet",
+    "lugar": "pesas",
+    "principales": [
+      "cuadriceps",
+      "gluteos"
+    ],
+    "secundarios": [
+      "aductores",
+      "abdominales"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10-12",
+    "pasos": [
+      "Sujeta una mancuerna vertical pegada al pecho con las dos manos.",
+      "Separa los pies algo más que la anchura de las caderas.",
+      "Baja como si te sentaras, con el pecho erguido y las rodillas hacia fuera.",
+      "Sube empujando el suelo con los talones."
+    ],
+    "consejo": "Es la mejor sentadilla para aprender la técnica antes de usar barra.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -70,
+        "antebrazo": 100,
+        "brazo_b": -72,
+        "antebrazo_b": 98
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 62,
+        "muslo": -10,
+        "pierna": -115,
+        "muslo_b": -13,
+        "pierna_b": -116,
+        "brazo": -95,
+        "antebrazo": 75,
+        "brazo_b": -97,
+        "antebrazo_b": 73
+      },
+      "props": {
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "sentadilla-frontal",
+    "nombre": "Sentadilla frontal con barra",
+    "lugar": "pesas",
+    "principales": [
+      "cuadriceps"
+    ],
+    "secundarios": [
+      "gluteos",
+      "abdominales",
+      "lumbares"
+    ],
+    "nivel": "Avanzado",
+    "series": "4 × 5-8",
+    "pasos": [
+      "Apoya la barra sobre la parte delantera de los hombros con los codos altos.",
+      "Separa los pies a la anchura de los hombros.",
+      "Baja con el tronco lo más vertical posible.",
+      "Sube empujando con toda la planta del pie sin dejar caer los codos."
+    ],
+    "consejo": "Si te cuesta la postura de las muñecas, cruza los brazos sobre la barra.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": 8,
+        "antebrazo": 168,
+        "brazo_b": 6,
+        "antebrazo_b": 166
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 70,
+        "muslo": -10,
+        "pierna": -115,
+        "muslo_b": -13,
+        "pierna_b": -116,
+        "brazo": -12,
+        "antebrazo": 148,
+        "brazo_b": -14,
+        "antebrazo_b": 146
+      },
+      "props": {
+        "barra": "manoa"
+      }
+    }
+  },
+  {
+    "id": "subida-banco-mancuernas",
+    "nombre": "Subida al banco con mancuernas",
+    "lugar": "pesas",
+    "principales": [
+      "cuadriceps",
+      "gluteos"
+    ],
+    "secundarios": [
+      "isquiotibiales"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10 por pierna",
+    "pasos": [
+      "Ponte frente a un banco con una mancuerna en cada mano.",
+      "Apoya un pie entero encima del banco.",
+      "Sube empujando con esa pierna hasta quedar de pie sobre el banco.",
+      "Baja despacio con la misma pierna y repite."
+    ],
+    "consejo": "Empuja con la pierna de arriba, no te impulses con la de abajo.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 43,
+        "torso": 90,
+        "muslo": -33,
+        "pierna": -95,
+        "muslo_b": -90,
+        "pierna_b": -90,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -93,
+        "antebrazo_b": -91
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 57,
+        "y": 53,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -60,
+        "pierna_b": -120,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -93,
+        "antebrazo_b": -91
+      },
+      "props": {
+        "escalon": [
+          50,
+          78,
+          10
+        ],
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "peso-muerto-sumo",
+    "nombre": "Peso muerto sumo",
+    "lugar": "pesas",
+    "principales": [
+      "gluteos",
+      "aductores",
+      "cuadriceps"
+    ],
+    "secundarios": [
+      "isquiotibiales",
+      "lumbares",
+      "trapecio"
+    ],
+    "nivel": "Avanzado",
+    "series": "4 × 5-6",
+    "pasos": [
+      "Separa mucho los pies con las puntas hacia fuera y la barra pegada a las espinillas.",
+      "Agarra la barra con las manos entre las piernas.",
+      "Con la espalda recta, sube empujando el suelo y abriendo las rodillas.",
+      "Termina de pie apretando glúteos y baja controlando."
+    ],
+    "consejo": "Mantén la barra siempre pegada al cuerpo.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 35,
+        "muslo": -55,
+        "pierna": -100,
+        "muslo_b": -58,
+        "pierna_b": -101,
+        "brazo": -88,
+        "antebrazo": -88,
+        "brazo_b": -90,
+        "antebrazo_b": -90
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -88,
+        "antebrazo": -88,
+        "brazo_b": -94,
+        "antebrazo_b": -92
+      },
+      "props": {
+        "barra": "manoa"
+      }
+    }
+  },
+  {
+    "id": "buenos-dias",
+    "nombre": "Buenos días con barra",
+    "lugar": "pesas",
+    "principales": [
+      "isquiotibiales",
+      "lumbares"
+    ],
+    "secundarios": [
+      "gluteos"
+    ],
+    "nivel": "Avanzado",
+    "series": "3 × 8-10",
+    "pasos": [
+      "Coloca la barra sobre la parte alta de la espalda como en la sentadilla.",
+      "Dobla un poco las rodillas.",
+      "Inclina el tronco hacia delante llevando la cadera atrás con la espalda recta.",
+      "Vuelve a subir apretando glúteos."
+    ],
+    "consejo": "Empieza con muy poco peso y baja solo hasta donde mantengas la espalda recta.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -150,
+        "antebrazo": 60,
+        "brazo_b": -146,
+        "antebrazo_b": 62
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 12,
+        "muslo": -82,
+        "pierna": -96,
+        "muslo_b": -84,
+        "pierna_b": -97,
+        "brazo": 132,
+        "antebrazo": -18,
+        "brazo_b": 136,
+        "antebrazo_b": -16
+      },
+      "props": {
+        "barra": "hombro"
+      }
+    }
+  },
+  {
+    "id": "paseo-granjero",
+    "nombre": "Paseo del granjero",
+    "lugar": "pesas",
+    "principales": [
+      "antebrazos",
+      "trapecio"
+    ],
+    "secundarios": [
+      "abdominales",
+      "oblicuos",
+      "gemelos"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 30-40 m",
+    "pasos": [
+      "Coge una mancuerna pesada en cada mano.",
+      "Ponte de pie con los hombros atrás y el abdomen firme.",
+      "Camina con pasos cortos y rápidos.",
+      "Deja las mancuernas en el suelo con la espalda recta."
+    ],
+    "consejo": "Mira al frente y no dejes que las mancuernas te inclinen hacia un lado.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -75,
+        "pierna": -100,
+        "muslo_b": -105,
+        "pierna_b": -92,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -94,
+        "antebrazo_b": -92
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -105,
+        "pierna": -92,
+        "muslo_b": -75,
+        "pierna_b": -100,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -94,
+        "antebrazo_b": -92
+      },
+      "props": {
+        "mancuerna": true
+      }
+    }
+  },
+  {
+    "id": "giro-ruso-disco",
+    "nombre": "Giro ruso con disco",
+    "lugar": "pesas",
+    "principales": [
+      "oblicuos"
+    ],
+    "secundarios": [
+      "abdominales"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 16-20",
+    "pasos": [
+      "Siéntate en el suelo con las rodillas dobladas y sujeta un disco delante del pecho.",
+      "Inclina el tronco hacia atrás con la espalda recta.",
+      "Gira el tronco llevando el disco a un lado.",
+      "Gira al otro lado sin parar."
+    ],
+    "consejo": "Gira desde el tronco, no solo moviendo los brazos.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 4,
+        "torso": 125,
+        "muslo": 45,
+        "pierna": -30,
+        "muslo_b": 43,
+        "pierna_b": -32,
+        "brazo": -25,
+        "antebrazo": 15,
+        "brazo_b": -27,
+        "antebrazo_b": 13
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 4,
+        "torso": 118,
+        "muslo": 45,
+        "pierna": -30,
+        "muslo_b": 43,
+        "pierna_b": -32,
+        "brazo": -75,
+        "antebrazo": -45,
+        "brazo_b": -77,
+        "antebrazo_b": -47
+      },
+      "props": {
+        "esterilla": [
+          25,
+          95
+        ],
+        "barra": "manoa"
+      }
+    }
+  },
+  {
+    "id": "press-pecho-maquina",
+    "nombre": "Press de pecho en máquina",
+    "lugar": "maquinas",
+    "principales": [
+      "pecho"
+    ],
+    "secundarios": [
+      "triceps",
+      "hombros"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10-12",
+    "pasos": [
+      "Ajusta el asiento para que las asas queden a la altura del pecho.",
+      "Empuja las asas hacia delante hasta estirar los brazos.",
+      "Vuelve despacio sin dejar que el peso choque."
+    ],
+    "consejo": "Ideal para empezar: el recorrido está guiado.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 92,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": -165,
+        "antebrazo": 0,
+        "brazo_b": -160,
+        "antebrazo_b": 0
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 92,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": 5,
+        "antebrazo": 5,
+        "brazo_b": 3,
+        "antebrazo_b": 3
+      },
+      "props": {
+        "banco": [
+          24,
+          50,
+          21
+        ],
+        "respaldo": [
+          34,
+          21,
+          92,
+          34
+        ],
+        "asa": true
+      }
+    }
+  },
+  {
+    "id": "contractor-pecho",
+    "nombre": "Contractor de pecho (pec deck)",
+    "lugar": "maquinas",
+    "principales": [
+      "pecho"
+    ],
+    "secundarios": [
+      "hombros"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 12-15",
+    "pasos": [
+      "Siéntate con la espalda apoyada y los brazos abiertos en las asas.",
+      "Cierra los brazos delante del pecho.",
+      "Abre despacio hasta notar estiramiento."
+    ],
+    "consejo": "Aprieta el pecho un segundo cuando las asas se juntan.",
+    "animacion": {
+      "vista": "frente",
+      "a": {
+        "x": 60,
+        "y": 0,
+        "abd": 85,
+        "codo": 100,
+        "abre": 12,
+        "sentado": 1
+      },
+      "b": {
+        "x": 60,
+        "y": 0,
+        "abd": 40,
+        "codo": 150,
+        "abre": 12,
+        "sentado": 1
+      },
+      "props": {
+        "asa": true,
+        "banco": [
+          44,
+          76,
+          32
+        ]
+      }
+    }
+  },
+  {
+    "id": "cruce-poleas",
+    "nombre": "Cruce de poleas",
+    "lugar": "maquinas",
+    "principales": [
+      "pecho"
+    ],
+    "secundarios": [
+      "hombros",
+      "abdominales"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 12",
+    "pasos": [
+      "Coloca las poleas altas y agarra una asa con cada mano.",
+      "Da un paso adelante con el tronco un poco inclinado.",
+      "Junta las manos delante de la cadera en arco.",
+      "Vuelve abriendo los brazos despacio."
+    ],
+    "consejo": "Cambia la altura de las poleas para trabajar la parte alta o baja del pecho.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 80,
+        "muslo": -80,
+        "pierna": -95,
+        "muslo_b": -100,
+        "pierna_b": -92,
+        "brazo": 150,
+        "antebrazo": 160,
+        "brazo_b": 148,
+        "antebrazo_b": 158
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 80,
+        "muslo": -80,
+        "pierna": -95,
+        "muslo_b": -100,
+        "pierna_b": -92,
+        "brazo": -50,
+        "antebrazo": -40,
+        "brazo_b": -52,
+        "antebrazo_b": -42
+      },
+      "props": {
+        "polea": [
+          30,
+          85
+        ],
+        "poste": [
+          30,
+          88
+        ],
+        "asa": true
+      }
+    }
+  },
+  {
+    "id": "press-hombro-maquina",
+    "nombre": "Press de hombro en máquina",
+    "lugar": "maquinas",
+    "principales": [
+      "hombros"
+    ],
+    "secundarios": [
+      "triceps"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10",
+    "pasos": [
+      "Ajusta el asiento para que las asas queden a la altura de los hombros.",
+      "Empuja hacia arriba hasta casi estirar los brazos.",
+      "Baja controlando."
+    ],
+    "consejo": "Espalda bien apoyada en el respaldo.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 92,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": -80,
+        "antebrazo": 92,
+        "brazo_b": -83,
+        "antebrazo_b": 92
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 92,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": 88,
+        "antebrazo": 90,
+        "brazo_b": 86,
+        "antebrazo_b": 90
+      },
+      "props": {
+        "banco": [
+          24,
+          50,
+          21
+        ],
+        "respaldo": [
+          34,
+          21,
+          92,
+          34
+        ],
+        "asa": true
+      }
+    }
+  },
+  {
+    "id": "face-pull",
+    "nombre": "Face pull en polea",
+    "lugar": "maquinas",
+    "principales": [
+      "hombros",
+      "trapecio"
+    ],
+    "secundarios": [
+      "espalda"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 15",
+    "pasos": [
+      "Polea alta con cuerda, agárrala con las palmas hacia abajo.",
+      "Tira de la cuerda hacia la cara separando las manos.",
+      "Vuelve despacio."
+    ],
+    "consejo": "Muy recomendable para la salud del hombro.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": 8,
+        "antebrazo": 5,
+        "brazo_b": 6,
+        "antebrazo_b": 3
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": 170,
+        "antebrazo": 40,
+        "brazo_b": 168,
+        "antebrazo_b": 42
+      },
+      "props": {
+        "polea": [
+          100,
+          62
+        ],
+        "poste": [
+          100,
+          88
+        ]
+      }
+    }
+  },
+  {
+    "id": "jalon-pecho",
+    "nombre": "Jalón al pecho",
+    "lugar": "maquinas",
+    "principales": [
+      "espalda"
+    ],
+    "secundarios": [
+      "biceps",
+      "hombros"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10-12",
+    "pasos": [
+      "Siéntate con los muslos bajo el rodillo y agarra la barra abierta.",
+      "Tira de la barra hasta la parte alta del pecho bajando los codos.",
+      "Sube despacio hasta estirar los brazos."
+    ],
+    "consejo": "Saca pecho y no tires con el impulso del cuerpo.",
+    "animacion": {
+      "vista": "frente",
+      "a": {
+        "x": 60,
+        "y": 0,
+        "abd": 155,
+        "codo": 0,
+        "abre": 12,
+        "sentado": 1
+      },
+      "b": {
+        "x": 60,
+        "y": 0,
+        "abd": 70,
+        "codo": 125,
+        "abre": 12,
+        "sentado": 1
+      },
+      "props": {
+        "barra": true,
+        "polea": [
+          60,
+          100
+        ],
+        "banco": [
+          44,
+          76,
+          32
+        ]
+      }
+    }
+  },
+  {
+    "id": "remo-polea-baja",
+    "nombre": "Remo en polea baja",
+    "lugar": "maquinas",
+    "principales": [
+      "espalda"
+    ],
+    "secundarios": [
+      "biceps",
+      "trapecio",
+      "lumbares"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 12",
+    "pasos": [
+      "Sentado, pies en la plataforma y espalda recta.",
+      "Tira del asa hacia el ombligo juntando las escápulas.",
+      "Estira los brazos despacio sin encorvarte."
+    ],
+    "consejo": "El tronco se queda quieto; solo se mueven los brazos.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 35,
+        "y": 8,
+        "torso": 95,
+        "muslo": 8,
+        "pierna": -30,
+        "muslo_b": 5,
+        "pierna_b": -32,
+        "pie": 60,
+        "brazo": 0,
+        "antebrazo": 0,
+        "brazo_b": -2,
+        "antebrazo_b": -2
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 35,
+        "y": 8,
+        "torso": 100,
+        "muslo": 8,
+        "pierna": -30,
+        "muslo_b": 5,
+        "pierna_b": -32,
+        "pie": 60,
+        "brazo": -150,
+        "antebrazo": 0,
+        "brazo_b": -152,
+        "antebrazo_b": -2
+      },
+      "props": {
+        "polea": [
+          96,
+          10
+        ],
+        "poste": [
+          96,
+          20
+        ],
+        "asa": true,
+        "esterilla": [
+          20,
+          96
+        ]
+      }
+    }
+  },
+  {
+    "id": "hiperextensiones",
+    "nombre": "Hiperextensiones en banco romano",
+    "lugar": "maquinas",
+    "principales": [
+      "lumbares"
+    ],
+    "secundarios": [
+      "gluteos",
+      "isquiotibiales"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 15",
+    "pasos": [
+      "Colócate con la cadera en el apoyo y los pies sujetos.",
+      "Baja el tronco con la espalda recta.",
+      "Sube hasta alinear el cuerpo, sin pasarte hacia atrás."
+    ],
+    "consejo": "Movimiento lento y controlado.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 36,
+        "torso": -45,
+        "muslo": 200,
+        "pierna": 200,
+        "muslo_b": 198,
+        "pierna_b": 198,
+        "pie": -70,
+        "brazo": -130,
+        "antebrazo": -130,
+        "brazo_b": -132,
+        "antebrazo_b": -132
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 36,
+        "torso": 20,
+        "muslo": 200,
+        "pierna": 200,
+        "muslo_b": 198,
+        "pierna_b": 198,
+        "pie": -70,
+        "brazo": -60,
+        "antebrazo": -60,
+        "brazo_b": -62,
+        "antebrazo_b": -62
+      },
+      "props": {
+        "respaldo": [
+          60,
+          0,
+          108,
+          34
+        ],
+        "poste": [
+          22,
+          18
+        ]
+      }
+    }
+  },
+  {
+    "id": "curl-biceps-polea",
+    "nombre": "Curl de bíceps en polea",
+    "lugar": "maquinas",
+    "principales": [
+      "biceps"
+    ],
+    "secundarios": [
+      "antebrazos"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 12",
+    "pasos": [
+      "Polea baja con barra, agárrala con las palmas hacia arriba.",
+      "Dobla los codos subiendo la barra al pecho.",
+      "Baja despacio."
+    ],
+    "consejo": "La polea mantiene la tensión en todo el recorrido.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -88,
+        "antebrazo": -80,
+        "brazo_b": -94,
+        "antebrazo_b": -92
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -82,
+        "antebrazo": 70,
+        "brazo_b": -85,
+        "antebrazo_b": 65
+      },
+      "props": {
+        "polea": [
+          78,
+          4
+        ],
+        "poste": [
+          78,
+          12
+        ],
+        "asa": true
+      }
+    }
+  },
+  {
+    "id": "extension-triceps-polea",
+    "nombre": "Extensión de tríceps en polea",
+    "lugar": "maquinas",
+    "principales": [
+      "triceps"
+    ],
+    "secundarios": [],
+    "nivel": "Principiante",
+    "series": "3 × 12-15",
+    "pasos": [
+      "Polea alta con cuerda o barra, codos pegados al cuerpo.",
+      "Empuja hacia abajo hasta estirar los brazos.",
+      "Sube despacio hasta 90°."
+    ],
+    "consejo": "Los codos no se mueven del costado.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 86,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -95,
+        "antebrazo": 0,
+        "brazo_b": -97,
+        "antebrazo_b": -3
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 86,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -95,
+        "antebrazo": -88,
+        "brazo_b": -97,
+        "antebrazo_b": -90
+      },
+      "props": {
+        "polea": [
+          74,
+          88
+        ],
+        "poste": [
+          74,
+          90
+        ],
+        "asa": true
+      }
+    }
+  },
+  {
+    "id": "prensa-piernas",
+    "nombre": "Prensa de piernas",
+    "lugar": "maquinas",
+    "principales": [
+      "cuadriceps",
+      "gluteos"
+    ],
+    "secundarios": [
+      "isquiotibiales",
+      "aductores"
+    ],
+    "nivel": "Principiante",
+    "series": "4 × 10-12",
+    "pasos": [
+      "Siéntate con la espalda apoyada y los pies en la plataforma a la anchura de la cadera.",
+      "Quita los seguros y baja doblando las rodillas a unos 90°.",
+      "Empuja hasta casi estirar, sin bloquear las rodillas."
+    ],
+    "consejo": "La zona lumbar siempre pegada al respaldo.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 45,
+        "y": 22,
+        "torso": 135,
+        "muslo": 60,
+        "pierna": -35,
+        "muslo_b": 57,
+        "pierna_b": -37,
+        "pie": 55,
+        "brazo": -60,
+        "antebrazo": -40,
+        "brazo_b": -62,
+        "antebrazo_b": -42
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 45,
+        "y": 22,
+        "torso": 135,
+        "muslo": 30,
+        "pierna": 25,
+        "muslo_b": 28,
+        "pierna_b": 23,
+        "pie": 115,
+        "brazo": -60,
+        "antebrazo": -40,
+        "brazo_b": -62,
+        "antebrazo_b": -42
+      },
+      "props": {
+        "banco": [
+          31,
+          55,
+          21
+        ],
+        "respaldo": [
+          43,
+          21,
+          135,
+          32
+        ]
+      }
+    }
+  },
+  {
+    "id": "extension-cuadriceps",
+    "nombre": "Extensión de cuádriceps",
+    "lugar": "maquinas",
+    "principales": [
+      "cuadriceps"
+    ],
+    "secundarios": [],
+    "nivel": "Principiante",
+    "series": "3 × 12-15",
+    "pasos": [
+      "Siéntate con el rodillo sobre los tobillos.",
+      "Estira las piernas hasta arriba.",
+      "Baja despacio."
+    ],
+    "consejo": "Aguanta un segundo arriba apretando el muslo.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 92,
+        "muslo": 0,
+        "pierna": -95,
+        "muslo_b": -3,
+        "pierna_b": -97,
+        "brazo": -100,
+        "antebrazo": -60,
+        "brazo_b": -93,
+        "antebrazo_b": -92
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 92,
+        "muslo": 0,
+        "pierna": -5,
+        "muslo_b": -3,
+        "pierna_b": -7,
+        "brazo": -100,
+        "antebrazo": -60,
+        "brazo_b": -93,
+        "antebrazo_b": -92
+      },
+      "props": {
+        "banco": [
+          24,
+          50,
+          21
+        ],
+        "respaldo": [
+          34,
+          21,
+          92,
+          34
+        ],
+        "rodillo": "tobilloa"
+      }
+    }
+  },
+  {
+    "id": "curl-femoral",
+    "nombre": "Curl femoral tumbado",
+    "lugar": "maquinas",
+    "principales": [
+      "isquiotibiales"
+    ],
+    "secundarios": [
+      "gemelos"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 12",
+    "pasos": [
+      "Túmbate boca abajo con el rodillo detrás de los tobillos.",
+      "Dobla las rodillas llevando los talones hacia los glúteos.",
+      "Baja controlando."
+    ],
+    "consejo": "No levantes la cadera del banco.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 24,
+        "torso": 178,
+        "muslo": 0,
+        "pierna": 0,
+        "muslo_b": -2,
+        "pierna_b": -2,
+        "brazo": -110,
+        "antebrazo": -20,
+        "brazo_b": -112,
+        "antebrazo_b": -22
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 24,
+        "torso": 178,
+        "muslo": 0,
+        "pierna": 110,
+        "muslo_b": -2,
+        "pierna_b": 108,
+        "brazo": -110,
+        "antebrazo": -20,
+        "brazo_b": -112,
+        "antebrazo_b": -22
+      },
+      "props": {
+        "banco": [
+          18,
+          80,
+          21
+        ],
+        "rodillo": "tobilloa"
+      }
+    }
+  },
+  {
+    "id": "maquina-aductores",
+    "nombre": "Máquina de aductores",
+    "lugar": "maquinas",
+    "principales": [
+      "aductores"
+    ],
+    "secundarios": [],
+    "nivel": "Principiante",
+    "series": "3 × 15",
+    "pasos": [
+      "Siéntate con las almohadillas por dentro de las rodillas.",
+      "Cierra las piernas juntando las almohadillas.",
+      "Abre despacio."
+    ],
+    "consejo": "Movimiento controlado, sin golpear las almohadillas.",
+    "animacion": {
+      "vista": "frente",
+      "a": {
+        "x": 60,
+        "y": 0,
+        "abd": 25,
+        "codo": -10,
+        "abre": 50,
+        "sentado": 1
+      },
+      "b": {
+        "x": 60,
+        "y": 0,
+        "abd": 25,
+        "codo": -10,
+        "abre": 8,
+        "sentado": 1
+      },
+      "props": {
+        "asa": true,
+        "banco": [
+          44,
+          76,
+          32
+        ]
+      }
+    }
+  },
+  {
+    "id": "maquina-abductores",
+    "nombre": "Máquina de abductores",
+    "lugar": "maquinas",
+    "principales": [
+      "abductores",
+      "gluteos"
+    ],
+    "secundarios": [],
+    "nivel": "Principiante",
+    "series": "3 × 15",
+    "pasos": [
+      "Siéntate con las almohadillas por fuera de las rodillas.",
+      "Abre las piernas empujando hacia fuera.",
+      "Cierra despacio."
+    ],
+    "consejo": "Inclinar un poco el tronco adelante activa más el glúteo.",
+    "animacion": {
+      "vista": "frente",
+      "a": {
+        "x": 60,
+        "y": 0,
+        "abd": 25,
+        "codo": -10,
+        "abre": 8,
+        "sentado": 1
+      },
+      "b": {
+        "x": 60,
+        "y": 0,
+        "abd": 25,
+        "codo": -10,
+        "abre": 50,
+        "sentado": 1
+      },
+      "props": {
+        "asa": true,
+        "banco": [
+          44,
+          76,
+          32
+        ]
+      }
+    }
+  },
+  {
+    "id": "gemelos-maquina",
+    "nombre": "Gemelos en máquina",
+    "lugar": "maquinas",
+    "principales": [
+      "gemelos"
+    ],
+    "secundarios": [],
+    "nivel": "Principiante",
+    "series": "4 × 15",
+    "pasos": [
+      "Colócate con los hombros bajo las almohadillas y la punta de los pies en el escalón.",
+      "Sube de puntillas.",
+      "Baja hasta estirar el gemelo."
+    ],
+    "consejo": "Recorrido completo y sin rebotes.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 6,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -60,
+        "antebrazo": 100,
+        "brazo_b": -62,
+        "antebrazo_b": 100,
+        "pie": -10
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 10.5,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -60,
+        "antebrazo": 100,
+        "brazo_b": -62,
+        "antebrazo_b": 100,
+        "pie": -55
+      },
+      "props": {
+        "escalon": [
+          62,
+          90,
+          5
+        ],
+        "rodillo": "hombro"
+      }
+    }
+  },
+  {
+    "id": "crunch-polea",
+    "nombre": "Crunch en polea alta",
+    "lugar": "maquinas",
+    "principales": [
+      "abdominales"
+    ],
+    "secundarios": [
+      "oblicuos"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 15",
+    "pasos": [
+      "De rodillas frente a la polea alta, sujeta la cuerda junto a la cabeza.",
+      "Enrolla el tronco llevando los codos hacia las rodillas.",
+      "Vuelve despacio."
+    ],
+    "consejo": "La cadera no se mueve; el que trabaja es el abdomen.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 45,
+        "y": 21,
+        "torso": 88,
+        "muslo": -90,
+        "pierna": 180,
+        "muslo_b": -92,
+        "pierna_b": 180,
+        "pie": 180,
+        "brazo": 120,
+        "antebrazo": -60,
+        "brazo_b": 118,
+        "antebrazo_b": -62
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 45,
+        "y": 21,
+        "torso": 20,
+        "muslo": -90,
+        "pierna": 180,
+        "muslo_b": -92,
+        "pierna_b": 180,
+        "pie": 180,
+        "brazo": 60,
+        "antebrazo": -120,
+        "brazo_b": 58,
+        "antebrazo_b": -122
+      },
+      "props": {
+        "polea": [
+          60,
+          88
+        ],
+        "poste": [
+          60,
+          90
+        ],
+        "esterilla": [
+          15,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "lenador-polea",
+    "nombre": "Leñador en polea",
+    "lugar": "maquinas",
+    "principales": [
+      "oblicuos"
+    ],
+    "secundarios": [
+      "abdominales",
+      "hombros"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 12 por lado",
+    "pasos": [
+      "De lado a la polea alta, agarra el asa con las dos manos.",
+      "Gira el tronco tirando en diagonal hacia la rodilla contraria.",
+      "Vuelve despacio."
+    ],
+    "consejo": "El giro sale del tronco, los brazos casi estirados.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 95,
+        "muslo": -80,
+        "pierna": -92,
+        "muslo_b": -100,
+        "pierna_b": -90,
+        "brazo": 150,
+        "antebrazo": 150,
+        "brazo_b": 148,
+        "antebrazo_b": 148
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 80,
+        "muslo": -80,
+        "pierna": -92,
+        "muslo_b": -100,
+        "pierna_b": -90,
+        "brazo": -60,
+        "antebrazo": -60,
+        "brazo_b": -62,
+        "antebrazo_b": -62
+      },
+      "props": {
+        "polea": [
+          25,
+          88
+        ],
+        "poste": [
+          25,
+          90
+        ],
+        "asa": true
+      }
+    }
+  },
+  {
+    "id": "press-inclinado-maquina",
+    "nombre": "Press inclinado en máquina",
+    "lugar": "maquinas",
+    "principales": [
+      "pecho"
+    ],
+    "secundarios": [
+      "hombros",
+      "triceps"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10-12",
+    "pasos": [
+      "Ajusta el asiento para que las asas queden a la altura de la parte alta del pecho.",
+      "Apoya bien la espalda en el respaldo.",
+      "Empuja las asas hacia delante y arriba hasta estirar los brazos.",
+      "Vuelve despacio sin dejar caer el peso."
+    ],
+    "consejo": "No despegues los hombros del respaldo al empujar.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 92,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": -165,
+        "antebrazo": 0,
+        "brazo_b": -160,
+        "antebrazo_b": 0
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 92,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": 38,
+        "antebrazo": 38,
+        "brazo_b": 36,
+        "antebrazo_b": 36
+      },
+      "props": {
+        "banco": [
+          24,
+          50,
+          21
+        ],
+        "respaldo": [
+          34,
+          21,
+          92,
+          34
+        ],
+        "asa": true
+      }
+    }
+  },
+  {
+    "id": "fondos-asistidos",
+    "nombre": "Fondos en máquina asistida",
+    "lugar": "maquinas",
+    "principales": [
+      "triceps",
+      "pecho"
+    ],
+    "secundarios": [
+      "hombros"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 8-12",
+    "pasos": [
+      "Elige el peso de ayuda: cuanto más peso, más fácil.",
+      "Apoya las rodillas en la plataforma y coge las barras paralelas.",
+      "Baja doblando los codos hasta que formen un ángulo recto.",
+      "Sube estirando los brazos."
+    ],
+    "consejo": "Tronco recto para trabajar más tríceps; inclinado hacia delante para más pecho.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "mano",
+        "x": 62,
+        "y": 48,
+        "torso": 90,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -91,
+        "antebrazo_b": -91,
+        "muslo": -95,
+        "pierna": 180,
+        "muslo_b": -97,
+        "pierna_b": 180,
+        "pie": 180,
+        "pie_b": 180
+      },
+      "b": {
+        "anclaje": "mano",
+        "x": 62,
+        "y": 48,
+        "torso": 82,
+        "brazo": -160,
+        "antebrazo": -60,
+        "brazo_b": -161,
+        "antebrazo_b": -61,
+        "muslo": -95,
+        "pierna": 180,
+        "muslo_b": -97,
+        "pierna_b": 180,
+        "pie": 180,
+        "pie_b": 180
+      },
+      "props": {
+        "poste": [
+          64,
+          46
+        ],
+        "asa": true
+      }
+    }
+  },
+  {
+    "id": "elevacion-lateral-polea",
+    "nombre": "Elevación lateral en polea",
+    "lugar": "maquinas",
+    "principales": [
+      "hombros"
+    ],
+    "secundarios": [
+      "trapecio"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 12-15 por brazo",
+    "pasos": [
+      "Pon la polea abajo y colócate de lado a la máquina.",
+      "Coge el asa con la mano más alejada.",
+      "Sube el brazo hacia un lado hasta la altura del hombro.",
+      "Baja despacio resistiendo el cable."
+    ],
+    "consejo": "La polea mantiene la tensión todo el recorrido: no hace falta mucho peso.",
+    "animacion": {
+      "vista": "frente",
+      "a": {
+        "x": 60,
+        "y": 0,
+        "abd": 10,
+        "codo": 8,
+        "abre": 6
+      },
+      "b": {
+        "x": 60,
+        "y": 0,
+        "abd": 85,
+        "codo": 8,
+        "abre": 6
+      },
+      "props": {
+        "asa": true
+      }
+    }
+  },
+  {
+    "id": "pajaros-maquina",
+    "nombre": "Pájaros en máquina (contractor inverso)",
+    "lugar": "maquinas",
+    "principales": [
+      "hombros"
+    ],
+    "secundarios": [
+      "trapecio",
+      "espalda"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 12-15",
+    "pasos": [
+      "Siéntate mirando al respaldo con el pecho apoyado.",
+      "Coge las asas con los brazos estirados delante.",
+      "Abre los brazos hacia atrás hasta que queden en línea con los hombros.",
+      "Vuelve despacio."
+    ],
+    "consejo": "Piensa en llevar las manos lejos, no en juntar las escápulas.",
+    "animacion": {
+      "vista": "frente",
+      "a": {
+        "x": 60,
+        "y": 0,
+        "abd": 40,
+        "codo": 150,
+        "abre": 12,
+        "sentado": 1
+      },
+      "b": {
+        "x": 60,
+        "y": 0,
+        "abd": 92,
+        "codo": 0,
+        "abre": 12,
+        "sentado": 1
+      },
+      "props": {
+        "asa": true,
+        "banco": [
+          44,
+          76,
+          32
+        ]
+      }
+    }
+  },
+  {
+    "id": "dominadas-asistidas",
+    "nombre": "Dominadas asistidas en máquina",
+    "lugar": "maquinas",
+    "principales": [
+      "espalda"
+    ],
+    "secundarios": [
+      "biceps",
+      "antebrazos"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 8-10",
+    "pasos": [
+      "Elige el peso de ayuda y apoya las rodillas en la plataforma.",
+      "Coge las asas con las palmas hacia delante, algo más abiertas que los hombros.",
+      "Tira llevando el pecho hacia las manos hasta pasar la barbilla.",
+      "Baja despacio hasta estirar los brazos."
+    ],
+    "consejo": "Ve quitando peso de ayuda poco a poco hasta poder hacerlas sin máquina.",
+    "animacion": {
+      "vista": "frente",
+      "a": {
+        "x": 60,
+        "y": 0,
+        "abd": 150,
+        "codo": 0,
+        "abre": 6
+      },
+      "b": {
+        "x": 60,
+        "y": 10,
+        "abd": 70,
+        "codo": 125,
+        "abre": 6
+      },
+      "props": {
+        "barra": true
+      }
+    }
+  },
+  {
+    "id": "jalon-agarre-estrecho",
+    "nombre": "Jalón con agarre estrecho",
+    "lugar": "maquinas",
+    "principales": [
+      "espalda"
+    ],
+    "secundarios": [
+      "biceps"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10-12",
+    "pasos": [
+      "Pon el asa de agarre estrecho en la polea alta y siéntate con las piernas sujetas.",
+      "Coge el asa con las palmas enfrentadas.",
+      "Tira hacia la parte alta del pecho llevando los codos hacia abajo.",
+      "Sube despacio estirando los brazos."
+    ],
+    "consejo": "Inclina un poco el tronco hacia atrás, sin balancearte.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 100,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": 82,
+        "antebrazo": 86,
+        "brazo_b": 80,
+        "antebrazo_b": 84
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 104,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": -100,
+        "antebrazo": 72,
+        "brazo_b": -102,
+        "antebrazo_b": 70
+      },
+      "props": {
+        "banco": [
+          24,
+          50,
+          21
+        ],
+        "polea": [
+          46,
+          104
+        ],
+        "asa": true
+      }
+    }
+  },
+  {
+    "id": "remo-maquina-pecho",
+    "nombre": "Remo en máquina con apoyo de pecho",
+    "lugar": "maquinas",
+    "principales": [
+      "espalda"
+    ],
+    "secundarios": [
+      "trapecio",
+      "biceps",
+      "hombros"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10-12",
+    "pasos": [
+      "Ajusta el asiento para que el pecho quede apoyado en el respaldo.",
+      "Coge las asas con los brazos estirados.",
+      "Tira hacia atrás juntando las escápulas.",
+      "Vuelve despacio sin despegar el pecho."
+    ],
+    "consejo": "El apoyo del pecho protege la zona lumbar: ideal para empezar.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 82,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": 0,
+        "antebrazo": 0,
+        "brazo_b": -2,
+        "antebrazo_b": -2
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 82,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": -172,
+        "antebrazo": 8,
+        "brazo_b": -174,
+        "antebrazo_b": 6
+      },
+      "props": {
+        "banco": [
+          24,
+          50,
+          21
+        ],
+        "respaldo": [
+          56,
+          36,
+          88,
+          30
+        ],
+        "asa": true
+      }
+    }
+  },
+  {
+    "id": "pullover-polea",
+    "nombre": "Pullover en polea alta",
+    "lugar": "maquinas",
+    "principales": [
+      "espalda"
+    ],
+    "secundarios": [
+      "triceps",
+      "abdominales"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 12-15",
+    "pasos": [
+      "Ponte de pie frente a la polea alta con una barra recta o cuerda.",
+      "Inclina un poco el tronco con los brazos casi estirados.",
+      "Baja la barra en arco hasta los muslos.",
+      "Vuelve despacio hasta la altura de la cabeza."
+    ],
+    "consejo": "No dobles los codos durante el movimiento: así trabajan los dorsales.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 62,
+        "muslo": -80,
+        "pierna": -96,
+        "muslo_b": -83,
+        "pierna_b": -97,
+        "brazo": 55,
+        "antebrazo": 58,
+        "brazo_b": 53,
+        "antebrazo_b": 56
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 62,
+        "muslo": -80,
+        "pierna": -96,
+        "muslo_b": -83,
+        "pierna_b": -97,
+        "brazo": -80,
+        "antebrazo": -78,
+        "brazo_b": -82,
+        "antebrazo_b": -80
+      },
+      "props": {
+        "polea": [
+          104,
+          92
+        ],
+        "poste": [
+          104,
+          94
+        ],
+        "asa": true
+      }
+    }
+  },
+  {
+    "id": "curl-scott-maquina",
+    "nombre": "Curl en máquina Scott",
+    "lugar": "maquinas",
+    "principales": [
+      "biceps"
+    ],
+    "secundarios": [
+      "antebrazos"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10-12",
+    "pasos": [
+      "Ajusta el asiento para que los brazos queden bien apoyados en el cojín.",
+      "Coge las asas con las palmas hacia arriba.",
+      "Sube doblando los codos.",
+      "Baja despacio sin estirar del todo de golpe."
+    ],
+    "consejo": "Controla la bajada: es donde más se trabaja el bíceps.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 78,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": -40,
+        "antebrazo": -28,
+        "brazo_b": -42,
+        "antebrazo_b": -30
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 78,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": -40,
+        "antebrazo": 85,
+        "brazo_b": -42,
+        "antebrazo_b": 83
+      },
+      "props": {
+        "banco": [
+          24,
+          50,
+          21
+        ],
+        "asa": true
+      }
+    }
+  },
+  {
+    "id": "extension-triceps-cuerda",
+    "nombre": "Extensión de tríceps con cuerda sobre la cabeza",
+    "lugar": "maquinas",
+    "principales": [
+      "triceps"
+    ],
+    "secundarios": [
+      "hombros"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 12",
+    "pasos": [
+      "Pon la cuerda en la polea baja y colócate de espaldas a la máquina.",
+      "Sujeta la cuerda detrás de la cabeza con los codos apuntando arriba.",
+      "Estira los brazos hacia arriba y hacia delante.",
+      "Vuelve despacio doblando los codos."
+    ],
+    "consejo": "Mantén los codos cerca de la cabeza, sin abrirlos.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 72,
+        "muslo": -75,
+        "pierna": -95,
+        "muslo_b": -105,
+        "pierna_b": -92,
+        "brazo": 112,
+        "antebrazo": -112,
+        "brazo_b": 110,
+        "antebrazo_b": -114
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 72,
+        "muslo": -75,
+        "pierna": -95,
+        "muslo_b": -105,
+        "pierna_b": -92,
+        "brazo": 112,
+        "antebrazo": 62,
+        "brazo_b": 110,
+        "antebrazo_b": 60
+      },
+      "props": {
+        "polea": [
+          22,
+          8
+        ],
+        "poste": [
+          22,
+          14
+        ],
+        "asa": true
+      }
+    }
+  },
+  {
+    "id": "sentadilla-hack",
+    "nombre": "Sentadilla hack",
+    "lugar": "maquinas",
+    "principales": [
+      "cuadriceps",
+      "gluteos"
+    ],
+    "secundarios": [
+      "aductores"
+    ],
+    "nivel": "Intermedio",
+    "series": "4 × 8-12",
+    "pasos": [
+      "Apoya la espalda y los hombros en los cojines de la máquina.",
+      "Coloca los pies a la anchura de los hombros en la plataforma.",
+      "Quita los seguros y baja doblando las rodillas.",
+      "Sube empujando con toda la planta del pie."
+    ],
+    "consejo": "Pies más adelantados = más glúteo; más atrás = más cuádriceps.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -150,
+        "antebrazo": 60,
+        "brazo_b": -146,
+        "antebrazo_b": 62
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 72,
+        "muslo": -10,
+        "pierna": -115,
+        "muslo_b": -13,
+        "pierna_b": -116,
+        "brazo": -168,
+        "antebrazo": 42,
+        "brazo_b": -164,
+        "antebrazo_b": 44
+      },
+      "props": {
+        "barra": "hombro"
+      }
+    }
+  },
+  {
+    "id": "sentadilla-multipower",
+    "nombre": "Sentadilla en multipower",
+    "lugar": "maquinas",
+    "principales": [
+      "cuadriceps",
+      "gluteos"
+    ],
+    "secundarios": [
+      "isquiotibiales",
+      "aductores"
+    ],
+    "nivel": "Principiante",
+    "series": "4 × 8-12",
+    "pasos": [
+      "Colócate bajo la barra guiada con ella apoyada en la parte alta de la espalda.",
+      "Adelanta un poco los pies.",
+      "Gira la barra para soltar los seguros y baja como si te sentaras.",
+      "Sube empujando con los talones."
+    ],
+    "consejo": "La barra guiada da seguridad para entrenar sin compañero.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -150,
+        "antebrazo": 60,
+        "brazo_b": -146,
+        "antebrazo_b": 62
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 55,
+        "muslo": -10,
+        "pierna": -115,
+        "muslo_b": -13,
+        "pierna_b": -116,
+        "brazo": -185,
+        "antebrazo": 25,
+        "brazo_b": -181,
+        "antebrazo_b": 27
+      },
+      "props": {
+        "barra": "hombro",
+        "poste": [
+          84,
+          100
+        ]
+      }
+    }
+  },
+  {
+    "id": "curl-femoral-sentado",
+    "nombre": "Curl femoral sentado",
+    "lugar": "maquinas",
+    "principales": [
+      "isquiotibiales"
+    ],
+    "secundarios": [
+      "gemelos"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10-12",
+    "pasos": [
+      "Siéntate con la parte de atrás de las rodillas en el borde del asiento.",
+      "Coloca el rodillo sobre los tobillos y baja la sujeción de los muslos.",
+      "Dobla las rodillas llevando los talones hacia abajo y atrás.",
+      "Vuelve despacio."
+    ],
+    "consejo": "Inclínate un poco hacia delante para estirar más los isquiotibiales.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 92,
+        "muslo": 0,
+        "pierna": -5,
+        "muslo_b": -3,
+        "pierna_b": -7,
+        "brazo": -100,
+        "antebrazo": -60,
+        "brazo_b": -93,
+        "antebrazo_b": -92
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 92,
+        "muslo": 0,
+        "pierna": -112,
+        "muslo_b": -3,
+        "pierna_b": -114,
+        "brazo": -100,
+        "antebrazo": -60,
+        "brazo_b": -93,
+        "antebrazo_b": -92
+      },
+      "props": {
+        "banco": [
+          24,
+          50,
+          21
+        ],
+        "respaldo": [
+          34,
+          21,
+          92,
+          34
+        ],
+        "rodillo": "tobilloa"
+      }
+    }
+  },
+  {
+    "id": "patada-gluteo-polea",
+    "nombre": "Patada de glúteo en polea",
+    "lugar": "maquinas",
+    "principales": [
+      "gluteos"
+    ],
+    "secundarios": [
+      "isquiotibiales"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 12-15 por pierna",
+    "pasos": [
+      "Pon la tobillera en la polea baja y sujétala a un tobillo.",
+      "Agárrate a la máquina con el tronco algo inclinado.",
+      "Lleva la pierna hacia atrás con la rodilla casi estirada.",
+      "Vuelve despacio sin apoyar el pie."
+    ],
+    "consejo": "No arquees la espalda: el movimiento sale de la cadera.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 80,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -95,
+        "pierna_b": -95,
+        "brazo": -20,
+        "antebrazo": 0,
+        "brazo_b": -22,
+        "antebrazo_b": -2
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 78,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -145,
+        "pierna_b": -150,
+        "brazo": -20,
+        "antebrazo": 0,
+        "brazo_b": -22,
+        "antebrazo_b": -2
+      },
+      "props": {
+        "poste": [
+          93,
+          62
+        ]
+      }
+    }
+  },
+  {
+    "id": "hip-thrust-maquina",
+    "nombre": "Hip thrust en máquina",
+    "lugar": "maquinas",
+    "principales": [
+      "gluteos"
+    ],
+    "secundarios": [
+      "isquiotibiales"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10-12",
+    "pasos": [
+      "Siéntate con la espalda apoyada y el cinturón o almohadilla sobre la cadera.",
+      "Apoya los pies a la anchura de las caderas.",
+      "Sube la cadera hasta que el cuerpo quede recto de hombros a rodillas.",
+      "Aprieta glúteos arriba y baja despacio."
+    ],
+    "consejo": "Mira hacia delante, no al techo, para no arquear la espalda.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 45,
+        "y": 11,
+        "torso": 158,
+        "muslo": 30,
+        "pierna": -85,
+        "muslo_b": 27,
+        "pierna_b": -87,
+        "brazo": -20,
+        "antebrazo": -20,
+        "brazo_b": -22,
+        "antebrazo_b": -22
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 45,
+        "y": 22,
+        "torso": 176,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -91,
+        "brazo": -5,
+        "antebrazo": -5,
+        "brazo_b": -7,
+        "antebrazo_b": -7
+      },
+      "props": {
+        "banco": [
+          0,
+          20,
+          21
+        ],
+        "barra": "cadera"
+      }
+    }
+  },
+  {
+    "id": "gemelos-sentado",
+    "nombre": "Gemelos sentado en máquina",
+    "lugar": "maquinas",
+    "principales": [
+      "gemelos"
+    ],
+    "secundarios": [],
+    "nivel": "Principiante",
+    "series": "4 × 12-15",
+    "pasos": [
+      "Siéntate con las puntas de los pies en la plataforma y las rodillas bajo el cojín.",
+      "Quita el seguro.",
+      "Sube los talones todo lo que puedas.",
+      "Baja despacio hasta notar estiramiento."
+    ],
+    "consejo": "Haz una pausa arriba y otra abajo en cada repetición.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 92,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": -80,
+        "antebrazo": -20,
+        "brazo_b": -82,
+        "antebrazo_b": -22,
+        "pie": 0
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 27,
+        "torso": 92,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": -80,
+        "antebrazo": -20,
+        "brazo_b": -82,
+        "antebrazo_b": -22,
+        "pie": -50
+      },
+      "props": {
+        "banco": [
+          24,
+          50,
+          21
+        ],
+        "rodillo": "rodillaa"
+      }
+    }
+  },
+  {
+    "id": "crunch-maquina",
+    "nombre": "Crunch en máquina abdominal",
+    "lugar": "maquinas",
+    "principales": [
+      "abdominales"
+    ],
+    "secundarios": [
+      "oblicuos"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 12-15",
+    "pasos": [
+      "Siéntate y sujeta las asas o apoya los brazos en los cojines.",
+      "Engancha los pies si la máquina lo tiene.",
+      "Encoge el tronco llevando el pecho hacia las caderas.",
+      "Vuelve despacio sin soltar la tensión."
+    ],
+    "consejo": "Suelta el aire al encogerte y no tires con los brazos.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 92,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": 100,
+        "antebrazo": -80,
+        "brazo_b": 98,
+        "antebrazo_b": -82
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 24,
+        "torso": 48,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": 56,
+        "antebrazo": -124,
+        "brazo_b": 54,
+        "antebrazo_b": -126
+      },
+      "props": {
+        "banco": [
+          24,
+          50,
+          21
+        ],
+        "asa": true
+      }
+    }
+  },
+  {
+    "id": "elevacion-piernas-paralelas",
+    "nombre": "Elevación de piernas en silla romana",
+    "lugar": "maquinas",
+    "principales": [
+      "abdominales"
+    ],
+    "secundarios": [
+      "oblicuos"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 10-15",
+    "pasos": [
+      "Apoya los antebrazos y la espalda en la silla, con las piernas colgando.",
+      "Sube las rodillas hacia el pecho.",
+      "Inclina un poco la pelvis hacia arriba al final.",
+      "Baja despacio sin balancearte."
+    ],
+    "consejo": "Si es fácil, hazlo con las piernas estiradas.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 50,
+        "torso": 92,
+        "brazo": -90,
+        "antebrazo": 0,
+        "brazo_b": -91,
+        "antebrazo_b": -1,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -92,
+        "pierna_b": -92
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 50,
+        "torso": 95,
+        "brazo": -90,
+        "antebrazo": 0,
+        "brazo_b": -91,
+        "antebrazo_b": -1,
+        "muslo": 8,
+        "pierna": -60,
+        "muslo_b": 6,
+        "pierna_b": -62
+      },
+      "props": {
+        "respaldo": [
+          50,
+          44,
+          92,
+          40
+        ],
+        "poste": [
+          50,
+          64
+        ]
+      }
+    }
+  },
+  {
+    "id": "flexiones",
+    "nombre": "Flexiones",
+    "lugar": "casa",
+    "principales": [
+      "pecho"
+    ],
+    "secundarios": [
+      "triceps",
+      "hombros",
+      "abdominales"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10-15",
+    "pasos": [
+      "Manos en el suelo algo más abiertas que los hombros, cuerpo recto.",
+      "Baja el pecho hasta casi tocar el suelo.",
+      "Empuja hasta estirar los brazos."
+    ],
+    "consejo": "Si cuesta, apoya las rodillas en el suelo.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "mano",
+        "x": 78,
+        "y": 0,
+        "torso": 23,
+        "muslo": -157,
+        "pierna": -157,
+        "muslo_b": -158,
+        "pierna_b": -158,
+        "pie": -90,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -91,
+        "antebrazo_b": -91
+      },
+      "b": {
+        "anclaje": "mano",
+        "x": 78,
+        "y": 0,
+        "torso": 10,
+        "muslo": -170,
+        "pierna": -170,
+        "muslo_b": -171,
+        "pierna_b": -171,
+        "pie": -90,
+        "brazo": -150,
+        "antebrazo": -35,
+        "brazo_b": -151,
+        "antebrazo_b": -36
+      },
+      "props": {
+        "esterilla": [
+          10,
+          95
+        ]
+      }
+    }
+  },
+  {
+    "id": "flexiones-diamante",
+    "nombre": "Flexiones diamante",
+    "lugar": "casa",
+    "principales": [
+      "triceps"
+    ],
+    "secundarios": [
+      "pecho",
+      "hombros"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 8-12",
+    "pasos": [
+      "Junta las manos bajo el pecho formando un rombo con los dedos.",
+      "Baja con los codos pegados al cuerpo.",
+      "Empuja hasta arriba."
+    ],
+    "consejo": "Más difíciles que las normales: empieza con pocas.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "mano",
+        "x": 78,
+        "y": 0,
+        "torso": 23,
+        "muslo": -157,
+        "pierna": -157,
+        "muslo_b": -158,
+        "pierna_b": -158,
+        "pie": -90,
+        "brazo": -95,
+        "antebrazo": -85,
+        "brazo_b": -96,
+        "antebrazo_b": -86
+      },
+      "b": {
+        "anclaje": "mano",
+        "x": 78,
+        "y": 0,
+        "torso": 10,
+        "muslo": -170,
+        "pierna": -170,
+        "muslo_b": -171,
+        "pierna_b": -171,
+        "pie": -90,
+        "brazo": -165,
+        "antebrazo": -25,
+        "brazo_b": -166,
+        "antebrazo_b": -26
+      },
+      "props": {
+        "esterilla": [
+          10,
+          95
+        ]
+      }
+    }
+  },
+  {
+    "id": "flexiones-pica",
+    "nombre": "Flexiones en pica",
+    "lugar": "casa",
+    "principales": [
+      "hombros"
+    ],
+    "secundarios": [
+      "triceps",
+      "trapecio"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 8-10",
+    "pasos": [
+      "Ponte en forma de V invertida con la cadera alta.",
+      "Dobla los codos llevando la cabeza hacia el suelo.",
+      "Empuja para volver."
+    ],
+    "consejo": "Cuanto más alta la cadera, más trabaja el hombro.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "mano",
+        "x": 78,
+        "y": 0,
+        "torso": -55,
+        "muslo": -120,
+        "pierna": -120,
+        "muslo_b": -121,
+        "pierna_b": -121,
+        "pie": -60,
+        "cuello": 40,
+        "brazo": -55,
+        "antebrazo": -55,
+        "brazo_b": -56,
+        "antebrazo_b": -56
+      },
+      "b": {
+        "anclaje": "mano",
+        "x": 78,
+        "y": 0,
+        "torso": -55,
+        "muslo": -120,
+        "pierna": -120,
+        "muslo_b": -121,
+        "pierna_b": -121,
+        "pie": -60,
+        "cuello": 40,
+        "brazo": -150,
+        "antebrazo": -60,
+        "brazo_b": -151,
+        "antebrazo_b": -61
+      },
+      "props": {
+        "esterilla": [
+          10,
+          95
+        ]
+      }
+    }
+  },
+  {
+    "id": "fondos-silla",
+    "nombre": "Fondos en silla",
+    "lugar": "casa",
+    "principales": [
+      "triceps"
+    ],
+    "secundarios": [
+      "pecho",
+      "hombros"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10-12",
+    "pasos": [
+      "Apoya las manos en el borde de una silla estable, de espaldas a ella.",
+      "Baja doblando los codos hasta 90°.",
+      "Sube estirando los brazos."
+    ],
+    "consejo": "Asegúrate de que la silla no se mueva; mejor contra la pared.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "mano",
+        "x": 36,
+        "y": 21,
+        "torso": 92,
+        "muslo": 5,
+        "pierna": -78,
+        "muslo_b": 2,
+        "pierna_b": -80,
+        "brazo": -115,
+        "antebrazo": -100,
+        "brazo_b": -117,
+        "antebrazo_b": -101
+      },
+      "b": {
+        "anclaje": "mano",
+        "x": 36,
+        "y": 21,
+        "torso": 92,
+        "muslo": 30,
+        "pierna": -75,
+        "muslo_b": 27,
+        "pierna_b": -77,
+        "brazo": -160,
+        "antebrazo": -75,
+        "brazo_b": -161,
+        "antebrazo_b": -76
+      },
+      "props": {
+        "banco": [
+          16,
+          38,
+          21
+        ],
+        "respaldo": [
+          17,
+          21,
+          90,
+          22
+        ]
+      }
+    }
+  },
+  {
+    "id": "remo-toalla",
+    "nombre": "Remo en mesa o con toalla en puerta",
+    "lugar": "casa",
+    "principales": [
+      "espalda"
+    ],
+    "secundarios": [
+      "biceps"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 10",
+    "pasos": [
+      "Túmbate bajo una mesa firme y agárrate al borde (o usa una toalla en una puerta cerrada).",
+      "Tira del pecho hacia la mesa con el cuerpo recto.",
+      "Baja despacio."
+    ],
+    "consejo": "Comprueba siempre que la mesa o la puerta aguantan tu peso.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "mano",
+        "x": 88,
+        "y": 55,
+        "torso": 22,
+        "muslo": 202,
+        "pierna": 202,
+        "muslo_b": 201,
+        "pierna_b": 201,
+        "pie": 110,
+        "brazo": 95,
+        "antebrazo": 95,
+        "brazo_b": 93,
+        "antebrazo_b": 93
+      },
+      "b": {
+        "anclaje": "mano",
+        "x": 88,
+        "y": 55,
+        "torso": 40,
+        "muslo": 220,
+        "pierna": 220,
+        "muslo_b": 219,
+        "pierna_b": 219,
+        "pie": 125,
+        "brazo": -170,
+        "antebrazo": 50,
+        "brazo_b": -172,
+        "antebrazo_b": 48
+      },
+      "props": {
+        "banco": [
+          60,
+          118,
+          57
+        ]
+      }
+    }
+  },
+  {
+    "id": "superman",
+    "nombre": "Superman",
+    "lugar": "casa",
+    "principales": [
+      "lumbares"
+    ],
+    "secundarios": [
+      "gluteos",
+      "espalda"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 12",
+    "pasos": [
+      "Túmbate boca abajo con los brazos estirados por delante.",
+      "Levanta a la vez brazos, pecho y piernas del suelo.",
+      "Aguanta 2 segundos y baja."
+    ],
+    "consejo": "Mira al suelo para no forzar el cuello.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 3.5,
+        "torso": 0,
+        "muslo": 180,
+        "pierna": 180,
+        "muslo_b": 181,
+        "pierna_b": 181,
+        "pie": -90,
+        "brazo": 0,
+        "antebrazo": 0,
+        "brazo_b": 1,
+        "antebrazo_b": 1
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 3.5,
+        "torso": 12,
+        "muslo": 172,
+        "pierna": 172,
+        "muslo_b": 173,
+        "pierna_b": 173,
+        "pie": -80,
+        "brazo": 15,
+        "antebrazo": 15,
+        "brazo_b": 16,
+        "antebrazo_b": 16
+      },
+      "props": {
+        "esterilla": [
+          0,
+          120
+        ]
+      }
+    }
+  },
+  {
+    "id": "curl-mochila",
+    "nombre": "Curl de bíceps con mochila",
+    "lugar": "casa",
+    "principales": [
+      "biceps"
+    ],
+    "secundarios": [
+      "antebrazos"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 12",
+    "pasos": [
+      "Llena una mochila con libros o botellas y cógela por el asa.",
+      "Dobla el codo subiendo la mochila.",
+      "Baja despacio."
+    ],
+    "consejo": "Puedes usar garrafas de agua como peso.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -88,
+        "antebrazo": -85,
+        "brazo_b": -94,
+        "antebrazo_b": -92
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -82,
+        "antebrazo": 70,
+        "brazo_b": -85,
+        "antebrazo_b": -88
+      },
+      "props": {
+        "mochila": true
+      }
+    }
+  },
+  {
+    "id": "sentadilla",
+    "nombre": "Sentadilla",
+    "lugar": "casa",
+    "principales": [
+      "cuadriceps",
+      "gluteos"
+    ],
+    "secundarios": [
+      "isquiotibiales",
+      "aductores"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 15-20",
+    "pasos": [
+      "Pies a la anchura de los hombros, brazos al frente.",
+      "Baja la cadera atrás como si te sentaras.",
+      "Sube empujando con los talones."
+    ],
+    "consejo": "Espalda recta y peso en todo el pie.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -88,
+        "antebrazo": -88,
+        "brazo_b": -90,
+        "antebrazo_b": -90
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 60,
+        "muslo": -10,
+        "pierna": -115,
+        "muslo_b": -13,
+        "pierna_b": -116,
+        "brazo": 0,
+        "antebrazo": 0,
+        "brazo_b": -2,
+        "antebrazo_b": -2
+      }
+    }
+  },
+  {
+    "id": "zancadas",
+    "nombre": "Zancadas alternas",
+    "lugar": "casa",
+    "principales": [
+      "cuadriceps",
+      "gluteos"
+    ],
+    "secundarios": [
+      "isquiotibiales"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 12 por pierna",
+    "pasos": [
+      "De pie, da un paso largo hacia delante.",
+      "Baja hasta que la rodilla de atrás casi toque el suelo.",
+      "Vuelve y cambia de pierna."
+    ],
+    "consejo": "Tronco recto y pasos amplios.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 42.5,
+        "torso": 90,
+        "muslo": -80,
+        "pierna": -92,
+        "muslo_b": -100,
+        "pierna_b": -92,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -93,
+        "antebrazo_b": -91
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 23,
+        "torso": 90,
+        "muslo": -5,
+        "pierna": -90,
+        "muslo_b": -112,
+        "pierna_b": -175,
+        "pie_b": -60,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -93,
+        "antebrazo_b": -91
+      }
+    }
+  },
+  {
+    "id": "sentadilla-bulgara",
+    "nombre": "Sentadilla búlgara",
+    "lugar": "casa",
+    "principales": [
+      "cuadriceps",
+      "gluteos"
+    ],
+    "secundarios": [
+      "aductores",
+      "isquiotibiales"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 10 por pierna",
+    "pasos": [
+      "Apoya el empeine de un pie en una silla detrás de ti.",
+      "Baja con la pierna delantera hasta 90°.",
+      "Sube empujando con el talón delantero."
+    ],
+    "consejo": "Muy exigente: con el peso del cuerpo ya es suficiente.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 60,
+        "y": 40,
+        "torso": 88,
+        "muslo": -80,
+        "pierna": -92,
+        "muslo_b": -120,
+        "pierna_b": 180,
+        "pie_b": 200,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -93,
+        "antebrazo_b": -91
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 60,
+        "y": 23,
+        "torso": 85,
+        "muslo": -5,
+        "pierna": -90,
+        "muslo_b": -125,
+        "pierna_b": 140,
+        "pie_b": 200,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -93,
+        "antebrazo_b": -91
+      },
+      "props": {
+        "banco": [
+          8,
+          34,
+          21
+        ]
+      }
+    }
+  },
+  {
+    "id": "puente-gluteos",
+    "nombre": "Puente de glúteos",
+    "lugar": "casa",
+    "principales": [
+      "gluteos"
+    ],
+    "secundarios": [
+      "isquiotibiales",
+      "lumbares"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 15",
+    "pasos": [
+      "Túmbate boca arriba con las rodillas dobladas y pies en el suelo.",
+      "Sube la cadera apretando los glúteos.",
+      "Baja despacio sin tocar del todo el suelo."
+    ],
+    "consejo": "Para más dificultad, hazlo con una sola pierna.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 58,
+        "y": 4,
+        "torso": 178,
+        "muslo": 35,
+        "pierna": -80,
+        "muslo_b": 33,
+        "pierna_b": -82,
+        "brazo": -2,
+        "antebrazo": 0,
+        "brazo_b": -3,
+        "antebrazo_b": -1
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 58,
+        "y": 20,
+        "torso": 208,
+        "cuello": -28,
+        "muslo": 8,
+        "pierna": -75,
+        "muslo_b": 6,
+        "pierna_b": -77,
+        "brazo": -2,
+        "antebrazo": 0,
+        "brazo_b": -3,
+        "antebrazo_b": -1
+      },
+      "props": {
+        "esterilla": [
+          5,
+          85
+        ]
+      }
+    }
+  },
+  {
+    "id": "patada-lateral",
+    "nombre": "Elevación lateral de pierna",
+    "lugar": "casa",
+    "principales": [
+      "abductores",
+      "gluteos"
+    ],
+    "secundarios": [],
+    "nivel": "Principiante",
+    "series": "3 × 15 por lado",
+    "pasos": [
+      "Túmbate de lado con las piernas estiradas.",
+      "Sube la pierna de arriba sin girar la cadera.",
+      "Baja despacio."
+    ],
+    "consejo": "La punta del pie mira al frente, no al techo.",
+    "animacion": {
+      "vista": "frente",
+      "a": {
+        "x": 100,
+        "y": 10,
+        "abd": 10,
+        "codo": 0,
+        "abre": 4,
+        "rot": 90
+      },
+      "b": {
+        "x": 100,
+        "y": 10,
+        "abd": 10,
+        "codo": 0,
+        "abre": 6,
+        "rot": 90,
+        "abre_b": 4,
+        "abre_a": 50
+      },
+      "props": {
+        "esterilla": [
+          5,
+          115
+        ]
+      }
+    }
+  },
+  {
+    "id": "aductor-lateral",
+    "nombre": "Elevación de aductor tumbado",
+    "lugar": "casa",
+    "principales": [
+      "aductores"
+    ],
+    "secundarios": [],
+    "nivel": "Principiante",
+    "series": "3 × 15 por lado",
+    "pasos": [
+      "Túmbate de lado y cruza la pierna de arriba por delante.",
+      "Sube la pierna de abajo unos centímetros.",
+      "Baja despacio."
+    ],
+    "consejo": "Movimiento corto y controlado.",
+    "animacion": {
+      "vista": "frente",
+      "a": {
+        "x": 100,
+        "y": 10,
+        "abd": 10,
+        "codo": 0,
+        "abre": 6,
+        "rot": 90,
+        "abre_a": 12,
+        "abre_b": 4
+      },
+      "b": {
+        "x": 100,
+        "y": 10,
+        "abd": 10,
+        "codo": 0,
+        "abre": 6,
+        "rot": 90,
+        "abre_a": 12,
+        "abre_b": -10
+      },
+      "props": {
+        "esterilla": [
+          5,
+          115
+        ]
+      }
+    }
+  },
+  {
+    "id": "gemelos-escalon",
+    "nombre": "Elevación de gemelos en escalón",
+    "lugar": "casa",
+    "principales": [
+      "gemelos"
+    ],
+    "secundarios": [],
+    "nivel": "Principiante",
+    "series": "4 × 20",
+    "pasos": [
+      "Apoya la punta de los pies en un escalón, sujétate a la pared.",
+      "Sube de puntillas.",
+      "Baja dejando caer los talones por debajo del escalón."
+    ],
+    "consejo": "Hazlo a una pierna para más intensidad.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 6,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -60,
+        "antebrazo": 0,
+        "brazo_b": -94,
+        "antebrazo_b": -92,
+        "pie": -10
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 10.5,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -60,
+        "antebrazo": 0,
+        "brazo_b": -94,
+        "antebrazo_b": -92,
+        "pie": -55
+      },
+      "props": {
+        "escalon": [
+          62,
+          90,
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "plancha",
+    "nombre": "Plancha abdominal",
+    "lugar": "casa",
+    "principales": [
+      "abdominales"
+    ],
+    "secundarios": [
+      "oblicuos",
+      "hombros",
+      "lumbares"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 30-60 s",
+    "pasos": [
+      "Apoya antebrazos y puntas de los pies en el suelo.",
+      "Mantén el cuerpo recto de la cabeza a los talones.",
+      "Aguanta el tiempo indicado respirando."
+    ],
+    "consejo": "No dejes caer la cadera ni la subas demasiado.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "mano",
+        "x": 75,
+        "y": 1,
+        "torso": 12,
+        "muslo": -168,
+        "pierna": -168,
+        "muslo_b": -169,
+        "pierna_b": -169,
+        "pie": -90,
+        "brazo": -90,
+        "antebrazo": 0,
+        "brazo_b": -91,
+        "antebrazo_b": -1
+      },
+      "b": {
+        "anclaje": "mano",
+        "x": 75,
+        "y": 1,
+        "torso": 11,
+        "muslo": -169,
+        "pierna": -169,
+        "muslo_b": -170,
+        "pierna_b": -170,
+        "pie": -90,
+        "brazo": -92,
+        "antebrazo": 0,
+        "brazo_b": -93,
+        "antebrazo_b": -1
+      },
+      "props": {
+        "esterilla": [
+          5,
+          100
+        ]
+      }
+    }
+  },
+  {
+    "id": "crunch",
+    "nombre": "Crunch abdominal",
+    "lugar": "casa",
+    "principales": [
+      "abdominales"
+    ],
+    "secundarios": [],
+    "nivel": "Principiante",
+    "series": "3 × 20",
+    "pasos": [
+      "Túmbate boca arriba con las rodillas dobladas.",
+      "Levanta los hombros del suelo enrollando el tronco.",
+      "Baja despacio."
+    ],
+    "consejo": "No tires del cuello con las manos.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 4,
+        "torso": 178,
+        "muslo": 50,
+        "pierna": -70,
+        "muslo_b": 48,
+        "pierna_b": -72,
+        "brazo": 140,
+        "antebrazo": -20,
+        "brazo_b": 138,
+        "antebrazo_b": -22
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 4,
+        "torso": 145,
+        "muslo": 50,
+        "pierna": -70,
+        "muslo_b": 48,
+        "pierna_b": -72,
+        "brazo": 110,
+        "antebrazo": -50,
+        "brazo_b": 108,
+        "antebrazo_b": -52
+      },
+      "props": {
+        "esterilla": [
+          5,
+          95
+        ]
+      }
+    }
+  },
+  {
+    "id": "plancha-lateral",
+    "nombre": "Plancha lateral",
+    "lugar": "casa",
+    "principales": [
+      "oblicuos"
+    ],
+    "secundarios": [
+      "abdominales",
+      "abductores"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 30 s por lado",
+    "pasos": [
+      "Túmbate de lado apoyado en un antebrazo.",
+      "Sube la cadera hasta alinear el cuerpo.",
+      "Aguanta el tiempo indicado."
+    ],
+    "consejo": "Si cuesta, apoya la rodilla de abajo.",
+    "animacion": {
+      "vista": "frente",
+      "a": {
+        "x": 100,
+        "y": 10,
+        "abd": 8,
+        "codo": 0,
+        "abre": 3,
+        "rot": 84,
+        "abd_b": 84,
+        "codo_b": 0
+      },
+      "b": {
+        "x": 100,
+        "y": 10,
+        "abd": 8,
+        "codo": 0,
+        "abre": 3,
+        "rot": 72,
+        "abd_b": 72,
+        "codo_b": 0
+      },
+      "props": {
+        "esterilla": [
+          5,
+          115
+        ]
+      }
+    }
+  },
+  {
+    "id": "escaladores",
+    "nombre": "Escaladores",
+    "lugar": "casa",
+    "principales": [
+      "abdominales"
+    ],
+    "secundarios": [
+      "hombros",
+      "cuadriceps",
+      "oblicuos"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 30 s",
+    "pasos": [
+      "Ponte en posición de flexión.",
+      "Lleva una rodilla al pecho y cambia rápido de pierna.",
+      "Mantén la cadera baja."
+    ],
+    "consejo": "Además de abdomen, sube las pulsaciones: muy bueno como cardio.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "mano",
+        "x": 80,
+        "y": 0,
+        "torso": 25,
+        "muslo": -150,
+        "pierna": -160,
+        "muslo_b": -75,
+        "pierna_b": -150,
+        "pie": -90,
+        "pie_b": -90,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -91,
+        "antebrazo_b": -91
+      },
+      "b": {
+        "anclaje": "mano",
+        "x": 80,
+        "y": 0,
+        "torso": 25,
+        "muslo": -75,
+        "pierna": -150,
+        "muslo_b": -150,
+        "pierna_b": -160,
+        "pie": -90,
+        "pie_b": -90,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -91,
+        "antebrazo_b": -91
+      },
+      "props": {
+        "esterilla": [
+          10,
+          95
+        ]
+      }
+    }
+  },
+  {
+    "id": "apretar-toalla",
+    "nombre": "Agarre de toalla",
+    "lugar": "casa",
+    "principales": [
+      "antebrazos"
+    ],
+    "secundarios": [],
+    "nivel": "Principiante",
+    "series": "3 × 30 s",
+    "pasos": [
+      "Enrolla una toalla y agárrala con las dos manos.",
+      "Retuércela con fuerza como si la escurrieras.",
+      "Cambia de sentido."
+    ],
+    "consejo": "Sencillo y muy efectivo para el agarre.",
+    "animacion": {
+      "vista": "frente",
+      "a": {
+        "x": 60,
+        "y": 0,
+        "abd": 15,
+        "codo": -95,
+        "abre": 6
+      },
+      "b": {
+        "x": 60,
+        "y": 0,
+        "abd": 15,
+        "codo": -105,
+        "abre": 6
+      },
+      "props": {
+        "toalla": true
+      }
+    }
+  },
+  {
+    "id": "flexiones-inclinadas",
+    "nombre": "Flexiones inclinadas",
+    "lugar": "casa",
+    "principales": [
+      "pecho"
+    ],
+    "secundarios": [
+      "triceps",
+      "hombros"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10-15",
+    "pasos": [
+      "Apoya las manos en el borde de una mesa firme o del sofá.",
+      "Echa los pies atrás hasta que el cuerpo quede recto.",
+      "Baja el pecho hacia el borde doblando los codos.",
+      "Empuja hasta estirar los brazos."
+    ],
+    "consejo": "Cuanto más alta la superficie, más fácil. Ideal para empezar.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "mano",
+        "x": 80,
+        "y": 21,
+        "torso": 45,
+        "muslo": -143,
+        "pierna": -143,
+        "muslo_b": -144,
+        "pierna_b": -144,
+        "pie": -90,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -91,
+        "antebrazo_b": -91
+      },
+      "b": {
+        "anclaje": "mano",
+        "x": 80,
+        "y": 21,
+        "torso": 35,
+        "muslo": -157,
+        "pierna": -157,
+        "muslo_b": -158,
+        "pierna_b": -158,
+        "pie": -90,
+        "brazo": -150,
+        "antebrazo": -35,
+        "brazo_b": -151,
+        "antebrazo_b": -36
+      },
+      "props": {
+        "banco": [
+          70,
+          102,
+          23
+        ]
+      }
+    }
+  },
+  {
+    "id": "flexiones-declinadas",
+    "nombre": "Flexiones declinadas",
+    "lugar": "casa",
+    "principales": [
+      "pecho",
+      "hombros"
+    ],
+    "secundarios": [
+      "triceps",
+      "abdominales"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 8-12",
+    "pasos": [
+      "Apoya los pies en una silla o en el sofá.",
+      "Coloca las manos en el suelo algo más abiertas que los hombros.",
+      "Baja el pecho hacia el suelo con el cuerpo recto.",
+      "Empuja hasta estirar los brazos."
+    ],
+    "consejo": "Trabaja más la parte alta del pecho y los hombros.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "mano",
+        "x": 85,
+        "y": 0,
+        "torso": -20,
+        "muslo": -155,
+        "pierna": -155,
+        "muslo_b": -156,
+        "pierna_b": -156,
+        "pie": -90,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -91,
+        "antebrazo_b": -91
+      },
+      "b": {
+        "anclaje": "mano",
+        "x": 85,
+        "y": 0,
+        "torso": -26,
+        "muslo": -162,
+        "pierna": -162,
+        "muslo_b": -163,
+        "pierna_b": -163,
+        "pie": -90,
+        "brazo": -150,
+        "antebrazo": -35,
+        "brazo_b": -151,
+        "antebrazo_b": -36
+      },
+      "props": {
+        "banco": [
+          6,
+          30,
+          23
+        ]
+      }
+    }
+  },
+  {
+    "id": "flexiones-abiertas",
+    "nombre": "Flexiones con agarre abierto",
+    "lugar": "casa",
+    "principales": [
+      "pecho"
+    ],
+    "secundarios": [
+      "hombros"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10-15",
+    "pasos": [
+      "Coloca las manos bastante más abiertas que los hombros.",
+      "Pon el cuerpo recto desde la cabeza hasta los talones.",
+      "Baja el pecho hacia el suelo.",
+      "Empuja hasta estirar los brazos."
+    ],
+    "consejo": "Si no puedes con el cuerpo entero, apoya las rodillas.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "mano",
+        "x": 78,
+        "y": 0,
+        "torso": 23,
+        "muslo": -157,
+        "pierna": -157,
+        "muslo_b": -158,
+        "pierna_b": -158,
+        "pie": -90,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -91,
+        "antebrazo_b": -91
+      },
+      "b": {
+        "anclaje": "mano",
+        "x": 78,
+        "y": 0,
+        "torso": 10,
+        "muslo": -170,
+        "pierna": -170,
+        "muslo_b": -171,
+        "pierna_b": -171,
+        "pie": -90,
+        "brazo": -150,
+        "antebrazo": -35,
+        "brazo_b": -151,
+        "antebrazo_b": -36
+      },
+      "props": {
+        "esterilla": [
+          10,
+          95
+        ]
+      }
+    }
+  },
+  {
+    "id": "ytw-suelo",
+    "nombre": "Elevaciones Y-T-W tumbado",
+    "lugar": "casa",
+    "principales": [
+      "trapecio",
+      "hombros"
+    ],
+    "secundarios": [
+      "espalda",
+      "lumbares"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 8 de cada letra",
+    "pasos": [
+      "Túmbate boca abajo con la frente cerca del suelo.",
+      "Sube los brazos estirados formando una Y y baja.",
+      "Sube los brazos abiertos en cruz formando una T y baja.",
+      "Dobla los codos formando una W, júntalos atrás y baja."
+    ],
+    "consejo": "Mantén los pulgares hacia arriba y aprieta las escápulas en cada letra.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 3.5,
+        "torso": 0,
+        "muslo": 180,
+        "pierna": 180,
+        "muslo_b": 181,
+        "pierna_b": 181,
+        "pie": -90,
+        "brazo": 0,
+        "antebrazo": 0,
+        "brazo_b": 1,
+        "antebrazo_b": 1
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 3.5,
+        "torso": 8,
+        "muslo": 180,
+        "pierna": 180,
+        "muslo_b": 181,
+        "pierna_b": 181,
+        "pie": -90,
+        "brazo": 22,
+        "antebrazo": 22,
+        "brazo_b": 24,
+        "antebrazo_b": 24
+      },
+      "props": {
+        "esterilla": [
+          0,
+          120
+        ]
+      }
+    }
+  },
+  {
+    "id": "isometrico-biceps-toalla",
+    "nombre": "Curl isométrico con toalla",
+    "lugar": "casa",
+    "principales": [
+      "biceps"
+    ],
+    "secundarios": [
+      "antebrazos"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 20-30 s por brazo",
+    "pasos": [
+      "Pisa el centro de una toalla con un pie.",
+      "Coge los extremos con una mano y dobla el codo en ángulo recto.",
+      "Tira hacia arriba con fuerza sin que la toalla se mueva.",
+      "Aguanta el tiempo indicado y cambia de brazo."
+    ],
+    "consejo": "Aprieta al máximo durante todo el tiempo: es fuerza sin movimiento.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -85,
+        "antebrazo": 0,
+        "brazo_b": -87,
+        "antebrazo_b": -2
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -85,
+        "antebrazo": 8,
+        "brazo_b": -87,
+        "antebrazo_b": 6
+      }
+    }
+  },
+  {
+    "id": "sentadilla-sumo",
+    "nombre": "Sentadilla sumo",
+    "lugar": "casa",
+    "principales": [
+      "aductores",
+      "gluteos"
+    ],
+    "secundarios": [
+      "cuadriceps"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 15",
+    "pasos": [
+      "Separa mucho los pies con las puntas hacia fuera.",
+      "Baja la cadera recta hacia el suelo.",
+      "Mantén las rodillas en la dirección de las puntas.",
+      "Sube apretando glúteos y la cara interna de los muslos."
+    ],
+    "consejo": "El pecho siempre erguido y las rodillas hacia fuera.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": -88,
+        "antebrazo": -88,
+        "brazo_b": -90,
+        "antebrazo_b": -90
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 78,
+        "muslo": -20,
+        "pierna": -105,
+        "muslo_b": -23,
+        "pierna_b": -106,
+        "brazo": -70,
+        "antebrazo": 100,
+        "brazo_b": -72,
+        "antebrazo_b": 98
+      }
+    }
+  },
+  {
+    "id": "sentadilla-salto",
+    "nombre": "Sentadilla con salto",
+    "lugar": "casa",
+    "principales": [
+      "cuadriceps",
+      "gluteos"
+    ],
+    "secundarios": [
+      "gemelos"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 10-12",
+    "pasos": [
+      "Haz una sentadilla normal.",
+      "Desde abajo, salta hacia arriba con fuerza.",
+      "Cae suave sobre la parte delantera del pie.",
+      "Encadena la siguiente sentadilla."
+    ],
+    "consejo": "Cae sin hacer ruido: amortigua doblando las rodillas.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 0,
+        "torso": 60,
+        "muslo": -10,
+        "pierna": -115,
+        "muslo_b": -13,
+        "pierna_b": -116,
+        "brazo": 0,
+        "antebrazo": 0,
+        "brazo_b": -2,
+        "antebrazo_b": -2
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 5,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": 30,
+        "antebrazo": 40,
+        "brazo_b": 28,
+        "antebrazo_b": 38,
+        "pie": -60,
+        "pie_b": -60
+      }
+    }
+  },
+  {
+    "id": "sentadilla-pared",
+    "nombre": "Sentadilla isométrica en la pared",
+    "lugar": "casa",
+    "principales": [
+      "cuadriceps"
+    ],
+    "secundarios": [
+      "gluteos"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 30-45 s",
+    "pasos": [
+      "Apoya la espalda en una pared.",
+      "Baja deslizándote hasta que las rodillas formen un ángulo recto.",
+      "Mantén los pies algo adelantados y las rodillas sobre los tobillos.",
+      "Aguanta el tiempo indicado."
+    ],
+    "consejo": "Respira con normalidad; no aguantes el aire.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 22,
+        "torso": 90,
+        "muslo": 0,
+        "pierna": -90,
+        "muslo_b": -3,
+        "pierna_b": -92,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -93,
+        "antebrazo_b": -92
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 40,
+        "y": 21,
+        "torso": 90,
+        "muslo": -2,
+        "pierna": -90,
+        "muslo_b": -5,
+        "pierna_b": -92,
+        "brazo": -90,
+        "antebrazo": 0,
+        "brazo_b": -93,
+        "antebrazo_b": -2
+      },
+      "props": {
+        "poste": [
+          34,
+          92
+        ]
+      }
+    }
+  },
+  {
+    "id": "zancada-inversa",
+    "nombre": "Zancada inversa",
+    "lugar": "casa",
+    "principales": [
+      "gluteos",
+      "cuadriceps"
+    ],
+    "secundarios": [
+      "isquiotibiales"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10 por pierna",
+    "pasos": [
+      "De pie con los pies juntos.",
+      "Da un paso largo hacia atrás con una pierna.",
+      "Baja hasta que las dos rodillas formen un ángulo recto.",
+      "Vuelve empujando con la pierna de delante."
+    ],
+    "consejo": "Es más suave para las rodillas que la zancada hacia delante.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 42.5,
+        "torso": 90,
+        "muslo": -80,
+        "pierna": -92,
+        "muslo_b": -100,
+        "pierna_b": -92,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -93,
+        "antebrazo_b": -91
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 23,
+        "torso": 90,
+        "muslo": -5,
+        "pierna": -90,
+        "muslo_b": -112,
+        "pierna_b": -175,
+        "pie_b": -60,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -93,
+        "antebrazo_b": -91
+      }
+    }
+  },
+  {
+    "id": "puente-una-pierna",
+    "nombre": "Puente de glúteos a una pierna",
+    "lugar": "casa",
+    "principales": [
+      "gluteos",
+      "isquiotibiales"
+    ],
+    "secundarios": [
+      "lumbares"
+    ],
+    "nivel": "Intermedio",
+    "series": "3 × 10 por pierna",
+    "pasos": [
+      "Túmbate boca arriba con las rodillas dobladas.",
+      "Estira una pierna hacia el techo.",
+      "Sube la cadera empujando con el talón de la pierna apoyada.",
+      "Baja despacio sin tocar el suelo con el glúteo."
+    ],
+    "consejo": "Mantén la cadera nivelada: que no se caiga hacia un lado.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 58,
+        "y": 4,
+        "torso": 178,
+        "muslo": 35,
+        "pierna": -80,
+        "muslo_b": 35,
+        "pierna_b": 35,
+        "brazo": -2,
+        "antebrazo": 0,
+        "brazo_b": -3,
+        "antebrazo_b": -1
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 58,
+        "y": 20,
+        "torso": 208,
+        "muslo": 8,
+        "pierna": -75,
+        "muslo_b": 8,
+        "pierna_b": 8,
+        "brazo": -2,
+        "antebrazo": 0,
+        "brazo_b": -3,
+        "antebrazo_b": -1,
+        "cuello": -28
+      },
+      "props": {
+        "esterilla": [
+          5,
+          85
+        ]
+      }
+    }
+  },
+  {
+    "id": "patada-gluteo-cuadrupedia",
+    "nombre": "Patada de glúteo en cuadrupedia",
+    "lugar": "casa",
+    "principales": [
+      "gluteos"
+    ],
+    "secundarios": [
+      "isquiotibiales",
+      "lumbares"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 15 por pierna",
+    "pasos": [
+      "Ponte a cuatro patas con las manos bajo los hombros.",
+      "Lleva una pierna doblada hacia el techo.",
+      "Aprieta el glúteo arriba un segundo.",
+      "Baja sin apoyar la rodilla y repite."
+    ],
+    "consejo": "No arquees la espalda; el abdomen firme.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "mano",
+        "x": 80,
+        "y": 0,
+        "torso": 13.5,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -91,
+        "antebrazo_b": -91,
+        "muslo": -90,
+        "pierna": 180,
+        "pie": 180,
+        "muslo_b": -91,
+        "pierna_b": 180,
+        "pie_b": 180
+      },
+      "b": {
+        "anclaje": "mano",
+        "x": 80,
+        "y": 0,
+        "torso": 13.5,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -91,
+        "antebrazo_b": -91,
+        "muslo": -90,
+        "pierna": 180,
+        "pie": 180,
+        "muslo_b": 175,
+        "pierna_b": 95,
+        "pie_b": 180
+      },
+      "props": {
+        "esterilla": [
+          20,
+          100
+        ]
+      }
+    }
+  },
+  {
+    "id": "almeja",
+    "nombre": "Almeja",
+    "lugar": "casa",
+    "principales": [
+      "abductores",
+      "gluteos"
+    ],
+    "secundarios": [],
+    "nivel": "Principiante",
+    "series": "3 × 15-20 por lado",
+    "pasos": [
+      "Túmbate de lado con las rodillas dobladas y los pies juntos.",
+      "Apoya la cabeza en el brazo.",
+      "Abre la rodilla de arriba sin separar los pies.",
+      "Cierra despacio."
+    ],
+    "consejo": "No gires la cadera hacia atrás al abrir la rodilla.",
+    "animacion": {
+      "vista": "frente",
+      "a": {
+        "x": 100,
+        "y": 10,
+        "abd": 10,
+        "codo": 0,
+        "abre": 4,
+        "rot": 90
+      },
+      "b": {
+        "x": 100,
+        "y": 10,
+        "abd": 10,
+        "codo": 0,
+        "abre": 6,
+        "rot": 90,
+        "abre_b": 4,
+        "abre_a": 32
+      },
+      "props": {
+        "esterilla": [
+          5,
+          115
+        ]
+      }
+    }
+  },
+  {
+    "id": "curl-nordico",
+    "nombre": "Curl nórdico",
+    "lugar": "casa",
+    "principales": [
+      "isquiotibiales"
+    ],
+    "secundarios": [
+      "gluteos"
+    ],
+    "nivel": "Avanzado",
+    "series": "3 × 4-6",
+    "pasos": [
+      "Arrodíllate sobre un cojín con los talones sujetos bajo el sofá o por un compañero.",
+      "Con el cuerpo recto de rodillas a cabeza, déjate caer hacia delante muy despacio.",
+      "Frena la caída todo lo que puedas con la parte de atrás de los muslos.",
+      "Apoya las manos al llegar abajo y empuja para volver."
+    ],
+    "consejo": "Es muy exigente: empieza solo con la bajada controlada.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 50,
+        "y": 22,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": 180,
+        "pie": 180,
+        "muslo_b": -91,
+        "pierna_b": 180,
+        "pie_b": 180,
+        "brazo": -70,
+        "antebrazo": 100,
+        "brazo_b": -72,
+        "antebrazo_b": 98
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 64,
+        "y": 17,
+        "torso": 50,
+        "muslo": -130,
+        "pierna": 180,
+        "pie": 180,
+        "muslo_b": -131,
+        "pierna_b": 180,
+        "pie_b": 180,
+        "brazo": -30,
+        "antebrazo": 0,
+        "brazo_b": -32,
+        "antebrazo_b": -2
+      },
+      "props": {
+        "esterilla": [
+          15,
+          100
+        ]
+      }
+    }
+  },
+  {
+    "id": "gemelos-una-pierna",
+    "nombre": "Elevación de gemelos a una pierna",
+    "lugar": "casa",
+    "principales": [
+      "gemelos"
+    ],
+    "secundarios": [],
+    "nivel": "Intermedio",
+    "series": "3 × 12-15 por pierna",
+    "pasos": [
+      "Ponte sobre un escalón con la punta de un pie y la otra pierna doblada.",
+      "Agárrate a la pared para mantener el equilibrio.",
+      "Sube el talón todo lo que puedas.",
+      "Baja por debajo del escalón hasta notar estiramiento."
+    ],
+    "consejo": "Hazlo despacio: con una sola pierna basta para que cueste.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 6,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -100,
+        "pierna_b": -160,
+        "brazo": -60,
+        "antebrazo": 0,
+        "brazo_b": -94,
+        "antebrazo_b": -92,
+        "pie": -10
+      },
+      "b": {
+        "anclaje": "pie",
+        "x": 60,
+        "y": 10.5,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -100,
+        "pierna_b": -160,
+        "brazo": -60,
+        "antebrazo": 0,
+        "brazo_b": -94,
+        "antebrazo_b": -92,
+        "pie": -55
+      },
+      "props": {
+        "escalon": [
+          62,
+          90,
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "bicho-muerto",
+    "nombre": "Bicho muerto",
+    "lugar": "casa",
+    "principales": [
+      "abdominales"
+    ],
+    "secundarios": [
+      "oblicuos"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10 por lado",
+    "pasos": [
+      "Túmbate boca arriba con los brazos hacia el techo y las rodillas dobladas en el aire.",
+      "Pega la zona lumbar al suelo.",
+      "Estira a la vez un brazo hacia atrás y la pierna contraria hacia delante.",
+      "Vuelve y cambia de lado."
+    ],
+    "consejo": "Si la espalda se despega del suelo, no estires tanto.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 58,
+        "y": 4,
+        "torso": 178,
+        "muslo": 90,
+        "pierna": 0,
+        "muslo_b": 88,
+        "pierna_b": -2,
+        "brazo": 90,
+        "antebrazo": 90,
+        "brazo_b": 88,
+        "antebrazo_b": 88
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 58,
+        "y": 4,
+        "torso": 178,
+        "muslo": 90,
+        "pierna": 0,
+        "muslo_b": 12,
+        "pierna_b": 10,
+        "brazo": 172,
+        "antebrazo": 174,
+        "brazo_b": 88,
+        "antebrazo_b": 88
+      },
+      "props": {
+        "esterilla": [
+          5,
+          100
+        ]
+      }
+    }
+  },
+  {
+    "id": "elevacion-piernas-suelo",
+    "nombre": "Elevación de piernas tumbado",
+    "lugar": "casa",
+    "principales": [
+      "abdominales"
+    ],
+    "secundarios": [
+      "oblicuos"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 12-15",
+    "pasos": [
+      "Túmbate boca arriba con las manos bajo los glúteos.",
+      "Sube las piernas estiradas hasta la vertical.",
+      "Bájalas despacio sin tocar el suelo.",
+      "Repite manteniendo la zona lumbar pegada."
+    ],
+    "consejo": "Si notas la espalda, dobla un poco las rodillas.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 58,
+        "y": 4,
+        "torso": 178,
+        "muslo": 88,
+        "pierna": 88,
+        "muslo_b": 86,
+        "pierna_b": 86,
+        "brazo": -2,
+        "antebrazo": 0,
+        "brazo_b": -3,
+        "antebrazo_b": -1
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 58,
+        "y": 4,
+        "torso": 178,
+        "muslo": 12,
+        "pierna": 12,
+        "muslo_b": 10,
+        "pierna_b": 10,
+        "brazo": -2,
+        "antebrazo": 0,
+        "brazo_b": -3,
+        "antebrazo_b": -1
+      },
+      "props": {
+        "esterilla": [
+          5,
+          115
+        ]
+      }
+    }
+  },
+  {
+    "id": "crunch-bicicleta",
+    "nombre": "Crunch bicicleta",
+    "lugar": "casa",
+    "principales": [
+      "oblicuos",
+      "abdominales"
+    ],
+    "secundarios": [],
+    "nivel": "Principiante",
+    "series": "3 × 20",
+    "pasos": [
+      "Túmbate boca arriba con las manos detrás de la cabeza.",
+      "Levanta los hombros y las piernas del suelo.",
+      "Lleva un codo hacia la rodilla contraria mientras estiras la otra pierna.",
+      "Cambia de lado como si pedalearas."
+    ],
+    "consejo": "Hazlo despacio: girar el tronco es más importante que la velocidad.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 4,
+        "torso": 150,
+        "muslo": 72,
+        "pierna": -20,
+        "muslo_b": 18,
+        "pierna_b": 16,
+        "brazo": 140,
+        "antebrazo": -20,
+        "brazo_b": 138,
+        "antebrazo_b": -22
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 55,
+        "y": 4,
+        "torso": 150,
+        "muslo": 18,
+        "pierna": 16,
+        "muslo_b": 72,
+        "pierna_b": -20,
+        "brazo": 110,
+        "antebrazo": -50,
+        "brazo_b": 108,
+        "antebrazo_b": -52
+      },
+      "props": {
+        "esterilla": [
+          5,
+          110
+        ]
+      }
+    }
+  },
+  {
+    "id": "bird-dog",
+    "nombre": "Perro de muestra (bird dog)",
+    "lugar": "casa",
+    "principales": [
+      "lumbares"
+    ],
+    "secundarios": [
+      "gluteos",
+      "abdominales",
+      "hombros"
+    ],
+    "nivel": "Principiante",
+    "series": "3 × 10 por lado",
+    "pasos": [
+      "Ponte a cuatro patas con la espalda recta.",
+      "Estira a la vez un brazo hacia delante y la pierna contraria hacia atrás.",
+      "Aguanta dos segundos sin mover la cadera.",
+      "Vuelve y cambia de lado."
+    ],
+    "consejo": "Imagina que llevas un vaso de agua en la espalda y no puede caerse.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "mano",
+        "x": 80,
+        "y": 0,
+        "torso": 13.5,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -91,
+        "antebrazo_b": -91,
+        "muslo": -90,
+        "pierna": 180,
+        "pie": 180,
+        "muslo_b": -91,
+        "pierna_b": 180,
+        "pie_b": 180
+      },
+      "b": {
+        "anclaje": "mano",
+        "x": 80,
+        "y": 0,
+        "torso": 13.5,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": 8,
+        "antebrazo_b": 8,
+        "muslo": -90,
+        "pierna": 180,
+        "pie": 180,
+        "muslo_b": 180,
+        "pierna_b": 180,
+        "pie_b": -90
+      },
+      "props": {
+        "esterilla": [
+          5,
+          100
+        ]
+      }
+    }
+  },
+  {
+    "id": "burpees",
+    "nombre": "Burpees",
+    "lugar": "casa",
+    "principales": [
+      "cuadriceps",
+      "pecho"
+    ],
+    "secundarios": [
+      "hombros",
+      "triceps",
+      "abdominales",
+      "gluteos"
+    ],
+    "nivel": "Intermedio",
+    "series": "4 × 10",
+    "pasos": [
+      "De pie, baja en cuclillas y apoya las manos en el suelo.",
+      "Echa los pies atrás de un salto hasta quedar en plancha.",
+      "Haz una flexión (opcional) y vuelve a llevar los pies a las manos.",
+      "Salta hacia arriba con los brazos estirados."
+    ],
+    "consejo": "Ve a un ritmo que puedas mantener con buena técnica.",
+    "animacion": {
+      "vista": "lado",
+      "a": {
+        "anclaje": "cadera",
+        "x": 60,
+        "y": 43,
+        "torso": 90,
+        "muslo": -90,
+        "pierna": -90,
+        "muslo_b": -93,
+        "pierna_b": -92,
+        "brazo": 45,
+        "antebrazo": 50,
+        "brazo_b": 43,
+        "antebrazo_b": 48
+      },
+      "b": {
+        "anclaje": "cadera",
+        "x": 50.4,
+        "y": 17.3,
+        "torso": 23,
+        "muslo": -157,
+        "pierna": -157,
+        "muslo_b": -158,
+        "pierna_b": -158,
+        "pie": -90,
+        "brazo": -90,
+        "antebrazo": -90,
+        "brazo_b": -91,
+        "antebrazo_b": -91
+      },
+      "props": {
+        "esterilla": [
+          10,
+          95
+        ]
+      }
+    }
+  }
+]
