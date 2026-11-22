@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Músculos · GymApp</title>
+  <meta name="description" content="Mapa muscular interactivo: toca un músculo en el dibujo del cuerpo y mira los ejercicios que lo trabajan.">
+  <link rel="canonical" href="https://mhowani.github.io/GymApp/musculos.html">
+  <meta name="theme-color" content="#1F70BD">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="GymApp">
+  <meta property="og:title" content="Músculos · GymApp">
+  <meta property="og:description" content="Mapa muscular interactivo: toca un músculo en el dibujo del cuerpo y mira los ejercicios que lo trabajan.">
+  <meta property="og:url" content="https://mhowani.github.io/GymApp/musculos.html">
+  <meta property="og:image" content="https://mhowani.github.io/GymApp/img/icono-512.png">
+  <meta property="og:locale" content="es_ES">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/estilo.css">
+  <script>try{var t=localStorage.getItem('gymapp.tema');t=t&&JSON.parse(t);if(t==='claro'||t==='oscuro')document.documentElement.setAttribute('data-tema',t)}catch(e){}</script>
+</head>
+<body>
+  <header class="cabecera">
+    <div class="cabecera-in">
+      <a class="marca" href="index.html"><img src="img/logo.png" alt="" width="40" height="40">GymApp</a>
+      <button class="boton-menu" type="button" aria-label="Menú" aria-expanded="false">☰</button>
+      <nav class="menu" aria-label="Secciones">
+      <a href="index.html">Inicio</a>
+      <a href="ejercicios.html">Ejercicios</a>
+      <a href="musculos.html" aria-current="page">Músculos</a>
+      <a href="plan.html">Mi plan</a>
+      <a href="correr.html">Correr</a>
+      <a href="menus.html">Menús</a>
+      <a href="contacto.html">Contacto</a>
+      </nav>
+      <button class="boton-tema" type="button" aria-label="Cambiar apariencia">🌓</button>
+    </div>
+  </header>
+  <main id="contenido">
+    <div class="titulo-pagina"><h1>Músculos</h1><p>Toca un músculo en el dibujo (de frente o de espalda) o elígelo en la lista.</p></div>
+    <div class="rejilla-2" style="align-items:start">
+      <div class="tarjeta caja" style="position:sticky;top:76px">
+        <div id="mapa"></div>
+        <div id="chips-musculos" class="chips" style="margin-top:12px"></div>
+      </div>
+      <div>
+        <h2 id="titulo-musculo" style="scroll-margin-top:80px"></h2>
+        <p id="n-musculo" class="texto-2"></p>
+        <div id="seg-lugar" class="segmentado" style="margin-bottom:14px"></div>
+        <h3>Lo trabajan como principal</h3>
+        <div id="lista-principal" class="lista"></div>
+        <div id="bloque-sec"><h3 style="margin-top:18px">También lo trabajan</h3><div id="lista-secundario" class="lista"></div></div>
+        <p id="sin-ej" class="oculto texto-2">No hay ejercicios para este músculo en este lugar.</p>
+      </div>
+    </div>
+  </main>
+  <footer class="pie">
+    <span>© <span id="anio">2026</span> GymApp · Ejercicios con pesas, máquinas y en casa</span>
+    <small class="creditos">Ilustraciones de ejercicios: <a href="https://github.com/everkinetic/data" rel="noopener">Everkinetic</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" rel="noopener license">CC BY-SA 4.0</a> (adaptadas: posturas alineadas y animadas).</small>
+    <nav aria-label="Pie"><a href="ejercicios.html">Ejercicios</a><a href="plan.html">Mi plan</a><a href="correr.html">Correr</a><a href="menus.html">Menús</a><a href="contacto.html">Contacto</a><a href="manual.html">Manual</a><a href="privacidad.html">Privacidad</a></nav>
+  </footer>
+  <noscript><p style="text-align:center">Activa JavaScript para usar GymApp.</p></noscript>
+  <script src="js/figura.js" defer></script>
+  <script src="js/comun.js" defer></script>
+  <script src="js/musculos.js" defer></script>
+</body>
+</html>

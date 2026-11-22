@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>GymApp · Ejercicios con pesas, máquinas y en casa</title>
+  <meta name="description" content="Ejercicios de gimnasio con pesas, máquinas y en casa sin material, con dibujo de los músculos que trabaja cada uno, figuras animadas, plan semanal, planes para correr y menús.">
+  <link rel="canonical" href="https://mhowani.github.io/GymApp/">
+  <meta name="theme-color" content="#1F70BD">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="GymApp">
+  <meta property="og:title" content="GymApp · Ejercicios con pesas, máquinas y en casa">
+  <meta property="og:description" content="Ejercicios de gimnasio con pesas, máquinas y en casa sin material, con dibujo de los músculos que trabaja cada uno, figuras animadas, plan semanal, planes para correr y menús.">
+  <meta property="og:url" content="https://mhowani.github.io/GymApp/">
+  <meta property="og:image" content="https://mhowani.github.io/GymApp/img/icono-512.png">
+  <meta property="og:locale" content="es_ES">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/estilo.css">
+  <script>try{var t=localStorage.getItem('gymapp.tema');t=t&&JSON.parse(t);if(t==='claro'||t==='oscuro')document.documentElement.setAttribute('data-tema',t)}catch(e){}</script>
+  <!-- __GOOGLE__ -->
+</head>
+<body>
+  <header class="cabecera">
+    <div class="cabecera-in">
+      <a class="marca" href="index.html"><img src="img/logo.png" alt="" width="40" height="40">GymApp</a>
+      <button class="boton-menu" type="button" aria-label="Menú" aria-expanded="false">☰</button>
+      <nav class="menu" aria-label="Secciones">
+      <a href="index.html" aria-current="page">Inicio</a>
+      <a href="ejercicios.html">Ejercicios</a>
+      <a href="musculos.html">Músculos</a>
+      <a href="plan.html">Mi plan</a>
+      <a href="correr.html">Correr</a>
+      <a href="menus.html">Menús</a>
+      <a href="contacto.html">Contacto</a>
+      </nav>
+      <button class="boton-tema" type="button" aria-label="Cambiar apariencia">🌓</button>
+    </div>
+  </header>
+  <main id="contenido">
+    <section class="portada">
+      <div>
+        <h1>Entrena con pesas, máquinas o en casa</h1>
+        <p>Más de <span id="total">100</span> ejercicios con una figura animada y un dibujo del cuerpo que marca en <b>rojo</b> los músculos principales y en <b>naranja</b> los secundarios.</p>
+        <form id="busqueda" class="fila" role="search" style="margin-top:16px">
+          <div class="buscador" style="flex:1;min-width:200px"><label class="solo-lector" for="q">Buscar</label>
+            <input id="q" type="search" placeholder="Busca un ejercicio o un músculo" autocomplete="off"></div>
+          <button class="boton blanco" type="submit">Buscar</button>
+        </form>
+      </div>
+      <img class="logo-grande" src="img/logo.png" alt="Logo de GymApp" width="260" height="260">
+    </section>
+
+    <div class="seccion"><h2>¿Dónde entrenas?</h2></div>
+    <div class="rejilla" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr))">
+      <a class="tarjeta-lugar pesas" href="ejercicios.html?lugar=pesas"><span class="e">🏋️</span><b>Pesas</b><span>Barras y mancuernas</span><small id="n-pesas"></small></a>
+      <a class="tarjeta-lugar maquinas" href="ejercicios.html?lugar=maquinas"><span class="e">⚙️</span><b>Máquinas</b><span>Poleas y máquinas</span><small id="n-maquinas"></small></a>
+      <a class="tarjeta-lugar casa" href="ejercicios.html?lugar=casa"><span class="e">🛋️</span><b>En casa</b><span>Sin material</span><small id="n-casa"></small></a>
+    </div>
+
+    <div class="seccion"><h2>Hoy</h2></div>
+    <div id="del-dia"></div>
+
+    <div class="seccion"><h2>Todo lo que tienes</h2></div>
+    <div class="rejilla-2">
+      <a class="tarjeta atajo" href="musculos.html"><span class="e">🫀</span><span><b>Músculos</b><small>Toca un músculo en el dibujo y mira sus ejercicios</small></span></a>
+      <a class="tarjeta atajo" href="plan.html"><span class="e">📅</span><span><b>Mi plan</b><small>Plan semanal según los días que entrenas</small></span></a>
+      <a class="tarjeta atajo" href="correr.html"><span class="e">🏃</span><span><b>Correr</b><small>5 km, 10 km, media maratón, maratón o la distancia que quieras</small></span></a>
+      <a class="tarjeta atajo" href="menus.html"><span class="e">🥗</span><span><b>Menús</b><small>Menús de 7 días según tu objetivo y lista de la compra</small></span></a>
+    </div>
+
+    <div class="seccion"><h2>Tus favoritos</h2><a href="ejercicios.html">Ver todos</a></div>
+    <p id="sin-favoritos" class="texto-2">Pulsa el corazón ♡ de un ejercicio para tenerlo aquí a mano. Se guardan en este navegador.</p>
+    <div id="favoritos" class="rejilla"></div>
+
+    <p class="aviso" style="margin-top:28px">Consulta con un profesional antes de empezar un programa de ejercicio si tienes alguna lesión o problema de salud.</p>
+  </main>
+  <footer class="pie">
+    <span>© <span id="anio">2026</span> GymApp · Ejercicios con pesas, máquinas y en casa</span>
+    <small class="creditos">Ilustraciones de ejercicios: <a href="https://github.com/everkinetic/data" rel="noopener">Everkinetic</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" rel="noopener license">CC BY-SA 4.0</a> (adaptadas: posturas alineadas y animadas).</small>
+    <nav aria-label="Pie"><a href="ejercicios.html">Ejercicios</a><a href="plan.html">Mi plan</a><a href="correr.html">Correr</a><a href="menus.html">Menús</a><a href="contacto.html">Contacto</a><a href="manual.html">Manual</a><a href="privacidad.html">Privacidad</a></nav>
+  </footer>
+  <noscript><p style="text-align:center">Activa JavaScript para usar GymApp.</p></noscript>
+  <script src="js/figura.js" defer></script>
+  <script src="js/comun.js" defer></script>
+  <script src="js/inicio.js" defer></script>
+</body>
+</html>

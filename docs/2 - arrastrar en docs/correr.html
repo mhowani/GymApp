@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Correr: planes de 5 km a maratón · GymApp</title>
+  <meta name="description" content="Planes para correr 5 km, 10 km, media maratón, maratón o cualquier distancia: nivel, días, semanas, calculadora de ritmo, calentamiento y fuerza para corredores.">
+  <link rel="canonical" href="https://mhowani.github.io/GymApp/correr.html">
+  <meta name="theme-color" content="#1F70BD">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="GymApp">
+  <meta property="og:title" content="Correr: planes de 5 km a maratón · GymApp">
+  <meta property="og:description" content="Planes para correr 5 km, 10 km, media maratón, maratón o cualquier distancia: nivel, días, semanas, calculadora de ritmo, calentamiento y fuerza para corredores.">
+  <meta property="og:url" content="https://mhowani.github.io/GymApp/correr.html">
+  <meta property="og:image" content="https://mhowani.github.io/GymApp/img/icono-512.png">
+  <meta property="og:locale" content="es_ES">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/estilo.css">
+  <script>try{var t=localStorage.getItem('gymapp.tema');t=t&&JSON.parse(t);if(t==='claro'||t==='oscuro')document.documentElement.setAttribute('data-tema',t)}catch(e){}</script>
+</head>
+<body>
+  <header class="cabecera">
+    <div class="cabecera-in">
+      <a class="marca" href="index.html"><img src="img/logo.png" alt="" width="40" height="40">GymApp</a>
+      <button class="boton-menu" type="button" aria-label="Menú" aria-expanded="false">☰</button>
+      <nav class="menu" aria-label="Secciones">
+      <a href="index.html">Inicio</a>
+      <a href="ejercicios.html">Ejercicios</a>
+      <a href="musculos.html">Músculos</a>
+      <a href="plan.html">Mi plan</a>
+      <a href="correr.html" aria-current="page">Correr</a>
+      <a href="menus.html">Menús</a>
+      <a href="contacto.html">Contacto</a>
+      </nav>
+      <button class="boton-tema" type="button" aria-label="Cambiar apariencia">🌓</button>
+    </div>
+  </header>
+  <main id="contenido">
+    <div class="titulo-pagina"><h1>Correr</h1><p>Tu plan para 5 km, 10 km, media maratón, maratón o la distancia que quieras.</p></div>
+    <p id="aviso" class="aviso coral"></p>
+    <div class="rejilla-2" style="margin-top:14px">
+      <section class="tarjeta caja" style="display:grid;gap:12px">
+        <h2>🏁 Distancia objetivo</h2>
+        <div id="distancias" class="chips"></div>
+        <div class="distancia-grande" id="distancia-texto"></div>
+        <label class="solo-lector" for="barra-distancia">Distancia en km</label><input id="barra-distancia" type="range">
+        <p class="texto-2 pequeno">Mueve la barra si quieres hacer menos kilómetros: los km de cada semana, las tiradas largas y las series se adaptan solos.</p>
+      </section>
+      <section class="tarjeta caja" style="display:grid;gap:12px">
+        <h2>📆 Tu calendario</h2>
+        <div class="fila"><span style="flex:1">🏃 Días para correr <small class="texto-2" id="dias-rango"></small></span>
+          <div class="contador"><button id="dias-menos" type="button" aria-label="Menos días">−</button><output id="dias-n"></output><button id="dias-mas" type="button" aria-label="Más días">+</button></div></div>
+        <div class="fila"><span style="flex:1">⏳ Semanas hasta la carrera</span>
+          <div class="contador"><button id="sem-menos" type="button" aria-label="Menos semanas">−</button><output id="sem-n"></output><button id="sem-mas" type="button" aria-label="Más semanas">+</button></div></div>
+        <p class="texto-2 pequeno" style="margin:0"><span id="recomendacion"></span> <button id="sem-recomendadas" class="boton secundario pequeno" type="button">Usar las recomendadas</button></p>
+        <div class="fila"><label class="campo" style="flex:1">Primera semana (empieza en lunes)<input id="inicio" type="date"></label>
+          <button id="inicio-hoy" class="boton secundario pequeno" type="button" style="align-self:end">Lo antes posible</button></div>
+        <p id="fechas" class="pequeno" style="margin:0"></p>
+      </section>
+    </div>
+    <div class="seccion"><h2>📊 Nivel</h2></div>
+    <div id="niveles" class="niveles"></div>
+
+    <div class="seccion"><h2>⏱️ Tus ritmos</h2></div>
+    <section class="tarjeta caja">
+      <form id="form-ritmo" class="fila" style="margin-bottom:12px;align-items:end">
+        <label class="campo">¿Qué distancia corriste?<select id="ref-km"></select></label>
+        <div class="campo"><span>Tiempo (h : min : s)</span><div class="tiempo">
+          <input id="ref-h" type="number" min="0" max="9" placeholder="h" aria-label="Horas"><b>:</b>
+          <input id="ref-m" type="number" min="0" max="59" placeholder="min" aria-label="Minutos"><b>:</b>
+          <input id="ref-s" type="number" min="0" max="59" placeholder="s" aria-label="Segundos"></div></div>
+        <button class="boton" type="submit">Calcular mis ritmos</button>
+        <button id="borrar-ritmo" class="boton secundario" type="button">Borrar</button>
+      </form>
+      <p class="texto-2 pequeno">Usa una carrera o un entreno a tope de las últimas 4–6 semanas.</p>
+      <div id="ritmos"></div>
+    </section>
+
+    <div class="seccion"><h2>🗓️ Tu plan</h2></div>
+    <section class="tarjeta caja" style="display:grid;gap:12px">
+      <div id="resumen" class="cifras"></div>
+      <div id="avisos" style="display:grid;gap:8px"></div>
+      <div><div id="barras" class="barras" aria-label="Kilómetros de cada semana"></div><div id="barras-num" class="barras-num"></div></div>
+      <div id="leyenda-fases" class="leyenda" style="flex-wrap:wrap"></div>
+      <div id="semana" style="display:grid;gap:6px"></div>
+    </section>
+
+    <div class="rejilla-2" style="margin-top:16px">
+      <section class="tarjeta caja"><h2>🤸 Calentamiento y estiramientos</h2><div id="partes" class="segmentado" style="margin-bottom:12px"></div><ol id="lista-partes" class="pasos"></ol></section>
+      <section class="tarjeta caja"><h2>💡 Consejos</h2><ul id="consejos" style="padding-left:18px;margin:0;display:grid;gap:8px"></ul></section>
+    </div>
+
+    <div class="seccion"><h2 id="fuerza-titulo" style="scroll-margin-top:80px">🏋️ Fuerza para corredores</h2></div>
+    <p id="fuerza-desc" class="texto-2"></p>
+    <ul id="fuerza-reglas" class="pequeno" style="padding-left:18px"></ul>
+    <div id="lugar-fuerza" class="segmentado" style="margin-bottom:12px"></div>
+    <div id="fuerza" class="rejilla-2"></div>
+    <p class="aviso" style="margin-top:14px">Descansa 60–90 s entre series. Elige un peso con el que te sobren 2–3 repeticiones: el objetivo es correr mejor, no acabar agotado.</p>
+  </main>
+  <footer class="pie">
+    <span>© <span id="anio">2026</span> GymApp · Ejercicios con pesas, máquinas y en casa</span>
+    <small class="creditos">Ilustraciones de ejercicios: <a href="https://github.com/everkinetic/data" rel="noopener">Everkinetic</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" rel="noopener license">CC BY-SA 4.0</a> (adaptadas: posturas alineadas y animadas).</small>
+    <nav aria-label="Pie"><a href="ejercicios.html">Ejercicios</a><a href="plan.html">Mi plan</a><a href="correr.html">Correr</a><a href="menus.html">Menús</a><a href="contacto.html">Contacto</a><a href="manual.html">Manual</a><a href="privacidad.html">Privacidad</a></nav>
+  </footer>
+  <noscript><p style="text-align:center">Activa JavaScript para usar GymApp.</p></noscript>
+  <script src="js/figura.js" defer></script>
+  <script src="js/comun.js" defer></script>
+  <script src="js/correr.js" defer></script>
+</body>
+</html>
