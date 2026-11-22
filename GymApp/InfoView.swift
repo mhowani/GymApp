@@ -4,6 +4,7 @@ struct InfoView: View {
     @EnvironmentObject private var favoritos: Favoritos
     @AppStorage("apariencia") private var apariencia: Apariencia = .sistema
     @Environment(\.dismiss) private var dismiss
+    @State private var verContacto = false
 
     var body: some View {
         NavigationStack {
@@ -70,7 +71,9 @@ struct InfoView: View {
                         .buttonStyle(.borderedProminent)
                         .tint(Tema.azul)
 
-                        Link(destination: Config.contactoURL) {
+                        Button {
+                            verContacto = true
+                        } label: {
                             Label("Contacto", systemImage: "envelope.fill")
                                 .font(.headline)
                                 .frame(maxWidth: .infinity)
@@ -78,6 +81,30 @@ struct InfoView: View {
                         }
                         .buttonStyle(.borderedProminent)
                         .tint(Tema.coral)
+
+                        HStack(spacing: 12) {
+                            NavigationLink {
+                                ManualView()
+                            } label: {
+                                Label("Manual", systemImage: "book.fill")
+                                    .font(.subheadline.weight(.semibold))
+                                    .frame(maxWidth: .infinity)
+                                    .padding(.vertical, 4)
+                            }
+                            .buttonStyle(.bordered)
+                            .tint(Tema.acento)
+
+                            NavigationLink {
+                                PrivacidadView()
+                            } label: {
+                                Label("Privacidad", systemImage: "lock.shield.fill")
+                                    .font(.subheadline.weight(.semibold))
+                                    .frame(maxWidth: .infinity)
+                                    .padding(.vertical, 4)
+                            }
+                            .buttonStyle(.bordered)
+                            .tint(Tema.acento)
+                        }
                     }
 
                     Text("Consulta con un profesional antes de empezar un programa de ejercicio si tienes alguna lesión o problema de salud.")
@@ -95,6 +122,9 @@ struct InfoView: View {
             }
             .background(Tema.fondo.ignoresSafeArea())
             .navigationTitle("Información")
+            .sheet(isPresented: $verContacto) {
+                ContactoView()
+            }
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Cerrar") { dismiss() }

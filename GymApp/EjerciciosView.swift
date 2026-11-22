@@ -4,6 +4,29 @@ struct EjerciciosView: View {
     @EnvironmentObject private var estado: EstadoApp
     @EnvironmentObject private var favoritos: Favoritos
     @State private var nivel: String? = nil
+    @AppStorage("ejercicios.agrupar") private var agrupar = true
+    @State private var plegados: Set<Musculo> = []
+
+    private let columnas = [GridItem(.adaptive(minimum: 155, maximum: 260), spacing: 12)]
+
+    struct Grupo: Identifiable {
+        let musculo: Musculo
+        let ejercicios: [Ejercicio]
+        var id: Musculo { musculo }
+    }
+
+    /// Grupos por músculo principal (un ejercicio con varios músculos principales sale en cada uno).
+    /// Si hay un músculo elegido en el filtro, sale un solo grupo con todo lo que lo trabaja.
+    private var grupos: [Grupo] {
+        let lista = filtrados
+        var resultado: [Grupo] = []
+        for m in Musculo.allCases {
+            if let elegido = estado.musculo, elegido != m { continue }
+            let es = estado.musculo == nil ? lista.filter { $0.principales.contains(m) } : lista
+            if !es.isEmpty { resultado.append(Grupo(musculo: m, ejercicios: es)) }
+        }
+        return resultado
+    }
 
     private let niveles = ["Principiante", "Intermedio", "Avanzado"]
 
@@ -27,25 +50,35 @@ struct EjerciciosView: View {
 
                     if hayFiltrosExtra { filtrosActivos }
 
-                    Text(filtrados.count == 1 ? "1 ejercicio" : "\(filtrados.count) ejercicios")
-                        .font(.caption.weight(.semibold))
-                        .foregroundStyle(.secondary)
+                    HStack {
+                        Text(filtrados.count == 1 ? "1 ejercicio" : "\(filtrados.count) ejercicios")
+                            .font(.caption.weight(.semibold))
+                            .foregroundStyle(.secondary)
+                        Spacer()
+                        Picker("Vista", selection: $agrupar) {
+                            Text("Por músculo").tag(true)
+                            Text("Todos").tag(false)
+                        }
+                        .pickerStyle(.segmented)
+                        .labelsHidden()
+                        .frame(maxWidth: 230)
+                    }
 
                     if filtrados.isEmpty {
                         vacio.padding(.top, 30)
-                    } else {
-                        LazyVGrid(columns: [GridItem(.adaptive(minimum: 155, maximum: 260), spacing: 12)],
-                                  spacing: 12) {
-                            ForEach(filtrados) { e in
-                                CeldaEjercicio(ejercicio: e)
-                            }
+                    } else if agrupar {
+                        ForEach(grupos) { grupo in
+                            seccion(grupo.musculo, grupo.ejercicios)
                         }
+                    } else {
+                        cuadricula(filtrados)
                     }
                 }
                 .padding()
             }
             .background(Tema.fondo.ignoresSafeArea())
             .navigationTitle("Ejercicios")
+            .animation(.easeInOut(duration: 0.2), value: plegados)
             .searchable(text: $estado.busqueda, prompt: "Ejercicio, músculo o lugar")
             .navigationDestination(for: Ejercicio.self) { e in
                 DetalleEjercicioView(ejercicio: e)
@@ -54,6 +87,56 @@ struct EjerciciosView: View {
                 ToolbarItem(placement: .primaryAction) { menuFiltros }
             }
         }
+    }
+
+    // MARK: Grupos por músculo
+
+    private func cuadricula(_ lista: [Ejercicio]) -> some View {
+        LazyVGrid(columns: columnas, spacing: 12) {
+            ForEach(lista) { e in
+                CeldaEjercicio(ejercicio: e)
+            }
+        }
+    }
+
+    private func seccion(_ m: Musculo, _ lista: [Ejercicio]) -> some View {
+        let plegado = plegados.contains(m)
+        return VStack(alignment: .leading, spacing: 12) {
+            Button {
+                if plegado { plegados.remove(m) } else { plegados.insert(m) }
+            } label: {
+                HStack(spacing: 12) {
+                    MapaMuscularView(principales: [m])
+                        .frame(width: 70)
+                        .padding(4)
+                        .background(RoundedRectangle(cornerRadius: 10, style: .continuous).fill(.white))
+                        .environment(\.colorScheme, .light)
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(m.nombre)
+                            .font(.title3.bold())
+                            .foregroundStyle(.primary)
+                        Text(lista.count == 1 ? "1 ejercicio" : "\(lista.count) ejercicios")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
+                    Spacer()
+                    Image(systemName: "chevron.down")
+                        .font(.subheadline.weight(.semibold))
+                        .rotationEffect(.degrees(plegado ? -90 : 0))
+                        .foregroundStyle(Tema.acento)
+                }
+                .padding(10)
+                .tarjeta(radio: 16)
+                .contentShape(Rectangle())
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel("\(m.nombre), \(lista.count) ejercicios, \(plegado ? "plegado" : "desplegado")")
+
+            if !plegado {
+                cuadricula(lista)
+            }
+        }
+        .padding(.bottom, 6)
     }
 
     // MARK: Filtros
@@ -159,6 +242,7 @@ struct EjerciciosView: View {
 struct DetalleEjercicioView: View {
     let ejercicio: Ejercicio
     @State private var verZoom = false
+    @State private var animada = true
 
     var body: some View {
         ScrollView {
@@ -173,6 +257,7 @@ struct DetalleEjercicioView: View {
                     Etiqueta(texto: ejercicio.series, icono: "repeat", color: Tema.acento)
                 }
 
+                figura
                 dibujo
                 musculos
                 pasos
@@ -212,6 +297,29 @@ struct DetalleEjercicioView: View {
                          principales: Set(ejercicio.principales),
                          secundarios: Set(ejercicio.secundarios))
         }
+    }
+
+    private var figura: some View {
+        FiguraEjercicioView(ejercicio: ejercicio, animada: animada)
+            .frame(maxWidth: 420)
+            .frame(maxWidth: .infinity)
+            .padding(10)
+            .background(RoundedRectangle(cornerRadius: 16, style: .continuous).fill(Color(white: 0.97)))
+            .overlay(alignment: .topTrailing) {
+                Button {
+                    animada.toggle()
+                } label: {
+                    Image(systemName: animada ? "pause.circle.fill" : "play.circle.fill")
+                        .font(.title)
+                        .foregroundStyle(Tema.acento)
+                }
+                .buttonStyle(.plain)
+                .padding(10)
+                .accessibilityLabel(animada ? "Parar animación" : "Mover animación")
+            }
+            .environment(\.colorScheme, .light)
+            .padding(12)
+            .tarjeta()
     }
 
     private var dibujo: some View {

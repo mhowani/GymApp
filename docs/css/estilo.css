@@ -365,3 +365,7 @@ dialog.ficha::backdrop { background: rgba(5, 15, 30, .55); backdrop-filter: blur
 
 .del-dia { display: grid; gap: 18px; grid-template-columns: minmax(0, 340px) 1fr; align-items: center; }
 @media (max-width: 640px) { .del-dia { grid-template-columns: 1fr; } }
+
+/* Casilla de aceptación de la política de privacidad */
+.casilla-privacidad { display: flex; gap: 8px; align-items: flex-start; font-size: .93rem; }
+.casilla-privacidad input { margin-top: 4px; width: 18px; height: 18px; accent-color: #1F70BD; }

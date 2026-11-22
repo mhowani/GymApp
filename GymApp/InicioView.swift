@@ -98,6 +98,21 @@ struct InicioView: View {
         }
         .clipShape(RoundedRectangle(cornerRadius: 28, style: .continuous))
         .shadow(color: Tema.azul.opacity(0.35), radius: 14, y: 8)
+        .overlay(alignment: .topTrailing) {
+            // Acceso directo a Información (contacto, manual y privacidad)
+            Button {
+                verInfo = true
+            } label: {
+                Image(systemName: "info.circle.fill")
+                    .font(.system(size: 24, weight: .semibold))
+                    .symbolRenderingMode(.palette)
+                    .foregroundStyle(Tema.azul, .white)
+                    .padding(12)
+                    .contentShape(Circle())
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel("Información, contacto, manual y privacidad")
+        }
         .padding(.top, 4)
     }
 
@@ -260,7 +275,7 @@ struct InicioView: View {
                    icono: "fork.knife", degradado: Tema.degradadoCoral) {
                 estado.pestana = .menus
             }
-            acceso(titulo: "Información", subtitulo: "Apariencia y web",
+            acceso(titulo: "Información", subtitulo: "Contacto, manual y privacidad",
                    icono: "info.circle", degradado: Tema.degradado) {
                 verInfo = true
             }

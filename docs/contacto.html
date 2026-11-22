@@ -48,17 +48,18 @@
         <label class="campo">Nombre<input type="text" name="name" required autocomplete="name" maxlength="100"></label>
         <label class="campo">Correo electrónico<input type="email" name="email" required autocomplete="email" maxlength="150"></label>
         <label class="campo">Asunto
-          <select name="tema"><option>Duda sobre un ejercicio</option><option>Idea o sugerencia</option><option>He encontrado un error</option><option>Otro</option></select></label>
+          <select name="tema"><option>Duda sobre un ejercicio</option><option>Idea o sugerencia</option><option>He encontrado un error</option><option>Privacidad o mis datos</option><option>Otro</option></select></label>
         <label class="campo">Mensaje<textarea name="message" required maxlength="5000"></textarea></label>
+        <label class="casilla-privacidad"><input type="checkbox" name="privacidad" value="Aceptada" required> He leído y acepto la <a href="privacidad.html" target="_blank">política de privacidad</a></label>
         <button class="boton" type="submit">Enviar mensaje</button>
         <p id="resultado" class="resultado oculto" role="status" aria-live="polite"></p>
-        <p class="texto-2 pequeno">Usamos tu nombre y correo solo para responderte. El formulario se envía con Web3Forms.</p>
+        <p class="texto-2 pequeno">Usamos tu nombre y correo solo para responderte. El formulario se envía con Web3Forms. Más información en la <a href="privacidad.html">política de privacidad</a>.</p>
       </form>
     </section>
   </main>
   <footer class="pie">
     <span>© <span id="anio">2026</span> GymApp · Ejercicios con pesas, máquinas y en casa</span>
-    <nav aria-label="Pie"><a href="ejercicios.html">Ejercicios</a><a href="plan.html">Mi plan</a><a href="correr.html">Correr</a><a href="menus.html">Menús</a><a href="contacto.html">Contacto</a></nav>
+    <nav aria-label="Pie"><a href="ejercicios.html">Ejercicios</a><a href="plan.html">Mi plan</a><a href="correr.html">Correr</a><a href="menus.html">Menús</a><a href="contacto.html">Contacto</a><a href="manual.html">Manual</a><a href="privacidad.html">Privacidad</a></nav>
   </footer>
   <noscript><p style="text-align:center">Activa JavaScript para usar GymApp.</p></noscript>
   <script src="js/figura.js" defer></script>

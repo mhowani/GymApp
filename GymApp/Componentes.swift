@@ -7,6 +7,14 @@ enum Config {
     static let webURL = URL(string: "https://mhowani.github.io/GymApp/")!
     /// Página de contacto de la web (formulario Web3Forms)
     static let contactoURL = URL(string: "https://mhowani.github.io/GymApp/contacto.html")!
+    /// Política de privacidad y manual en la web
+    static let privacidadURL = URL(string: "https://mhowani.github.io/GymApp/privacidad.html")!
+    static let manualURL = URL(string: "https://mhowani.github.io/GymApp/manual.html")!
+    /// Clave pública de Web3Forms (la misma que usa el formulario de la web)
+    static let web3formsClave = "b5a60818-ca95-4840-9429-368b3dbcb5b6"
+    /// Datos de la política de privacidad
+    static let responsable = "Rubén, creador de GymApp"
+    static let fechaPrivacidad = "22 de noviembre de 2026"
 }
 
 /// Cabecera con el logo
@@ -188,16 +196,26 @@ struct TarjetaEjercicio: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
-            MapaMuscularView(principales: Set(ejercicio.principales),
-                             secundarios: Set(ejercicio.secundarios))
-                .padding(.horizontal, 10)
-                .padding(.top, 34)
-                .padding(.bottom, 8)
+            FiguraEjercicioView(ejercicio: ejercicio)
+                .padding(.horizontal, 8)
+                .padding(.top, 30)
+                .padding(.bottom, 4)
                 .frame(maxWidth: .infinity)
-                .background(Tema.suave)
+                .background(Color(white: 0.97))
                 .overlay(alignment: .topLeading) {
                     EtiquetaLugar(lugar: ejercicio.lugar).padding(8)
                 }
+                .overlay(alignment: .bottomTrailing) {
+                    // Dibujo pequeño con los músculos que trabaja
+                    MapaMuscularView(principales: Set(ejercicio.principales),
+                                     secundarios: Set(ejercicio.secundarios))
+                        .frame(width: 58)
+                        .padding(3)
+                        .background(RoundedRectangle(cornerRadius: 8, style: .continuous).fill(.white))
+                        .shadow(color: .black.opacity(0.1), radius: 2, y: 1)
+                        .padding(6)
+                }
+                .environment(\.colorScheme, .light)
 
             VStack(alignment: .leading, spacing: 6) {
                 Text(ejercicio.nombre)

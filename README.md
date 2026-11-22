@@ -20,7 +20,11 @@ Cada ejercicio colorea en el dibujo del cuerpo los músculos que trabaja: **rojo
 | `EjerciciosView.swift` | Catálogo con filtros y buscador, y ficha de cada ejercicio |
 | `MusculosView.swift` | Tocar un músculo y ver sus ejercicios |
 | `PlanView.swift` | Plan semanal según días y lugar |
-| `InfoView.swift` | Logo, apariencia, web y contacto (se abre desde Inicio → Información) |
+| `InfoView.swift` | Logo, apariencia, web, contacto, manual y privacidad (se abre desde Inicio → Información) |
+| `ContactoView.swift` | Formulario de contacto dentro de la app (Web3Forms, con casilla de privacidad) |
+| `ManualView.swift` | Manual de usuario dentro de la app (igual que docs/manual.html) |
+| `PrivacidadView.swift` | Política de privacidad dentro de la app (igual que docs/privacidad.html) |
+| `FiguraEjercicioView.swift` | Figura animada de cada ejercicio, estilo lámina (datos en `animacion` de ejercicios.json) |
 | `MenusView.swift` | Pestaña Menús: objetivo, filtros, menú de 7 días con 5 comidas, lista de la compra y hoja «Mis datos» |
 | `RegistroView.swift` | Registro de peso y altura (cm) con fecha, gráfica, IMC e historial; se guarda en el dispositivo |
 | `MenusModelos.swift` | Lectura de menus.json, cálculo de calorías y proteínas, generador de menús y lista de la compra |
@@ -70,3 +74,7 @@ Las imágenes `m_*` del catálogo de recursos son las zonas de cada músculo sac
 - **Contacto**: el formulario envía a Web3Forms con la clave de acceso que hay en `docs/contacto.html` (no es secreta).
 - **Google Search Console**: la etiqueta de verificación va en el `<head>` de `docs/index.html`; `docs/sitemap.xml` y `docs/robots.txt` llevan la dirección de la web.
 - Favoritos, plan, menús, registro y planes de correr se guardan solo en el navegador (localStorage).
+
+## Privacidad y manual
+- App: Inicio → Información → Contacto / Manual / Privacidad. Web: `docs/contacto.html`, `docs/manual.html`, `docs/privacidad.html` (enlazadas en el pie de todas las páginas).
+- Si una función nueva guarda datos nuevos, actualiza `PrivacidadView.swift` y `docs/privacidad.html`. Si cambia cómo se usa la app, actualiza `ManualView.swift` y `docs/manual.html`.

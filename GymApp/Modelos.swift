@@ -123,6 +123,8 @@ struct Ejercicio: Codable, Identifiable, Hashable {
     let series: String
     let pasos: [String]
     let consejo: String
+    /// Figura animada (ver FiguraEjercicioView.swift)
+    let animacion: Animacion?
 
     func trabaja(_ m: Musculo) -> Bool {
         principales.contains(m) || secundarios.contains(m)
