@@ -1,0 +1,89 @@
+{
+  "id": "/GymApp/",
+  "name": "GymApp · Ejercicios, plan, correr y menús",
+  "short_name": "GymApp",
+  "description": "Ejercicios con pesas, máquinas y en casa sin material, con el dibujo de los músculos que trabaja cada uno, plan semanal, planes para correr y menús según tu objetivo.",
+  "lang": "es",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F2F7FC",
+  "theme_color": "#1F70BD",
+  "categories": [
+    "health",
+    "fitness",
+    "sports",
+    "lifestyle"
+  ],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "img/icono-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icono-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icono-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "img/icono-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ejercicios",
+      "url": "./ejercicios.html",
+      "icons": [
+        {
+          "src": "img/icono-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Mi plan",
+      "url": "./plan.html",
+      "icons": [
+        {
+          "src": "img/icono-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Correr",
+      "url": "./correr.html",
+      "icons": [
+        {
+          "src": "img/icono-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Menús",
+      "url": "./menus.html",
+      "icons": [
+        {
+          "src": "img/icono-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

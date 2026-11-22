@@ -372,3 +372,12 @@ dialog.ficha::backdrop { background: rgba(5, 15, 30, .55); backdrop-filter: blur
 .casilla-privacidad input { margin-top: 4px; width: 18px; height: 18px; accent-color: #1F70BD; }
 
 .pie .creditos { display: block; width: 100%; order: 3; font-size: .78rem; opacity: .75; }
+
+/* Botón «Instalar app» (solo aparece si el navegador permite instalar la web como app) */
+.boton-instalar {
+  border: 0; background: var(--azul); color: #fff; height: 38px; padding: 0 14px; border-radius: 19px;
+  font: inherit; font-size: .9rem; font-weight: 600; cursor: pointer; flex: none; white-space: nowrap;
+}
+.boton-instalar:hover { filter: brightness(1.08); }
+@media (max-width: 400px) { .boton-instalar { padding: 0 10px; font-size: .82rem; } }
+@media (display-mode: standalone) { .boton-instalar { display: none; } }
