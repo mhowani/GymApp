@@ -1,6 +1,6 @@
 /* GymApp · service worker: la web funciona sin conexión y se puede instalar como app (Android, Windows…).
    Cada vez que publiques cambios en la web, sube el número de VERSION para que los usuarios reciban lo nuevo. */
-const VERSION = 'gymapp-2026-11-22-1';
+const VERSION = 'gymapp-2026-11-26-1';
 const BASICOS = VERSION + '-basicos';
 const IMAGENES = 'gymapp-imagenes-1';
 
